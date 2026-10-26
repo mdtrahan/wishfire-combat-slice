@@ -1,0 +1,516 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-25",
+  "author": "Design sub-agent / painted layer revision pass7",
+  "authority": "Lead Troll PASS: freeze charge-shell and charge-lines exact pass7 bytes. Djinn pass8 candidate supersedes rejected pass7 windup; pending lead review.",
+  "status": "Art assets and mocks only; no runtime integration or owner approval.",
+  "coordinates": {
+    "logical_viewport_px": [
+      360,
+      640
+    ],
+    "zoom": 0.5,
+    "actor_visible_height_px": 32,
+    "boss_visible_height_px": 70.4,
+    "ground_y_squash": 0.75,
+    "frame_uv": "[i/count,0,(i+1)/count,1]",
+    "billboard_note": "All release textures use screen-facing quads anchored to projected positions. Do not squash their already-painted forms a second time. Stomp ground pivot maps to circle center. Beam axis follows the projected hand-to-wall vector; transverse scale follows the warned lane geometry."
+  },
+  "sampling": {
+    "format": "PNG RGBA8, straight/unassociated alpha",
+    "filter": "linear",
+    "wrap": "clamp",
+    "tint": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "transparent_pixels_rgb": "zero",
+    "alpha_blend": {
+      "rgb_src": "SrcAlpha",
+      "rgb_dst": "OneMinusSrcAlpha"
+    },
+    "additive_blend": {
+      "rgb_src": "SrcAlpha",
+      "rgb_dst": "One",
+      "note": "If engine uses One/One, premultiply RGB by texture alpha in shader first. Global opacity must multiply the premultiplied result. Never add raw RGB of transparent texels."
+    },
+    "mipmaps": false,
+    "atlas_padding_texels": 2
+  },
+  "assets": [
+    {
+      "file": "stomp-impact.png",
+      "frame_size_px": [
+        192,
+        160
+      ],
+      "frame_count": 8,
+      "layout": "horizontal-left-to-right",
+      "fps": 22.22222222222222,
+      "pivot_px": [
+        96,
+        120
+      ],
+      "pivot_normalized": [
+        0.5,
+        0.75
+      ],
+      "blend": "alpha",
+      "on_screen_quad_px_at_zoom_0_5": [
+        75,
+        62.5
+      ],
+      "world_quad_units_before_projection": [
+        150,
+        125
+      ],
+      "ground_squash": 1,
+      "duration_s": 0.36,
+      "bytes": 158939,
+      "sha256": "d4d5c7594a23327a15e85d42d137e0193ec55a8c80e445e0f195065d20743c4a",
+      "loop": false
+    },
+    {
+      "file": "charge-shell.png",
+      "frame_size_px": [
+        256,
+        192
+      ],
+      "frame_count": 6,
+      "layout": "horizontal-left-to-right",
+      "fps": 18,
+      "pivot_px": [
+        128,
+        96
+      ],
+      "pivot_normalized": [
+        0.5,
+        0.5
+      ],
+      "blend": "alpha",
+      "on_screen_quad_px_at_zoom_0_5": [
+        128,
+        96
+      ],
+      "world_quad_units_before_projection": [
+        256,
+        192
+      ],
+      "ground_squash": 1,
+      "bytes": 67799,
+      "sha256": "46fe9dd9e8a3e87a087109571772cae2c5aa1d449df3f82c0842b2c7e471e39c",
+      "loop": true
+    },
+    {
+      "file": "beam-body.png",
+      "frame_size_px": [
+        256,
+        96
+      ],
+      "frame_count": 6,
+      "layout": "horizontal-left-to-right",
+      "fps": 24,
+      "pivot_px": [
+        4,
+        48
+      ],
+      "pivot_normalized": [
+        0.015625,
+        0.5
+      ],
+      "blend": "alpha",
+      "on_screen_quad_px_at_zoom_0_5": [
+        268,
+        80
+      ],
+      "world_quad_units_before_projection": [
+        536,
+        160
+      ],
+      "ground_squash": 1,
+      "duration_s": 0.25,
+      "bytes": 124370,
+      "sha256": "3e4f6e156031bd554b84dab7d3904431b790822e399537c03cbc6c6b5f0ddcbb",
+      "loop": true
+    },
+    {
+      "file": "charge-lines.png",
+      "frame_size_px": [
+        256,
+        192
+      ],
+      "frame_count": 6,
+      "layout": "horizontal-left-to-right",
+      "fps": 24,
+      "pivot_px": [
+        128,
+        96
+      ],
+      "pivot_normalized": [
+        0.5,
+        0.5
+      ],
+      "blend": "alpha",
+      "on_screen_quad_px_at_zoom_0_5": [
+        128,
+        96
+      ],
+      "world_quad_units_before_projection": [
+        256,
+        192
+      ],
+      "ground_squash": 1,
+      "bytes": 118558,
+      "sha256": "7981c7343cfbe59e021e3530044f9b40561b137cdc1239ad5ad0aa44eaaecf95",
+      "loop": true
+    },
+    {
+      "file": "beam-head.png",
+      "frame_size_px": [
+        160,
+        160
+      ],
+      "frame_count": 6,
+      "layout": "horizontal-left-to-right",
+      "fps": 24,
+      "pivot_px": [
+        16,
+        80
+      ],
+      "pivot_normalized": [
+        0.1,
+        0.5
+      ],
+      "blend": "alpha",
+      "on_screen_quad_px_at_zoom_0_5": [
+        45,
+        75
+      ],
+      "world_quad_units_before_projection": [
+        90,
+        150
+      ],
+      "ground_squash": 1,
+      "duration_s": 0.25,
+      "bytes": 124498,
+      "sha256": "9770267f00928faee8e4da4b0eac55874d73f6dcf6f7bc91cb27725c9292affb",
+      "loop": true
+    },
+    {
+      "file": "beam-charge-lines.png",
+      "frame_size_px": [
+        224,
+        192
+      ],
+      "frame_count": 60,
+      "layout": "horizontal-left-to-right",
+      "fps": 30,
+      "pivot_px": [
+        80,
+        96
+      ],
+      "pivot_normalized": [
+        0.35714285714285715,
+        0.5
+      ],
+      "blend": "alpha",
+      "on_screen_quad_px_at_zoom_0_5": [
+        112,
+        96
+      ],
+      "world_quad_units_before_projection": [
+        224,
+        192
+      ],
+      "ground_squash": 1,
+      "bytes": 846339,
+      "sha256": "02a45d70ca772f3b61daf269d5dc0cdbf1f7c2d5793d19398132a9f906f40019",
+      "loop": true,
+      "progress_banks": 5,
+      "loop_frames_per_bank": 12,
+      "frame_selection": "12*clamp(floor(4*p+0.5),0,4) + floor(elapsed_seconds*30)%12"
+    },
+    {
+      "file": "beam-charge-core.png",
+      "frame_size_px": [
+        128,
+        128
+      ],
+      "frame_count": 9,
+      "layout": "horizontal-left-to-right",
+      "fps": 0,
+      "pivot_px": [
+        64,
+        64
+      ],
+      "pivot_normalized": [
+        0.5,
+        0.5
+      ],
+      "blend": "alpha",
+      "on_screen_quad_px_at_zoom_0_5": [
+        64,
+        64
+      ],
+      "world_quad_units_before_projection": [
+        128,
+        128
+      ],
+      "ground_squash": 1,
+      "bytes": 41470,
+      "sha256": "9910a973fe6c3651210de23f82e0b1d58b6d6132ae689d8db02628d8455627aa",
+      "loop": false,
+      "sampling": "warning progress; independent runtime scale pulse",
+      "progress_values": [
+        0.0,
+        0.125,
+        0.25,
+        0.375,
+        0.5,
+        0.625,
+        0.75,
+        0.875,
+        1.0
+      ],
+      "diameter_px": [
+        8,
+        11,
+        14,
+        17,
+        20,
+        23,
+        26,
+        29,
+        32
+      ]
+    }
+  ],
+  "djinn_wallbreaker": {
+    "duration_s": 0.45,
+    "native_direction": "+X",
+    "normal_lane_world": 120,
+    "enraged_lane_world": 180,
+    "widths_px_at_zoom_0_5": [
+      60,
+      90
+    ],
+    "charge": {
+      "layers": [
+        "beam-charge-lines.png",
+        "beam-charge-core.png"
+      ],
+      "anchor": "Same projected hand anchor as frozen beam-head.",
+      "timing": "Full scheduled warning: 1s tracking plus1.3-2.8s lock, longer enraged. Never add gameplay delay.",
+      "progress": "p=clamp((now-warning_started_at)/(release_at-warning_started_at),0,1)",
+      "lines": {
+        "file": "beam-charge-lines.png",
+        "texture_layout": "60 horizontal cels: five progress banks, each12-frame looping animation. No legacy consumer adapter.",
+        "frame": "12*clamp(floor(4*p+0.5),0,4)+floor(elapsed_seconds*30)%12",
+        "normal_quad_px": [
+          112,
+          96
+        ],
+        "enraged_quad_px": [
+          168,
+          144
+        ],
+        "pivot_px": [
+          80,
+          96
+        ],
+        "packet_counts_by_bank": [
+          10,
+          11,
+          12,
+          13,
+          14
+        ],
+        "opacity_by_bank": [
+          0.72,
+          0.79,
+          0.86,
+          0.93,
+          1
+        ],
+        "dimensions": "5-7px base width;14-30px initial/visible segment lengths before absorption; maximum90px field.",
+        "motion": "Uneven inward packets shorten; tips stay separate from core until last cel enters beneath rim at40%alpha. Beam-side bias, no uniform ring.",
+        "stop": "Remove immediately on release/cancel."
+      },
+      "core": {
+        "file": "beam-charge-core.png",
+        "frame": "clamp(floor(8*p+0.5),0,8)",
+        "normal_quad_px": [
+          64,
+          64
+        ],
+        "enraged_quad_px": [
+          96,
+          96
+        ],
+        "pivot_px": [
+          64,
+          64
+        ],
+        "diameter_px": "8+3*frame, baked into texture;8px at0%,32px at100%.",
+        "pulse": "Multiply quad size about anchor by1+0.025*sin(2*pi*7*elapsed_seconds). Do not multiply by warning progress again.",
+        "art": "Dense painted white/cyan centre with violet outer rim. Glow intentionally exceeds frozen aperture.",
+        "release": "Retain frame8 atop frozen head first frames; opacity=max(0,1-(now-release_at)/0.060). Freeze pulse phase at release if needed; never delay beam. Remove after60ms.",
+        "cancel": "Remove immediately; no release tail."
+      },
+      "release": "Head/body start on authoritative release at same hand anchor; lines clear; core fades60ms above head.",
+      "bounds": "Face uncovered at sampled pose. Far lane clear. Enraged scales all1.5x, matching60->90px head. Socket/pose validation remains runtime responsibility."
+    },
+    "head": {
+      "file": "beam-head.png",
+      "anchor": "casting hand aperture",
+      "active_rect_px": [
+        16,
+        16,
+        128,
+        128
+      ],
+      "sample_uv_local": [
+        0.1,
+        0.1,
+        0.9,
+        0.9
+      ],
+      "normal_draw_px": [
+        36,
+        60
+      ],
+      "enraged_draw_px": [
+        54,
+        90
+      ],
+      "shape": "Short rounded funnel from small aperture to full solid beam width. Head right edge joins body.",
+      "normal_body_start_offset_px": 35,
+      "enraged_body_start_offset_px": 53,
+      "overlap_screen_px": 1,
+      "fps": 24,
+      "loop": true,
+      "duration_s": 0.45
+    },
+    "body": {
+      "file": "beam-body.png",
+      "retained_pixels": true,
+      "active_rect_px": [
+        4,
+        12,
+        248,
+        72
+      ],
+      "sample_uv_local": [
+        0.015625,
+        0.125,
+        0.984375,
+        0.875
+      ],
+      "solid_body_to_warned_lane_width_ratio": 1,
+      "normal_solid_width_px": 60,
+      "enraged_solid_width_px": 90,
+      "axis_start": "head right join,1screen px overlap",
+      "axis_end": "wall contact; hard clip at wall",
+      "fps": 24,
+      "loop": true,
+      "duration_s": 0.45,
+      "warning_footprint": "All solid head/body remain within actual projected warned lane. Use projected polygon width, not unprojected world width for arbitrary angles."
+    },
+    "wall": {
+      "file": null,
+      "mode": "Body ends flush at wall. No wall flare, mirrored star, or separate splash asset."
+    },
+    "flash": {
+      "file": null,
+      "mode": "None. Rounded head remains unobscured."
+    },
+    "cull_rule": "Both windup layers clear on authoritative release/cancel; head/body clear450ms after release. Nothing remains.",
+    "warning": "Flat hostile red lane uses committed120world normal/180enraged widths per lead. Runtime source not changed here.",
+    "blend": "Alpha primary for colored bands; no added bloom required.",
+    "damage": "Simulation owns timing/footprint; visual head, filaments and wall clipping add no hits."
+  },
+  "marching_stomp": {
+    "telegraph": "Existing flat hostile circle renderer; no new circle/rim texture.",
+    "radius_world": 75,
+    "zoom": 0.5,
+    "projected_footprint_px": [
+      75,
+      56.25
+    ],
+    "impact": {
+      "file": "stomp-impact.png",
+      "on_event": "each individual circle resolve",
+      "duration_s": 0.36,
+      "pivot": "circle ground center",
+      "draw_quad_screen_px": [
+        75,
+        62.5
+      ],
+      "pivot_screen_px": [
+        37.5,
+        46.875
+      ],
+      "ground_squash": 1,
+      "projection": "Ground plane already suggested in painted dust; render screen-facing at projected ground center. Full width fits75px diameter; rising plume can extend above ellipse.",
+      "draw_order": "Ground-anchored release; preserve actors and pending-circle rims above overlapping cosmetic haze.",
+      "cull_rule": "Terminal frame fully transparent; cull at age>=0.36s. No mark/pool/crack remains."
+    },
+    "optional_dust": "Omitted; existing stomp impact retained unchanged.",
+    "sequence": "No timing or damage changes supplied. Simulation/lead owns staggered circle scheduling."
+  },
+  "review": {
+    "directory": "art/_work/boss-telegraphs/pass8",
+    "beam_comparison": "beam-vs-reference.png",
+    "phones": "beam-phones.png",
+    "release": "handoff-0-30-60ms.png",
+    "limits": "Art-only mocks; no runtime integration."
+  },
+  "troll_charge": {
+    "native_direction": "+X; runtime mirrors for -X. Shell leads, tapered streak tips trail -X.",
+    "anchor": "Both layers share boss torso center, 38px above feet.",
+    "draw_order": [
+      "boss",
+      "charge-shell.png",
+      "charge-lines.png"
+    ],
+    "shell": {
+      "file": "charge-shell.png",
+      "frame_count": 6,
+      "fps": 18,
+      "loop": true,
+      "size_px_at_zoom_0_5": [
+        128,
+        96
+      ],
+      "shape": "One open C bow; orange outside, yellow inside; pulses in place."
+    },
+    "lines": {
+      "file": "charge-lines.png",
+      "frame_count": 6,
+      "fps": 24,
+      "phase_offset_frames": 2,
+      "loop": true,
+      "size_px_at_zoom_0_5": [
+        128,
+        96
+      ],
+      "shape": "Five near-parallel white-core/yellow-edge strokes; thick at leading shell, tapered staggered rear tips. Independent length/position phases."
+    },
+    "start": "Authoritative charge movement begins; time for both loops begins here.",
+    "stop": "Remove both layers immediately at movement end/cancel.",
+    "damage": "Art changes no hitboxes, timing, or lane.",
+    "approval": "Lead PASS, frozen pass7 bytes. Owner review pending.",
+    "frozen_sha256": {
+      "charge-shell.png": "46fe9dd9e8a3e87a087109571772cae2c5aa1d449df3f82c0842b2c7e471e39c",
+      "charge-lines.png": "7981c7343cfbe59e021e3530044f9b40561b137cdc1239ad5ad0aa44eaaecf95"
+    }
+  },
+  "review_charge": {
+    "directory": "art/_work/boss-telegraphs/pass7",
+    "beam_comparison": "beam-vs-reference.png",
+    "charge_comparison": "charge-vs-reference.png",
+    "limits": "Game-scale composited art mocks; runtime unverified."
+  }
+}

@@ -1,0 +1,237 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-25",
+  "author": "GPT Astra, rings design lane",
+  "art_director": "Claude",
+  "authority": "ORKA-6jh1 owner art-only brief; latest correction limits Arcane Pulse to replacing its generic base ring. Summon-sigil direction withdrawn.",
+  "status": "Owner-approved ring/roar assets plus Chimerilass regeneration Astra v6 (lead relay).",
+  "coordinates": {
+    "logical_viewport_px": [
+      360,
+      640
+    ],
+    "zoom": 0.5,
+    "ground_y_squash": 0.75,
+    "frame_uv": "[i/count,0,(i+1)/count,1]",
+    "billboard_note": "Ground ring squash is baked. Fara wave expansion is baked; Arcane rings retain existing contraction/expansion and opacity. Regeneration v6 is an unsquashed body billboard; see each asset for placement and scale."
+  },
+  "sampling": {
+    "format": "PNG RGBA8, straight/unassociated alpha",
+    "filter": "linear",
+    "wrap": "clamp",
+    "mipmaps": false,
+    "atlas_padding_texels": 3,
+    "padding_note": "3 transparent texels inside every cell edge. Adjacent cells have6 clear texels. Exact stride equals frame width.",
+    "transparent_pixels_rgb": "zero",
+    "tint": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "alpha_blend": {
+      "rgb_src": "SrcAlpha",
+      "rgb_dst": "OneMinusSrcAlpha"
+    },
+    "blend_note": "Use authored alpha blend for the four ring/roar assets. Owner-approved regeneration v6 uses SrcAlpha/One additive blending with white tint; its tick replaces its steady sample.",
+    "additive_blend": {
+      "rgb_src": "SrcAlpha",
+      "rgb_dst": "One"
+    }
+  },
+  "assets": [
+    {
+      "file": "warcry-roar.png",
+      "frame_size_px": [
+        128,
+        128
+      ],
+      "frame_count": 6,
+      "layout": "horizontal-left-to-right",
+      "fps": 20.0,
+      "ms_per_frame": 50.0,
+      "duration_s": 0.3,
+      "loop": false,
+      "pivot_px": [
+        64.0,
+        64.0
+      ],
+      "pivot_normalized": [
+        0.5,
+        0.5
+      ],
+      "blend": "alpha",
+      "on_screen_quad_px_at_zoom_0_5": [
+        54,
+        54
+      ],
+      "baked_ground_squash": 1,
+      "opacity": 1,
+      "bytes": 68318,
+      "sha256": "b1f59d631f5700487a585f3e5ed76f9c9c4a334ccf3762e7b8087be588971bd8",
+      "placement_notes": "Centre at Fara body midpoint, foot minus0.5*body_height. Screen-facing54px square; play once alongside wave. No silhouette or animal image.",
+      "approval_status": "owner-approved"
+    },
+    {
+      "file": "arcane-gather-ring.png",
+      "frame_size_px": [
+        192,
+        144
+      ],
+      "frame_count": 8,
+      "layout": "horizontal-left-to-right",
+      "fps": 17.77777777777778,
+      "ms_per_frame": 56.25,
+      "duration_s": 0.45,
+      "loop": false,
+      "pivot_px": [
+        96.0,
+        72.0
+      ],
+      "pivot_normalized": [
+        0.5,
+        0.5
+      ],
+      "blend": "alpha",
+      "on_screen_quad_px_at_zoom_0_5": [
+        103.636,
+        77.727
+      ],
+      "baked_ground_squash": 0.75,
+      "opacity": 1,
+      "bytes": 232224,
+      "sha256": "b2cb0a20fabf5697063a1d3757ebed247edc3dae3ace5514d71a3f3cf6e46475",
+      "placement_notes": "ONLY replace wave_band in ArcanePulse::ground. Frames maintain fixed diameter; shimmer only. At zoom0.5 use base quad103.636x77.727px times existing(1.2-progress). Painted envelope becomes95x71.25px times same contraction; padding compensation192/176. Preserve BOTH current gathering flash layers and their sizes/alphas. Preserve ring opacity0.45+0.45*progress. Ground squash is baked; do not squash twice. White tint with ordinary alpha recommended for painted colour. No sigil, spiral, new motif or additional effect.",
+      "effect_radius_world_units": 95,
+      "painted_envelope_px_at_zoom_0_5": [
+        95,
+        71.25
+      ],
+      "motion_baked": false,
+      "opacity_baked": false,
+      "client_motion": "quad = [103.636,77.727]*(1.2-progress)*(zoom/0.5); opacity=0.45+0.45*progress; frame=min(7,floor(progress*8))",
+      "approval_status": "owner-approved"
+    },
+    {
+      "file": "arcane-burst-ring.png",
+      "frame_size_px": [
+        192,
+        144
+      ],
+      "frame_count": 6,
+      "layout": "horizontal-left-to-right",
+      "fps": 15.584415584415584,
+      "ms_per_frame": 64.16666666666667,
+      "duration_s": 0.385,
+      "loop": false,
+      "pivot_px": [
+        96.0,
+        72.0
+      ],
+      "pivot_normalized": [
+        0.5,
+        0.5
+      ],
+      "blend": "alpha",
+      "on_screen_quad_px_at_zoom_0_5": [
+        103.636,
+        77.727
+      ],
+      "baked_ground_squash": 0.75,
+      "opacity": 1,
+      "bytes": 142583,
+      "sha256": "f0f4f80f916a25dccffdfc2374cf1e215a50729938258c5e707e6fd4640c4108",
+      "placement_notes": "ONLY replace wave_band under existing Arcane Pulse burst. Fixed diameter frames shimmer without expansion or fade. Preserve four-flare crackling sphere and every other burst layer exactly. Use existing t=age/0.55; ring=min(t/0.7,1); scale=0.15+0.85*(1-(1-ring)^2); opacity=(1-ring)*0.95. Multiply base quad103.636x77.727px by scale and zoom/0.5. Ring disappears at0.385s as currently; package lasts0.55s. White tint with ordinary alpha recommended for painted colour. Ground0.75 squash baked.",
+      "effect_radius_world_units": 95,
+      "painted_envelope_px_at_zoom_0_5": [
+        95,
+        71.25
+      ],
+      "motion_baked": false,
+      "opacity_baked": false,
+      "client_motion": "t=age/0.55; ring=min(t/0.7,1); quad=[103.636,77.727]*(0.15+0.85*(1-(1-ring)^2))*(zoom/0.5); opacity=(1-ring)*0.95; frame=min(5,floor(ring*6))",
+      "approval_status": "owner-approved"
+    },
+    {
+      "file": "regen-v6-aura.png",
+      "frame_size_px": [
+        240,
+        224
+      ],
+      "frame_count": 1,
+      "layout": "horizontal-left-to-right",
+      "fps": 0,
+      "duration_s": 0,
+      "loop": false,
+      "pivot_px": [
+        120,
+        186
+      ],
+      "blend": "additive",
+      "on_screen_quad_px_at_zoom_0_5": [
+        240,
+        224
+      ],
+      "placement_notes": "Billboard over Chimerilass body, foot-anchored; white tint. Multiply quad by visual_scale*camera.zoom/1.1. Mirror with the actor. No ground squash. Tick replaces steady sample for 500 ms; never add both samples together.",
+      "source": "art/_work/rings/regen/v6/tick-study.png",
+      "source_sha256": "589054a1549f93fb9547a65fe23a3717fa89c0c97a138e61ca1bc9f03d720549",
+      "export_notes": "Original six straight-alpha cells preserved at even indices, with 16 transparent columns added at left. Odd frames interpolate additive energy as in the approved tick-cycle. Peak is frame 4 at 166.7 ms.",
+      "approval_status": "owner-approved Astra v6",
+      "sha256": "9cce10bd981f74161496afd88980f4bcd1563d9845754c8fd3f586c0232dc031"
+    },
+    {
+      "file": "regen-v6-tick.png",
+      "frame_size_px": [
+        240,
+        224
+      ],
+      "frame_count": 12,
+      "layout": "horizontal-left-to-right",
+      "fps": 24,
+      "duration_s": 0.5,
+      "loop": false,
+      "pivot_px": [
+        120,
+        186
+      ],
+      "blend": "additive",
+      "on_screen_quad_px_at_zoom_0_5": [
+        240,
+        224
+      ],
+      "placement_notes": "Billboard over Chimerilass body, foot-anchored; white tint. Multiply quad by visual_scale*camera.zoom/1.1. Mirror with the actor. No ground squash. Tick replaces steady sample for 500 ms; never add both samples together.",
+      "source": "art/_work/rings/regen/v6/tick-study.png",
+      "source_sha256": "589054a1549f93fb9547a65fe23a3717fa89c0c97a138e61ca1bc9f03d720549",
+      "export_notes": "Original six straight-alpha cells preserved at even indices, with 16 transparent columns added at left. Odd frames interpolate additive energy as in the approved tick-cycle. Peak is frame 4 at 166.7 ms.",
+      "approval_status": "owner-approved Astra v6",
+      "sha256": "79b65386f7cf3cddc6c1234b876fbf83c5c23c18d888cd40d0dee8546b740bdc"
+    }
+  ],
+  "preview": {
+    "file": "../../_work/rings/compare.jpg",
+    "kind": "Staged raster composite using existing game actor atlas, not a runtime screenshot.",
+    "sand_rgb": [
+      163,
+      146,
+      120
+    ],
+    "spotlight_rgb": [
+      33,
+      29,
+      24
+    ],
+    "spotlight_note": "Sand under current black spotlight scrim at0.8 alpha, rounded to8-bit.",
+    "reference": "art/vfx-astra/bubble-pop/bubble-swell.png frame4, laid flat at0.75 squash.",
+    "limits": "Original compare.jpg records the earlier six-asset review: taunt mark dropped and original regeneration rejected. Four ring/roar assets were approved then. Owner-approved regeneration v6 references now live at art/_work/rings/regen/v6/; its two production sheets are listed in assets."
+  },
+  "review_decisions": {
+    "approved": [
+      "arcane-burst-ring.png",
+      "arcane-gather-ring.png",
+      "warcry-roar.png"
+    ],
+    "taunt_mark": "Dropped by owner; existing eye icon stays.",
+    "regeneration": "V6 approved by owner; production export from art/_work/rings/regen/v6/tick-study.png. Retired regen-aura.png remains rejected.",
+    "warcry_shockwave": "Removed by owner, 2026-10-25 (warcry revision); sheet archived to art/_work/untracked-archive."
+  }
+}

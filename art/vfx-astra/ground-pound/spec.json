@@ -1,0 +1,346 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-25",
+  "author": "GPT Astra, VFX artist",
+  "art_director": "Claude",
+  "authority": "Owner Ground Pound brief; ORKA-6jh1 art-only delivery",
+  "status": "Generated raster source art, packed and inspected. Runtime playback and art-director acceptance pending.",
+  "coordinates": {
+    "logical_viewport_px": [
+      360,
+      640
+    ],
+    "zoom": 0.5,
+    "actor_reference_height_px": 32,
+    "ground_y_squash": 0.5,
+    "frame_uv": "[i/count,0,(i+1)/count,1]",
+    "billboard_note": "Fist and stone bursts are screen-facing quads. Only their ground anchors are projected. Draw offsets in each asset compensate bottom-centre pivots; offsets scale with zoom.",
+    "ground_note": "Use owner brief ground squash0.5. World line300x80u becomes150x20px when horizontal,40x75px when vertical. Unprojected zoom-only footprint150x40px. Fissure48u wide is decorative and narrower than hit corridor80u."
+  },
+  "sampling": {
+    "format": "PNG RGBA8, straight/unassociated alpha",
+    "filter": "linear",
+    "wrap": "clamp",
+    "tint": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "transparent_pixels_rgb": "zero",
+    "alpha_blend": {
+      "rgb_src": "SrcAlpha",
+      "rgb_dst": "OneMinusSrcAlpha"
+    },
+    "mipmaps": false,
+    "atlas_padding_texels": 3,
+    "padding_note": "Three transparent texels INSIDE each cell edge; stride exactly frame width. Six clear texels across neighboring frames. Use UV cell rect; no inter-cell extra stride.",
+    "blend_note": "Alpha composite every sheet so dark rock faces remain solid. Additive is unsuitable for the combined rock/light textures."
+  },
+  "assets": [
+    {
+      "file": "pound-fist.png",
+      "frame_size_px": [
+        128,
+        96
+      ],
+      "frame_count": 6,
+      "layout": "horizontal-left-to-right",
+      "fps": 28.571428571428573,
+      "ms_per_frame": 35,
+      "duration_s": 0.21,
+      "loop": false,
+      "pivot_px": [
+        64,
+        96
+      ],
+      "pivot_normalized": [
+        0.5,
+        1.0
+      ],
+      "painted_ground_contact_px": [
+        64,
+        68
+      ],
+      "draw_offset_screen_px_at_zoom_0_5": [
+        0.0,
+        14.0
+      ],
+      "blend": "alpha",
+      "on_screen_quad_px_at_zoom_0_5": [
+        64,
+        48
+      ],
+      "world_quad_units_before_projection": [
+        128,
+        96
+      ],
+      "ground_squash": 1,
+      "placement_notes": "Screen-facing at Fara fist/foot contact. Place geometric bottom-centre 14 screen px BELOW actual ground contact so ring centre sits on contact. Ground perspective is painted in; do not squash again. Final cel fades to zero over its 35ms hold.",
+      "bytes": 69817,
+      "sha256": "93abc6ef895d579934c3c2fdd85579580d338312a344009f31d0aa9143780a7b"
+    },
+    {
+      "file": "pound-eruption.png",
+      "frame_size_px": [
+        96,
+        128
+      ],
+      "frame_count": 7,
+      "layout": "horizontal-left-to-right",
+      "fps": 28.571428571428573,
+      "ms_per_frame": 35,
+      "duration_s": 0.245,
+      "loop": false,
+      "pivot_px": [
+        48,
+        128
+      ],
+      "pivot_normalized": [
+        0.5,
+        1.0
+      ],
+      "painted_ground_contact_px": [
+        48,
+        123
+      ],
+      "draw_offset_screen_px_at_zoom_0_5": [
+        0.0,
+        2.5
+      ],
+      "blend": "alpha",
+      "on_screen_quad_px_at_zoom_0_5": [
+        48,
+        64
+      ],
+      "world_quad_units_before_projection": [
+        96,
+        128
+      ],
+      "ground_squash": 1,
+      "placement_notes": "Upright billboard at world line sample. Bottom-centre draw offset +2.5 screen px aligns painted base. Alternate A/B along line. Never rotate or ground-squash standing slabs. Fade final cel to zero during final 35ms; remove at local245ms.",
+      "bytes": 86691,
+      "sha256": "2153af2c3349cd0b282117b3a16b13264071797a895e57691c5f7cae205ed1c3"
+    },
+    {
+      "file": "pound-eruption-b.png",
+      "frame_size_px": [
+        96,
+        128
+      ],
+      "frame_count": 7,
+      "layout": "horizontal-left-to-right",
+      "fps": 28.571428571428573,
+      "ms_per_frame": 35,
+      "duration_s": 0.245,
+      "loop": false,
+      "pivot_px": [
+        48,
+        128
+      ],
+      "pivot_normalized": [
+        0.5,
+        1.0
+      ],
+      "painted_ground_contact_px": [
+        48,
+        123
+      ],
+      "draw_offset_screen_px_at_zoom_0_5": [
+        0.0,
+        2.5
+      ],
+      "blend": "alpha",
+      "on_screen_quad_px_at_zoom_0_5": [
+        48,
+        64
+      ],
+      "world_quad_units_before_projection": [
+        96,
+        128
+      ],
+      "ground_squash": 1,
+      "placement_notes": "Upright billboard at world line sample. Bottom-centre draw offset +2.5 screen px aligns painted base. Alternate A/B along line. Never rotate or ground-squash standing slabs. Fade final cel to zero during final 35ms; remove at local245ms.",
+      "bytes": 67074,
+      "sha256": "6194df2feb46c369b7699679160aa3e43f0b4334990fd1baa258cb214ca99fa5"
+    },
+    {
+      "file": "pound-finale.png",
+      "frame_size_px": [
+        256,
+        256
+      ],
+      "frame_count": 8,
+      "layout": "horizontal-left-to-right",
+      "fps": 33.333333333333336,
+      "ms_per_frame": 30,
+      "duration_s": 0.24,
+      "loop": false,
+      "pivot_px": [
+        128,
+        256
+      ],
+      "pivot_normalized": [
+        0.5,
+        1.0
+      ],
+      "painted_ground_contact_px": [
+        128,
+        246
+      ],
+      "draw_offset_screen_px_at_zoom_0_5": [
+        0.0,
+        5.0
+      ],
+      "blend": "alpha",
+      "on_screen_quad_px_at_zoom_0_5": [
+        128,
+        128
+      ],
+      "world_quad_units_before_projection": [
+        256,
+        256
+      ],
+      "ground_squash": 1,
+      "placement_notes": "Upright screen-facing billboard at fixed 300u line endpoint. Bottom-centre draw offset +5 screen px aligns painted base. Start at resolve450ms; first cel is local crack flash, peak towering slabs at510ms. Fade final cel to zero over its30ms hold. Ground projection affects anchor only.",
+      "bytes": 472687,
+      "sha256": "b55427c519cca6b086f10ed7f059f9c3429874d97531a6be552bc9b850eb5011"
+    },
+    {
+      "file": "pound-crack.png",
+      "frame_size_px": [
+        256,
+        48
+      ],
+      "frame_count": 1,
+      "layout": "horizontal-left-to-right",
+      "fps": 0,
+      "ms_per_frame": 0,
+      "duration_s": null,
+      "loop": false,
+      "pivot_px": [
+        0,
+        24
+      ],
+      "pivot_normalized": [
+        0.0,
+        0.5
+      ],
+      "painted_ground_contact_px": [
+        0,
+        24
+      ],
+      "draw_offset_screen_px_at_zoom_0_5": [
+        0,
+        0
+      ],
+      "blend": "alpha",
+      "on_screen_quad_px_at_zoom_0_5": [
+        150,
+        12
+      ],
+      "world_quad_units_before_projection": [
+        300,
+        48
+      ],
+      "ground_squash": 0.5,
+      "placement_notes": "Flat ground decal, native +X. World quad300x48u; project every vertex with zoom0.5 and ground-Y squash0.5. Horizontal line yields150x12px, vertical12x75px. Reveal by clipping UV and geometry at front distance, preserving texel scale. Optional client opacity pulse only; supplied1 frame.",
+      "bytes": 12901,
+      "sha256": "3aeba7cc37966863e7364c4a34d381920755ea9edbf02675f9c15d44f2a1474a"
+    }
+  ],
+  "sequence": {
+    "timeline_origin": "First fist/ground contact t=0. All times presentation recommendations; authoritative resolve event owns damage and knockback.",
+    "line_length_world": 300,
+    "line_width_world": 80,
+    "front_travel_ms": 450,
+    "front_distance_world": "300*clamp(t_ms/450,0,1)",
+    "direction": "Normalize target_world-origin_world when cast starts; latch origin and direction for whole sequence.",
+    "fist": {
+      "start_ms": 0,
+      "end_ms": 210
+    },
+    "eruption": {
+      "sample_distances_world": [
+        40,
+        80,
+        120,
+        160,
+        200,
+        240,
+        280
+      ],
+      "spawn_times_ms": [
+        60,
+        120,
+        180,
+        240,
+        300,
+        360,
+        420
+      ],
+      "variant_order": [
+        "A",
+        "B",
+        "A",
+        "B",
+        "A",
+        "B",
+        "A"
+      ],
+      "local_duration_ms": 245,
+      "placement": "origin + direction*sample_distance. First cel appears exactly when front passes; local peak after70ms. No full-line simultaneous stamp. Seven samples, no extra sample beyond300u."
+    },
+    "finale": {
+      "anchor_distance_world": 300,
+      "start_ms": 450,
+      "peak_ms": 510,
+      "end_ms": 690
+    },
+    "crack": {
+      "start_ms": 0,
+      "reveal_end_ms": 450,
+      "fade_start_ms": 510,
+      "end_ms": 690,
+      "opacity": 0.9,
+      "pulse": "Optional opacity0.8..1.0 over120ms while travelling. No extra authored pulse frames."
+    },
+    "screen_flash": {
+      "client_owned": true,
+      "start_ms": 450,
+      "duration_ms": 35,
+      "rgb": [
+        1,
+        0.96,
+        0.86
+      ],
+      "peak_alpha": 0.14,
+      "notes": "Optional single brief battlefield-only flash; exclude HUD. Remove under reduced-flash setting. No full-screen PNG supplied."
+    },
+    "damage_and_knockback": "At authoritative resolve (~450ms), every eligible victim on the line is hit and pushed by sim. Do not use each cosmetic sample as a separate damage event. No knockback distance invented.",
+    "draw_order": [
+      "ground crack below actors",
+      "fist dust at origin",
+      "actors and eruptions sorted by ground contact Y",
+      "finale over endpoint victim",
+      "optional battlefield flash"
+    ],
+    "cancel": "Remove front/decal and unspawned bursts on cast cancellation; follow authoritative event.",
+    "projection": "Let d=(dx,dy) be unit world direction; n=(-dy,dx). Ground quad corners p=origin+d*s+n*v project as (0.5*p.x,0.25*p.y). Do not rotate an already squashed screen rectangle. Billboard height remains uncompressed."
+  },
+  "preview": {
+    "file": "preview.jpg",
+    "background": "#1c1822",
+    "times_ms": [
+      0,
+      180,
+      360,
+      450,
+      510,
+      640
+    ],
+    "blend": "alpha",
+    "actor_visible_height_px": 32,
+    "limits": "Staged exact-texture composites at native logical game scale. Fara uses existing idle crop, not a newly painted punch pose. Enemy recoil offset illustrative only. No runtime screenshot or combat proof."
+  }
+}

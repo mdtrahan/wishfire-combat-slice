@@ -1,0 +1,112 @@
+{
+  "assets": [
+    {
+      "path": "chest-closed.png",
+      "size": [
+        96,
+        96
+      ],
+      "pivot": [
+        48,
+        88
+      ],
+      "intended_use": "Ground treasure chest, closed state."
+    },
+    {
+      "path": "chest-open.png",
+      "size": [
+        96,
+        96
+      ],
+      "pivot": [
+        48,
+        88
+      ],
+      "intended_use": "Ground treasure chest, open state with warm interior light."
+    },
+    {
+      "path": "chest-glow.png",
+      "size": [
+        128,
+        128
+      ],
+      "pivot": [
+        64,
+        64
+      ],
+      "intended_use": "White tintable radial opening pulse."
+    },
+    {
+      "path": "buff-heal.png",
+      "size": [
+        64,
+        64
+      ],
+      "pivot": [
+        32,
+        32
+      ],
+      "intended_use": "Random reward icon: healing."
+    },
+    {
+      "path": "buff-attack.png",
+      "size": [
+        64,
+        64
+      ],
+      "pivot": [
+        32,
+        32
+      ],
+      "intended_use": "Random reward icon: attack up."
+    },
+    {
+      "path": "buff-defense.png",
+      "size": [
+        64,
+        64
+      ],
+      "pivot": [
+        32,
+        32
+      ],
+      "intended_use": "Random reward icon: defense up."
+    },
+    {
+      "path": "buff-range.png",
+      "size": [
+        64,
+        64
+      ],
+      "pivot": [
+        32,
+        32
+      ],
+      "intended_use": "Random reward icon: range up."
+    },
+    {
+      "path": "buff-attack-speed.png",
+      "size": [
+        64,
+        64
+      ],
+      "pivot": [
+        32,
+        32
+      ],
+      "intended_use": "Random reward icon: attack speed up."
+    },
+    {
+      "path": "preview.jpg",
+      "size": [
+        360,
+        200
+      ],
+      "pivot": [
+        180,
+        100
+      ],
+      "intended_use": "Review sheet showing 26 px chests, 32 px hero, and icons at 20/40 px."
+    }
+  ]
+}

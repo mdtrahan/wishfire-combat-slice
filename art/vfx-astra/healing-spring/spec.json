@@ -1,0 +1,377 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-25",
+  "author": "GPT Astra",
+  "art_director": "Claude",
+  "authority": "Owner selected concept A Moonlit Current. Mobile motes PASS; accepted ground layers retained unchanged.",
+  "status": "Owner passed motes and rejected ally light shafts and tall rim pillars. Rejected artwork archived outside production. Runtime integration remains unverified.",
+  "coordinates": {
+    "logical_viewport_px": [
+      360,
+      640
+    ],
+    "zoom": 0.5,
+    "actor_visible_height_px": 32,
+    "ground_y_squash": 0.75,
+    "frame_uv": "[i/count,0,(i+1)/count,1]",
+    "ground_note": "Same full quad as faze-pool: 276x276 world units -> 138x103.5 screen px. Map the full 512x384 texture into this projected quad once. Ground layers are normalized overhead light paintings stored in 4:3 frames. Rotate square world coordinates about the shared centre BEFORE the 0.75 projection, or rotate UVs in normalized square space. Never rotate the already squashed screen rectangle or squash the source aspect twice.",
+    "boundary_note": "The outer ring is the visible boundary; retain its fixed position and scale during rotation. This art set preserves the Faze presentation quad. Simulation remains authoritative for membership and heal events.",
+    "billboard_note": "Motes, ally foot echo, ally motes and heal tick are screen-facing. Their quads receive zoom only; the ground echo has perspective already painted into it."
+  },
+  "sampling": {
+    "format": "PNG RGBA8, straight/unassociated alpha",
+    "filter": "linear",
+    "wrap": "clamp",
+    "tint": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "transparent_pixels_rgb": "zero",
+    "mipmaps": false,
+    "atlas_padding_texels": 3,
+    "additive_blend": {
+      "rgb_src": "SrcAlpha",
+      "rgb_dst": "One",
+      "equation": "out.rgb = dst.rgb + tex.rgb * tex.a * opacity",
+      "note": "RGB exposure is already calibrated into the PNGs. Use neutral tint and opacity 1 at baseline. If engine uses One/One, multiply RGB by texture alpha in shader exactly once. Do not use normal alpha or screen blend. Do not add raw RGB from transparent pixels. Final output may clamp to the target range."
+    }
+  },
+  "assets": [
+    {
+      "file": "spring-ring-outer.png",
+      "frame_size_px": [
+        512,
+        384
+      ],
+      "frame_count": 1,
+      "layout": "horizontal-left-to-right",
+      "fps": 0,
+      "pivot_px": [
+        256,
+        192
+      ],
+      "pivot_normalized": [
+        0.5,
+        0.5
+      ],
+      "blend": "additive",
+      "on_screen_quad_px_at_zoom_0_5": [
+        138,
+        103.5
+      ],
+      "world_quad_units_before_projection": [
+        276,
+        276.0
+      ],
+      "ground_squash": 0.75,
+      "rotate_deg_per_s": 5,
+      "rotation_space": "world-ground-before-projection",
+      "duration_s": 5,
+      "loop": true,
+      "baked_rgb_exposure": 0.27,
+      "runtime_opacity": 1,
+      "bytes": 125734,
+      "sha256": "66a8aafba204a83b293311d07a785b5e8cab5457f711b73e79be35dd59f369c7"
+    },
+    {
+      "file": "spring-swirl-inner.png",
+      "frame_size_px": [
+        512,
+        384
+      ],
+      "frame_count": 1,
+      "layout": "horizontal-left-to-right",
+      "fps": 0,
+      "pivot_px": [
+        256,
+        192
+      ],
+      "pivot_normalized": [
+        0.5,
+        0.5
+      ],
+      "blend": "additive",
+      "on_screen_quad_px_at_zoom_0_5": [
+        138,
+        103.5
+      ],
+      "world_quad_units_before_projection": [
+        276,
+        276.0
+      ],
+      "ground_squash": 0.75,
+      "rotate_deg_per_s": -9,
+      "rotation_space": "world-ground-before-projection",
+      "duration_s": 5,
+      "loop": true,
+      "baked_rgb_exposure": 0.19,
+      "runtime_opacity": 1,
+      "bytes": 134317,
+      "sha256": "bd1ec06d3a0cf8b11fb7071abecf07421cff7f91c6a7c656c25946186122571f"
+    },
+    {
+      "file": "spring-core.png",
+      "frame_size_px": [
+        512,
+        384
+      ],
+      "frame_count": 1,
+      "layout": "horizontal-left-to-right",
+      "fps": 0,
+      "pivot_px": [
+        256,
+        192
+      ],
+      "pivot_normalized": [
+        0.5,
+        0.5
+      ],
+      "blend": "additive",
+      "on_screen_quad_px_at_zoom_0_5": [
+        138,
+        103.5
+      ],
+      "world_quad_units_before_projection": [
+        276,
+        276.0
+      ],
+      "ground_squash": 0.75,
+      "rotate_deg_per_s": 2,
+      "rotation_space": "world-ground-before-projection",
+      "duration_s": 5,
+      "loop": true,
+      "baked_rgb_exposure": 0.045,
+      "runtime_opacity": 1,
+      "bytes": 56750,
+      "sha256": "ba1d3f9d999ba4d8d9dfc508474050712bc997948a926832bee6508900a5270e"
+    },
+    {
+      "file": "spring-motes.png",
+      "frame_size_px": [
+        64,
+        64
+      ],
+      "frame_count": 8,
+      "layout": "horizontal-left-to-right",
+      "fps": 8,
+      "pivot_px": [
+        32,
+        52
+      ],
+      "pivot_normalized": [
+        0.5,
+        0.8125
+      ],
+      "blend": "additive",
+      "on_screen_quad_px_at_zoom_0_5": [
+        18,
+        18
+      ],
+      "world_quad_units_before_projection": [
+        36,
+        36
+      ],
+      "ground_squash": 1,
+      "rotate_deg_per_s": 0,
+      "rotation_space": "billboard",
+      "duration_s": 1.0,
+      "loop": false,
+      "baked_rgb_exposure": 0.65,
+      "runtime_opacity": 1,
+      "bytes": 17985,
+      "sha256": "0cf3786b6ff5acdf0540eb2065c24c190505ca4595426e893e5dc440befc8a18"
+    },
+    {
+      "file": "spring-land.png",
+      "frame_size_px": [
+        256,
+        192
+      ],
+      "frame_count": 6,
+      "layout": "horizontal-left-to-right",
+      "fps": 20,
+      "pivot_px": [
+        128,
+        96
+      ],
+      "pivot_normalized": [
+        0.5,
+        0.5
+      ],
+      "blend": "additive",
+      "on_screen_quad_px_at_zoom_0_5": [
+        138,
+        103.5
+      ],
+      "world_quad_units_before_projection": [
+        276,
+        276.0
+      ],
+      "ground_squash": 0.75,
+      "rotate_deg_per_s": 0,
+      "rotation_space": "world-ground-before-projection",
+      "duration_s": 0.3,
+      "loop": false,
+      "baked_rgb_exposure": 0.23,
+      "runtime_opacity": 1,
+      "bytes": 186902,
+      "sha256": "b35675893af09ccf012126ff7434805a12490a4bfc00d3f1250b73ff4814436f"
+    },
+    {
+      "file": "spring-ally.png",
+      "frame_size_px": [
+        64,
+        64
+      ],
+      "frame_count": 6,
+      "layout": "horizontal-left-to-right",
+      "fps": 6,
+      "pivot_px": [
+        32,
+        48
+      ],
+      "pivot_normalized": [
+        0.5,
+        0.75
+      ],
+      "blend": "additive",
+      "on_screen_quad_px_at_zoom_0_5": [
+        24,
+        24
+      ],
+      "world_quad_units_before_projection": [
+        48,
+        48.0
+      ],
+      "ground_squash": 1,
+      "rotate_deg_per_s": 0,
+      "rotation_space": "billboard",
+      "duration_s": 1.0,
+      "loop": true,
+      "baked_rgb_exposure": 0.29,
+      "runtime_opacity": 1,
+      "bytes": 19910,
+      "sha256": "62baadf9412111df0ee60ae8081ce939d3be277d20f33fc93e9c50d213da3cc5"
+    },
+    {
+      "file": "spring-ally-motes.png",
+      "frame_size_px": [
+        64,
+        96
+      ],
+      "frame_count": 8,
+      "layout": "horizontal-left-to-right",
+      "fps": 8,
+      "pivot_px": [
+        32,
+        88
+      ],
+      "pivot_normalized": [
+        0.5,
+        0.9166666666666666
+      ],
+      "blend": "additive",
+      "on_screen_quad_px_at_zoom_0_5": [
+        48,
+        88
+      ],
+      "world_quad_units_before_projection": [
+        96,
+        176
+      ],
+      "ground_squash": 1,
+      "rotate_deg_per_s": 0,
+      "rotation_space": "billboard",
+      "duration_s": 1.0,
+      "loop": true,
+      "baked_rgb_exposure": 0.65,
+      "runtime_opacity": 1,
+      "bytes": 58256,
+      "sha256": "9bc895db2705f249e61ed7e45ff91736d241e5f48663d18854fbcb5fb566d99e"
+    },
+    {
+      "file": "spring-heal.png",
+      "frame_size_px": [
+        64,
+        64
+      ],
+      "frame_count": 5,
+      "layout": "horizontal-left-to-right",
+      "fps": 20,
+      "pivot_px": [
+        32,
+        38
+      ],
+      "pivot_normalized": [
+        0.5,
+        0.59375
+      ],
+      "blend": "additive",
+      "on_screen_quad_px_at_zoom_0_5": [
+        12,
+        12
+      ],
+      "world_quad_units_before_projection": [
+        24,
+        24.0
+      ],
+      "ground_squash": 1,
+      "rotate_deg_per_s": 0,
+      "rotation_space": "billboard",
+      "duration_s": 0.25,
+      "loop": false,
+      "baked_rgb_exposure": 0.48,
+      "runtime_opacity": 1,
+      "bytes": 9675,
+      "sha256": "a5eb149c23379515913202eddd9670c137f2bf0868774aa0f54d6f1ca0dc2931"
+    }
+  ],
+  "sequence": {
+    "pool_lifetime_s": 5,
+    "landing": {
+      "file": "spring-land.png",
+      "duration_s": 0.3,
+      "fade_final_frame_s": 0.05,
+      "note": "Unfurl on the common ground centre while ground layers fade in over first 0.18s."
+    },
+    "persistent_layers": [
+      "spring-core.png",
+      "spring-swirl-inner.png",
+      "spring-ring-outer.png"
+    ],
+    "zone_motes": {
+      "file": "spring-motes.png",
+      "max_simultaneous": 12,
+      "respawn_gap_s": [
+        0.04,
+        0.14
+      ],
+      "placement": "Scatter across the entire surface with irregular spacing; each instance is a painted three-mote cluster on an 18x18px quad. Rise 20-36px over its 1s life. Fade first/last 0.12s. Render most of the lift behind actors, with a few foreground clusters.",
+      "preview_count": 9
+    },
+    "affected_ally": {
+      "membership": "Show continuously on each currently eligible ally inside the zone; follow that ally feet every frame. Stop with eligibility, fade out within 0.15s. No numbers required for this visual.",
+      "ground_echo": "spring-ally.png below sprite; optional same texture over lower legs at 0.15 opacity.",
+      "motes": "One 48x88px strip per ally, foot pivot, roughly 12-16 motes/glints at varied heights and sizes. Stagger start times by 0.23s. Render 0.65 behind all actors and 0.35 in front. Large pearls and occasional sparkle glints rise well above head height. No additional procedural sparkle geometry.",
+      "loop_sampling": "Optional interpolation between adjacent frames using complementary weights; this is recommended for soft mote/ankle loops. Frame count and fps still define the loop duration."
+    },
+    "heal_tick": {
+      "file": "spring-heal.png",
+      "duration_s": 0.25,
+      "anchor": "lower torso",
+      "trigger": "Only actual simulation heal events; art defines no cadence or healing amount. Fade final 0.05s."
+    },
+    "draw_order": [
+      "arena",
+      "unchanged core + inner swirl + outer ring additive",
+      "landing burst additive",
+      "most zone motes",
+      "ally motes 0.65 + foot echoes",
+      "all actors in depth order",
+      "ally motes 0.35 + selected foreground zone motes + heal tick"
+    ],
+    "end": "Fade ground over last 0.2s; stop emission when zone expires. Visual residue never extends healing."
+  }
+}

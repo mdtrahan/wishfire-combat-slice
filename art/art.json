@@ -1,0 +1,327 @@
+{
+  "assets": [
+    {
+      "path": "telegraph/rim.png",
+      "size": [
+        512,
+        512
+      ],
+      "pivot": [
+        256,
+        256
+      ],
+      "tintable": true,
+      "tiling_axis": null,
+      "intended_use": "hostile/impact boundary; outer edge is the hit edge"
+    },
+    {
+      "path": "telegraph/fill_disc.png",
+      "size": [
+        512,
+        512
+      ],
+      "pivot": [
+        256,
+        256
+      ],
+      "tintable": true,
+      "tiling_axis": null,
+      "intended_use": "countdown disc fill"
+    },
+    {
+      "path": "telegraph/wave_band.png",
+      "size": [
+        512,
+        512
+      ],
+      "pivot": [
+        256,
+        256
+      ],
+      "tintable": true,
+      "tiling_axis": null,
+      "intended_use": "repeating loop radiation wave"
+    },
+    {
+      "path": "telegraph/flash.png",
+      "size": [
+        512,
+        512
+      ],
+      "pivot": [
+        256,
+        256
+      ],
+      "tintable": true,
+      "tiling_axis": null,
+      "intended_use": "resolve/impact flash"
+    },
+    {
+      "path": "telegraph/dash_rim.png",
+      "size": [
+        512,
+        512
+      ],
+      "pivot": [
+        256,
+        256
+      ],
+      "tintable": true,
+      "tiling_axis": null,
+      "intended_use": "hindrance/slow boundary"
+    },
+    {
+      "path": "telegraph/hatch_tile.png",
+      "size": [
+        128,
+        128
+      ],
+      "pivot": [
+        64,
+        64
+      ],
+      "tintable": true,
+      "tiling_axis": "both",
+      "intended_use": "hindrance interior tile"
+    },
+    {
+      "path": "telegraph/beam_body.png",
+      "size": [
+        64,
+        256
+      ],
+      "pivot": [
+        32,
+        128
+      ],
+      "tintable": true,
+      "tiling_axis": "y",
+      "intended_use": "continuous line-attack shaft"
+    },
+    {
+      "path": "telegraph/beam_cap.png",
+      "size": [
+        64,
+        64
+      ],
+      "pivot": [
+        32,
+        32
+      ],
+      "tintable": true,
+      "tiling_axis": null,
+      "intended_use": "rounded end cap matching beam shaft"
+    },
+    {
+      "path": "telegraph/aim_line.png",
+      "size": [
+        16,
+        256
+      ],
+      "pivot": [
+        8,
+        128
+      ],
+      "tintable": true,
+      "tiling_axis": "y",
+      "intended_use": "tracking line with chevron pulses"
+    },
+    {
+      "path": "telegraph/cone_fan.png",
+      "size": [
+        512,
+        512
+      ],
+      "pivot": [
+        256,
+        511
+      ],
+      "tintable": true,
+      "tiling_axis": null,
+      "intended_use": "90-degree directional telegraph",
+      "radius_px": 255
+    },
+    {
+      "path": "telegraph/ring_safe.png",
+      "size": [
+        512,
+        512
+      ],
+      "pivot": [
+        256,
+        256
+      ],
+      "tintable": true,
+      "tiling_axis": null,
+      "intended_use": "safe-center donut telegraph"
+    },
+    {
+      "path": "telegraph/arrows_out.png",
+      "size": [
+        256,
+        256
+      ],
+      "pivot": [
+        128,
+        128
+      ],
+      "tintable": true,
+      "tiling_axis": null,
+      "intended_use": "knockback direction cue"
+    },
+    {
+      "path": "icons/shield.png",
+      "size": [
+        64,
+        64
+      ],
+      "pivot": [
+        32,
+        32
+      ],
+      "tintable": true,
+      "tiling_axis": null,
+      "intended_use": "shield status/effect marker"
+    },
+    {
+      "path": "icons/heal.png",
+      "size": [
+        64,
+        64
+      ],
+      "pivot": [
+        32,
+        32
+      ],
+      "tintable": true,
+      "tiling_axis": null,
+      "intended_use": "heal status/effect marker"
+    },
+    {
+      "path": "icons/buff.png",
+      "size": [
+        64,
+        64
+      ],
+      "pivot": [
+        32,
+        32
+      ],
+      "tintable": true,
+      "tiling_axis": null,
+      "intended_use": "buff status/effect marker"
+    },
+    {
+      "path": "icons/warn.png",
+      "size": [
+        64,
+        64
+      ],
+      "pivot": [
+        32,
+        32
+      ],
+      "tintable": true,
+      "tiling_axis": null,
+      "intended_use": "warn status/effect marker"
+    },
+    {
+      "path": "icons/lethal.png",
+      "size": [
+        64,
+        64
+      ],
+      "pivot": [
+        32,
+        32
+      ],
+      "tintable": true,
+      "tiling_axis": null,
+      "intended_use": "lethal status/effect marker"
+    },
+    {
+      "path": "icons/downed.png",
+      "size": [
+        64,
+        64
+      ],
+      "pivot": [
+        32,
+        32
+      ],
+      "tintable": true,
+      "tiling_axis": null,
+      "intended_use": "downed status/effect marker"
+    },
+    {
+      "path": "icons/revive.png",
+      "size": [
+        64,
+        64
+      ],
+      "pivot": [
+        32,
+        32
+      ],
+      "tintable": true,
+      "tiling_axis": null,
+      "intended_use": "revive status/effect marker"
+    },
+    {
+      "path": "projectiles/bomb.png",
+      "size": [
+        48,
+        48
+      ],
+      "pivot": [
+        24,
+        24
+      ],
+      "tintable": false,
+      "tiling_axis": null,
+      "intended_use": "fused bomb projectile"
+    },
+    {
+      "path": "projectiles/bolt.png",
+      "size": [
+        64,
+        16
+      ],
+      "pivot": [
+        32,
+        8
+      ],
+      "tintable": false,
+      "tiling_axis": null,
+      "intended_use": "right-facing cel-shaded bolt"
+    },
+    {
+      "path": "projectiles/orb.png",
+      "size": [
+        32,
+        32
+      ],
+      "pivot": [
+        16,
+        16
+      ],
+      "tintable": true,
+      "tiling_axis": null,
+      "intended_use": "tintable orb with bright core"
+    },
+    {
+      "path": "projectiles/shadow.png",
+      "size": [
+        48,
+        24
+      ],
+      "pivot": [
+        24,
+        12
+      ],
+      "tintable": false,
+      "tiling_axis": null,
+      "intended_use": "soft black ground shadow"
+    }
+  ]
+}

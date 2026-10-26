@@ -1,0 +1,241 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-25",
+  "author": "GPT Astra, charge-up supporting VFX",
+  "art_director": "Claude",
+  "authority": "Owner brief and art-director sprite-echo update. ORKA-6jh1 art-only handoff.",
+  "status": "Painted raster sources packed and visually inspected. Runtime integration and art-director acceptance pending.",
+  "coordinates": {
+    "logical_viewport_px": [
+      360,
+      640
+    ],
+    "zoom": 0.5,
+    "actor_reference_height_px": 32,
+    "ground_y_squash": 0.5,
+    "frame_uv": "[i/count,0,(i+1)/count,1]",
+    "billboard_note": "All strips are screen-facing. Quad sizes already include zoom. Ground ratio is baked. Use specified pivots and ground draw offset."
+  },
+  "sampling": {
+    "format": "PNG RGBA8, straight/unassociated alpha",
+    "filter": "linear",
+    "wrap": "clamp",
+    "transparent_pixels_rgb": "zero",
+    "alpha_blend": {
+      "rgb_src": "SrcAlpha",
+      "rgb_dst": "OneMinusSrcAlpha"
+    },
+    "additive_blend": {
+      "rgb_src": "SrcAlpha",
+      "rgb_dst": "One",
+      "note": "With One/One shader, multiply RGB by texture alpha exactly once. Preview uses SrcAlpha/One."
+    },
+    "mipmaps": false,
+    "atlas_padding_texels": 3,
+    "padding_note": "Three clear texels INSIDE every cel edge; frame stride remains exactly frame width. Six clear texels across adjacent boundaries."
+  },
+  "assets": [
+    {
+      "file": "charge-gather.png",
+      "frame_size_px": [
+        128,
+        128
+      ],
+      "frame_count": 8,
+      "layout": "horizontal-left-to-right",
+      "fps": 13.333333333333334,
+      "ms_per_frame": 75,
+      "pivot_px": [
+        64,
+        64
+      ],
+      "pivot_normalized": [
+        0.5,
+        0.5
+      ],
+      "blend": "additive",
+      "optional_blend": "alpha at same geometry, softer than preview",
+      "on_screen_quad_px_at_zoom_0_5": [
+        64,
+        64
+      ],
+      "world_quad_units_before_projection": [
+        128,
+        128
+      ],
+      "ground_squash": 1,
+      "baked_ground_squash": 1,
+      "duration_s": 0.6,
+      "loop": true,
+      "opacity": 1,
+      "placement_notes": "Anchor centred pivot at hero chest. Example chest is 19px above feet for a 32px hero; use the current pose socket.",
+      "bytes": 16701,
+      "sha256": "a885b0b4253ab4b95f3c7ad1fd482afbe391021011ae9fa41f8cda3c5b639f29"
+    },
+    {
+      "file": "charge-ground.png",
+      "frame_size_px": [
+        128,
+        64
+      ],
+      "frame_count": 6,
+      "layout": "horizontal-left-to-right",
+      "fps": 10.0,
+      "ms_per_frame": 100,
+      "pivot_px": [
+        64,
+        64
+      ],
+      "pivot_normalized": [
+        0.5,
+        1.0
+      ],
+      "blend": "additive",
+      "optional_blend": "alpha at same geometry, softer than preview",
+      "on_screen_quad_px_at_zoom_0_5": [
+        64,
+        32
+      ],
+      "world_quad_units_before_projection": [
+        128,
+        64
+      ],
+      "ground_squash": 1,
+      "baked_ground_squash": 0.5,
+      "duration_s": 0.6,
+      "loop": false,
+      "opacity": 0.5,
+      "placement_notes": "Bottom-centre pivot. Place pivot 16 screen px BELOW feet so painted centre (64,32) lies under feet. This offset scales with quad height. Ground artwork is already squashed 0.5; apply no further Y squash.",
+      "bytes": 45800,
+      "sha256": "4e97a74420519fb5c9a60865dd10e2c290fcdce292171f0481df7a51e967e338"
+    },
+    {
+      "file": "charge-flare.png",
+      "frame_size_px": [
+        160,
+        192
+      ],
+      "frame_count": 6,
+      "layout": "horizontal-left-to-right",
+      "fps": 29.999999999999996,
+      "ms_per_frame": 33.333333333333336,
+      "pivot_px": [
+        80,
+        192
+      ],
+      "pivot_normalized": [
+        0.5,
+        1.0
+      ],
+      "blend": "additive",
+      "optional_blend": "alpha at same geometry, softer than preview",
+      "on_screen_quad_px_at_zoom_0_5": [
+        40,
+        48
+      ],
+      "world_quad_units_before_projection": [
+        80,
+        96
+      ],
+      "ground_squash": 1,
+      "baked_ground_squash": 1,
+      "duration_s": 0.2,
+      "loop": false,
+      "opacity": 0.9,
+      "placement_notes": "Anchor bottom-centre pivot at feet. Painted radial centre (80,116) sits 19 screen px above feet, matching chest. Uniform scaling only; no body silhouette.",
+      "bytes": 72992,
+      "sha256": "7099c37fe57607a6ebf631fb8876afe9b0ba2393a96bf7d33034d1571a492d0a"
+    }
+  ],
+  "sequence": {
+    "charge_duration_s": 0.6,
+    "gather": {
+      "start_s": 0,
+      "end_s": 0.6,
+      "release_tail_end_s": 0.675,
+      "tail_opacity_at_release": 0.5
+    },
+    "ground": {
+      "start_s": 0,
+      "swell_end_s": 0.6,
+      "release_fade_end_s": 0.8
+    },
+    "flare": {
+      "start_s": 0.6,
+      "end_s": 0.8,
+      "peak_frame_zero_based": 2,
+      "peak_at_s": 0.6666666667
+    },
+    "clock_note": "600ms is anticipation. The 200ms flare plays at the charge-to-special handoff, without adding another pause. Client may align flare to its existing resolve; art does not alter simulation timing. Use presentation time while battlefield is frozen.",
+    "draw_order": [
+      "frozen battlefield",
+      "80% black scrim",
+      "ground supporting light",
+      "client sprite echoes",
+      "undimmed caster",
+      "gather and radial release glint"
+    ],
+    "sprite_echo": "Entirely client-owned: duplicate current frozen hero frame, expand from body midpoint and fade. No body artwork or silhouette is included in these PNGs.",
+    "cancel": "Remove all supporting layers immediately on charge cancellation.",
+    "reduced_motion": "Client may omit gather and release glint, retaining low-opacity ground illumination; no extra art supplied."
+  },
+  "tint": {
+    "neutral": "Keep original near-white/pale-gold RGB for untinted use.",
+    "hero_colours": {
+      "Fara": {
+        "label": "Crimson",
+        "rgb": [
+          0.9,
+          0.15,
+          0.2
+        ]
+      },
+      "Hondo": {
+        "label": "Red-violet",
+        "rgb": [
+          0.85,
+          0.2,
+          0.55
+        ]
+      },
+      "Runa": {
+        "label": "Aqua-pink",
+        "rgb": [
+          0.55,
+          0.85,
+          1
+        ]
+      },
+      "Kaja": {
+        "label": "Violet",
+        "rgb": [
+          0.62,
+          0.38,
+          1
+        ]
+      }
+    },
+    "runa_secondary_rgb": [
+      1,
+      0.52,
+      0.78
+    ],
+    "white_core": "Plain RGB multiplication colours white highlights. Use luminance-preserving tint or a separate white highlight pass.",
+    "reference_formula": "L=dot(texture.rgb,vec3(0.2126,0.7152,0.0722)); h=smoothstep(0.82,0.98,L); output.rgb=L*mix(heroTint,vec3(1),h); output.a=texture.a*opacity. Formula inputs use the sampled RGB encoding consistently; preview evaluates normalized stored RGB.",
+    "runa_formula": "Before white-core mix, heroTint=mix(vec3(1,0.52,0.78),vec3(0.55,0.85,1),clamp((L-0.55)/0.28,0,1)). Pink stays in softer edges; aqua in middle values.",
+    "colour_source": "Primary tint values read from existing client render/charge.rs hero_colour. Runa secondary pink is an art-only recommendation matching owner aqua-pink brief."
+  },
+  "preview": {
+    "file": "preview.jpg",
+    "background": "#1c1822",
+    "actor_visible_height_px": 32,
+    "blend": "additive",
+    "times_ms": [
+      150,
+      450,
+      633.34
+    ],
+    "magnified_row": 2,
+    "limits": "Staged composites of real atlas hero crops. Sprite echoes intentionally omitted to isolate supporting art. Main preview uses requested solid background; scratch interactive review also offers a frozen arena with 80% scrim."
+  }
+}
