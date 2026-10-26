@@ -1,0 +1,91 @@
+{
+  "frame_scale": 0.5,
+  "page_limit": 2048,
+  "actors": {
+    "Boss": {
+      "frames": 72,
+      "decoded_bytes": 683024,
+      "source_decoded_bytes": 4718592
+    },
+    "Exploder": {
+      "frames": 72,
+      "decoded_bytes": 721192,
+      "source_decoded_bytes": 4718592
+    },
+    "Fara": {
+      "frames": 72,
+      "decoded_bytes": 620456,
+      "source_decoded_bytes": 6684672
+    },
+    "Gobloc": {
+      "frames": 72,
+      "decoded_bytes": 625356,
+      "source_decoded_bytes": 5701632
+    },
+    "Hondo": {
+      "frames": 72,
+      "decoded_bytes": 619124,
+      "source_decoded_bytes": 6684672
+    },
+    "Kaja": {
+      "frames": 72,
+      "decoded_bytes": 619124,
+      "source_decoded_bytes": 6684672
+    },
+    "Lobber": {
+      "frames": 72,
+      "decoded_bytes": 793900,
+      "source_decoded_bytes": 4718592
+    },
+    "Orc": {
+      "frames": 72,
+      "decoded_bytes": 695744,
+      "source_decoded_bytes": 4718592
+    },
+    "Runa": {
+      "frames": 72,
+      "decoded_bytes": 600480,
+      "source_decoded_bytes": 4718592
+    },
+    "Sniper": {
+      "frames": 72,
+      "decoded_bytes": 586480,
+      "source_decoded_bytes": 4718592
+    }
+  },
+  "vfx_elements": {
+    "dark": {
+      "frames": 7,
+      "decoded_bytes": 256896,
+      "source_decoded_bytes": 11007612
+    },
+    "fire": {
+      "frames": 7,
+      "decoded_bytes": 198156,
+      "source_decoded_bytes": 11007612
+    },
+    "ice": {
+      "frames": 7,
+      "decoded_bytes": 221972,
+      "source_decoded_bytes": 11007612
+    },
+    "lightning": {
+      "frames": 7,
+      "decoded_bytes": 241928,
+      "source_decoded_bytes": 11007612
+    },
+    "wind": {
+      "frames": 6,
+      "decoded_bytes": 209312,
+      "source_decoded_bytes": 9435096
+    }
+  },
+  "page_count": 1,
+  "pages_decoded_rgba_bytes": 16777216,
+  "atlas_png_bytes": 5098930,
+  "arena_decoded_rgba_bytes": 6287940,
+  "arena_png_bytes": 2303278,
+  "vfx_decoded_rgba_bytes": 1128264,
+  "total_texture_decoded_rgba_bytes": 23065156,
+  "build_ms": 345.943375
+}

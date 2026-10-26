@@ -1,0 +1,126 @@
+{
+  "frame_scale": 1.0,
+  "page_limit": 2048,
+  "actors": {
+    "Boss": {
+      "frames": 72,
+      "decoded_bytes": 2517736,
+      "source_decoded_bytes": 4718592
+    },
+    "BossBomber": {
+      "frames": 72,
+      "decoded_bytes": 3011956,
+      "source_decoded_bytes": 4718592
+    },
+    "BossMarksman": {
+      "frames": 72,
+      "decoded_bytes": 2318108,
+      "source_decoded_bytes": 5701632
+    },
+    "Exploder": {
+      "frames": 72,
+      "decoded_bytes": 2631516,
+      "source_decoded_bytes": 4718592
+    },
+    "Fara": {
+      "frames": 72,
+      "decoded_bytes": 2128068,
+      "source_decoded_bytes": 6684672
+    },
+    "Gobloc": {
+      "frames": 72,
+      "decoded_bytes": 2124312,
+      "source_decoded_bytes": 5701632
+    },
+    "HighGobloc": {
+      "frames": 72,
+      "decoded_bytes": 2631516,
+      "source_decoded_bytes": 4718592
+    },
+    "HighOrc": {
+      "frames": 72,
+      "decoded_bytes": 2624164,
+      "source_decoded_bytes": 5701632
+    },
+    "Hondo": {
+      "frames": 72,
+      "decoded_bytes": 2123956,
+      "source_decoded_bytes": 6684672
+    },
+    "Kaja": {
+      "frames": 72,
+      "decoded_bytes": 2123956,
+      "source_decoded_bytes": 6684672
+    },
+    "Lizardo": {
+      "frames": 72,
+      "decoded_bytes": 2937680,
+      "source_decoded_bytes": 4718592
+    },
+    "Lobber": {
+      "frames": 72,
+      "decoded_bytes": 2937680,
+      "source_decoded_bytes": 4718592
+    },
+    "Marid": {
+      "frames": 72,
+      "decoded_bytes": 2493612,
+      "source_decoded_bytes": 4718592
+    },
+    "Orc": {
+      "frames": 72,
+      "decoded_bytes": 2527868,
+      "source_decoded_bytes": 4718592
+    },
+    "Runa": {
+      "frames": 72,
+      "decoded_bytes": 2196312,
+      "source_decoded_bytes": 4718592
+    },
+    "Skeleton": {
+      "frames": 72,
+      "decoded_bytes": 2103928,
+      "source_decoded_bytes": 4718592
+    },
+    "Sniper": {
+      "frames": 72,
+      "decoded_bytes": 2103928,
+      "source_decoded_bytes": 4718592
+    }
+  },
+  "vfx_elements": {
+    "dark": {
+      "frames": 7,
+      "decoded_bytes": 1029888,
+      "source_decoded_bytes": 11007612
+    },
+    "fire": {
+      "frames": 7,
+      "decoded_bytes": 883756,
+      "source_decoded_bytes": 11007612
+    },
+    "ice": {
+      "frames": 7,
+      "decoded_bytes": 921520,
+      "source_decoded_bytes": 11007612
+    },
+    "lightning": {
+      "frames": 7,
+      "decoded_bytes": 998904,
+      "source_decoded_bytes": 11007612
+    },
+    "wind": {
+      "frames": 6,
+      "decoded_bytes": 855648,
+      "source_decoded_bytes": 9435096
+    }
+  },
+  "page_count": 3,
+  "pages_decoded_rgba_bytes": 50331648,
+  "atlas_png_bytes": 22393836,
+  "arena_decoded_rgba_bytes": 6287940,
+  "arena_png_bytes": 2303278,
+  "vfx_decoded_rgba_bytes": 4689716,
+  "total_texture_decoded_rgba_bytes": 56619588,
+  "build_ms": 21660.538875000002
+}

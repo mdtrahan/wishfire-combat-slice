@@ -1,0 +1,39 @@
+{
+  "unit_tests": {
+    "passed": 5,
+    "failed": 0
+  },
+  "format_check": "PASS",
+  "diff_whitespace_check": "PASS",
+  "generated_checks": {
+    "scales": [
+      1.0,
+      0.5
+    ],
+    "frames_each": 754,
+    "exact_full_scale_puppet_pixel_comparisons": 720,
+    "blank_spawn_frames_each": 10,
+    "checks": [
+      "page power-of-two dimensions and limits",
+      "rectangle bounds",
+      "two-pixel padding and nonoverlap",
+      "edge and corner extrusion",
+      "clip states, source facings, holds, markers, canvases and origins",
+      "VFX selection, timing and scaled origins",
+      "arena dimensions and aspect",
+      "report byte totals"
+    ]
+  },
+  "source_sha256": {
+    "crates/wf_assets/Cargo.toml": "ed8a45a2d1c7b20eff2f6eb886d671d29c2b8d3990b325eedc80d41897312fde",
+    "crates/wf_assets/src/main.rs": "278ec3d93d5c03c9b35e9c638ca79306b5d3e17e7f93f835da8e9180eda17e90",
+    "crates/wf_assets/src/pack.rs": "5266c78d22a47bac793599e533adaae448514d52491895f627691f9137056693",
+    "crates/wf_assets/SCHEMA.md": "27021a9f4f5fc1ae861af2889dba1797f6b392a249c4fcf34b673ac17f3b0714"
+  },
+  "commands": [
+    "CARGO_HOME=\"$PWD/target/cargo-home\" scripts/cargo.sh test -p wf_assets",
+    "CARGO_HOME=\"$PWD/target/cargo-home\" scripts/cargo.sh fmt -p wf_assets -- --check",
+    "CARGO_HOME=\"$PWD/target/cargo-home\" scripts/cargo.sh run --release -p wf_assets -- --src ../../web-runner/assets --out gen --frame-scale 1.0 --page 2048",
+    "CARGO_HOME=\"$PWD/target/cargo-home\" scripts/cargo.sh run --release -p wf_assets -- --src ../../web-runner/assets --out gen-half --frame-scale 0.5 --page 2048"
+  ]
+}
