@@ -1,0 +1,15 @@
+{
+  "pixelIdentical": true,
+  "state": "idle",
+  "frame": 0,
+  "authorSize": [
+    1024,
+    1024
+  ],
+  "exportSize": [
+    128,
+    128
+  ],
+  "renderer": "/opt/homebrew/bin/synfig",
+  "changedPixels": 0
+}

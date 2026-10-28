@@ -1,0 +1,532 @@
+{
+  "sourceFacing": "left",
+  "oppositeFacing": "mirrored-source; asymmetric costume reverses sides",
+  "clips": {
+    "idle": {
+      "left": {
+        "source": "gloamink/source/idle-left.sif",
+        "frames": [
+          "gloamink/frames/idle-left-000.png",
+          "gloamink/frames/idle-left-001.png",
+          "gloamink/frames/idle-left-002.png",
+          "gloamink/frames/idle-left-003.png",
+          "gloamink/frames/idle-left-004.png",
+          "gloamink/frames/idle-left-005.png",
+          "gloamink/frames/idle-left-006.png",
+          "gloamink/frames/idle-left-007.png",
+          "gloamink/frames/idle-left-008.png",
+          "gloamink/frames/idle-left-009.png",
+          "gloamink/frames/idle-left-010.png",
+          "gloamink/frames/idle-left-011.png"
+        ],
+        "frameHoldMs": [
+          83.33333333333333,
+          83.33333333333333,
+          83.33333333333333,
+          83.33333333333333,
+          83.33333333333333,
+          83.33333333333333,
+          83.33333333333333,
+          83.33333333333333,
+          83.33333333333333,
+          83.33333333333333,
+          83.33333333333333,
+          83.33333333333333
+        ],
+        "loop": true,
+        "canvas": {
+          "width": 128,
+          "height": 128
+        },
+        "footOrigin": {
+          "x": 64,
+          "y": 125
+        }
+      },
+      "right": {
+        "source": "gloamink/source/idle-right.sif",
+        "frames": [
+          "gloamink/frames/idle-right-000.png",
+          "gloamink/frames/idle-right-001.png",
+          "gloamink/frames/idle-right-002.png",
+          "gloamink/frames/idle-right-003.png",
+          "gloamink/frames/idle-right-004.png",
+          "gloamink/frames/idle-right-005.png",
+          "gloamink/frames/idle-right-006.png",
+          "gloamink/frames/idle-right-007.png",
+          "gloamink/frames/idle-right-008.png",
+          "gloamink/frames/idle-right-009.png",
+          "gloamink/frames/idle-right-010.png",
+          "gloamink/frames/idle-right-011.png"
+        ],
+        "frameHoldMs": [
+          83.33333333333333,
+          83.33333333333333,
+          83.33333333333333,
+          83.33333333333333,
+          83.33333333333333,
+          83.33333333333333,
+          83.33333333333333,
+          83.33333333333333,
+          83.33333333333333,
+          83.33333333333333,
+          83.33333333333333,
+          83.33333333333333
+        ],
+        "loop": true,
+        "canvas": {
+          "width": 128,
+          "height": 128
+        },
+        "footOrigin": {
+          "x": 64,
+          "y": 125
+        }
+      }
+    },
+    "walk": {
+      "left": {
+        "source": "gloamink/source/walk-left.sif",
+        "frames": [
+          "gloamink/frames/walk-left-000.png",
+          "gloamink/frames/walk-left-001.png",
+          "gloamink/frames/walk-left-002.png",
+          "gloamink/frames/walk-left-003.png",
+          "gloamink/frames/walk-left-004.png",
+          "gloamink/frames/walk-left-005.png",
+          "gloamink/frames/walk-left-006.png",
+          "gloamink/frames/walk-left-007.png",
+          "gloamink/frames/walk-left-008.png",
+          "gloamink/frames/walk-left-009.png",
+          "gloamink/frames/walk-left-010.png",
+          "gloamink/frames/walk-left-011.png"
+        ],
+        "frameHoldMs": [
+          83.33333333333333,
+          83.33333333333333,
+          83.33333333333333,
+          83.33333333333333,
+          83.33333333333333,
+          83.33333333333333,
+          83.33333333333333,
+          83.33333333333333,
+          83.33333333333333,
+          83.33333333333333,
+          83.33333333333333,
+          83.33333333333333
+        ],
+        "loop": true,
+        "canvas": {
+          "width": 128,
+          "height": 128
+        },
+        "footOrigin": {
+          "x": 64,
+          "y": 125
+        }
+      },
+      "right": {
+        "source": "gloamink/source/walk-right.sif",
+        "frames": [
+          "gloamink/frames/walk-right-000.png",
+          "gloamink/frames/walk-right-001.png",
+          "gloamink/frames/walk-right-002.png",
+          "gloamink/frames/walk-right-003.png",
+          "gloamink/frames/walk-right-004.png",
+          "gloamink/frames/walk-right-005.png",
+          "gloamink/frames/walk-right-006.png",
+          "gloamink/frames/walk-right-007.png",
+          "gloamink/frames/walk-right-008.png",
+          "gloamink/frames/walk-right-009.png",
+          "gloamink/frames/walk-right-010.png",
+          "gloamink/frames/walk-right-011.png"
+        ],
+        "frameHoldMs": [
+          83.33333333333333,
+          83.33333333333333,
+          83.33333333333333,
+          83.33333333333333,
+          83.33333333333333,
+          83.33333333333333,
+          83.33333333333333,
+          83.33333333333333,
+          83.33333333333333,
+          83.33333333333333,
+          83.33333333333333,
+          83.33333333333333
+        ],
+        "loop": true,
+        "canvas": {
+          "width": 128,
+          "height": 128
+        },
+        "footOrigin": {
+          "x": 64,
+          "y": 125
+        }
+      }
+    },
+    "basic": {
+      "left": {
+        "source": "gloamink/source/attack-left.sif",
+        "frames": [
+          "gloamink/frames/attack-left-000.png",
+          "gloamink/frames/attack-left-001.png",
+          "gloamink/frames/attack-left-002.png",
+          "gloamink/frames/attack-left-003.png",
+          "gloamink/frames/attack-left-004.png",
+          "gloamink/frames/attack-left-005.png",
+          "gloamink/frames/attack-left-006.png",
+          "gloamink/frames/attack-left-007.png",
+          "gloamink/frames/attack-left-008.png"
+        ],
+        "frameHoldMs": [
+          83.33333333333333,
+          83.33333333333333,
+          83.33333333333333,
+          83.33333333333333,
+          83.33333333333333,
+          83.33333333333333,
+          83.33333333333333,
+          83.33333333333333,
+          83.33333333333333
+        ],
+        "loop": false,
+        "canvas": {
+          "width": 128,
+          "height": 128
+        },
+        "footOrigin": {
+          "x": 64,
+          "y": 125
+        }
+      },
+      "right": {
+        "source": "gloamink/source/attack-right.sif",
+        "frames": [
+          "gloamink/frames/attack-right-000.png",
+          "gloamink/frames/attack-right-001.png",
+          "gloamink/frames/attack-right-002.png",
+          "gloamink/frames/attack-right-003.png",
+          "gloamink/frames/attack-right-004.png",
+          "gloamink/frames/attack-right-005.png",
+          "gloamink/frames/attack-right-006.png",
+          "gloamink/frames/attack-right-007.png",
+          "gloamink/frames/attack-right-008.png"
+        ],
+        "frameHoldMs": [
+          83.33333333333333,
+          83.33333333333333,
+          83.33333333333333,
+          83.33333333333333,
+          83.33333333333333,
+          83.33333333333333,
+          83.33333333333333,
+          83.33333333333333,
+          83.33333333333333
+        ],
+        "loop": false,
+        "canvas": {
+          "width": 128,
+          "height": 128
+        },
+        "footOrigin": {
+          "x": 64,
+          "y": 125
+        }
+      }
+    },
+    "cast": {
+      "left": {
+        "source": "gloamink/source/cast-left.sif",
+        "frames": [
+          "gloamink/frames/cast-left-000.png",
+          "gloamink/frames/cast-left-001.png",
+          "gloamink/frames/cast-left-002.png",
+          "gloamink/frames/cast-left-003.png",
+          "gloamink/frames/cast-left-004.png",
+          "gloamink/frames/cast-left-005.png",
+          "gloamink/frames/cast-left-006.png",
+          "gloamink/frames/cast-left-007.png",
+          "gloamink/frames/cast-left-008.png",
+          "gloamink/frames/cast-left-009.png",
+          "gloamink/frames/cast-left-010.png",
+          "gloamink/frames/cast-left-011.png"
+        ],
+        "frameHoldMs": [
+          83.33333333333333,
+          83.33333333333333,
+          83.33333333333333,
+          83.33333333333333,
+          83.33333333333333,
+          83.33333333333333,
+          83.33333333333333,
+          83.33333333333333,
+          83.33333333333333,
+          83.33333333333333,
+          83.33333333333333,
+          83.33333333333333
+        ],
+        "loop": false,
+        "canvas": {
+          "width": 128,
+          "height": 128
+        },
+        "footOrigin": {
+          "x": 64,
+          "y": 125
+        }
+      },
+      "right": {
+        "source": "gloamink/source/cast-right.sif",
+        "frames": [
+          "gloamink/frames/cast-right-000.png",
+          "gloamink/frames/cast-right-001.png",
+          "gloamink/frames/cast-right-002.png",
+          "gloamink/frames/cast-right-003.png",
+          "gloamink/frames/cast-right-004.png",
+          "gloamink/frames/cast-right-005.png",
+          "gloamink/frames/cast-right-006.png",
+          "gloamink/frames/cast-right-007.png",
+          "gloamink/frames/cast-right-008.png",
+          "gloamink/frames/cast-right-009.png",
+          "gloamink/frames/cast-right-010.png",
+          "gloamink/frames/cast-right-011.png"
+        ],
+        "frameHoldMs": [
+          83.33333333333333,
+          83.33333333333333,
+          83.33333333333333,
+          83.33333333333333,
+          83.33333333333333,
+          83.33333333333333,
+          83.33333333333333,
+          83.33333333333333,
+          83.33333333333333,
+          83.33333333333333,
+          83.33333333333333,
+          83.33333333333333
+        ],
+        "loop": false,
+        "canvas": {
+          "width": 128,
+          "height": 128
+        },
+        "footOrigin": {
+          "x": 64,
+          "y": 125
+        }
+      }
+    },
+    "hurt": {
+      "left": {
+        "source": "gloamink/source/hit-left.sif",
+        "frames": [
+          "gloamink/frames/hit-left-000.png",
+          "gloamink/frames/hit-left-001.png",
+          "gloamink/frames/hit-left-002.png",
+          "gloamink/frames/hit-left-003.png",
+          "gloamink/frames/hit-left-004.png",
+          "gloamink/frames/hit-left-005.png"
+        ],
+        "frameHoldMs": [
+          83.33333333333333,
+          83.33333333333333,
+          83.33333333333333,
+          83.33333333333333,
+          83.33333333333333,
+          83.33333333333333
+        ],
+        "loop": false,
+        "canvas": {
+          "width": 128,
+          "height": 128
+        },
+        "footOrigin": {
+          "x": 64,
+          "y": 125
+        }
+      },
+      "right": {
+        "source": "gloamink/source/hit-right.sif",
+        "frames": [
+          "gloamink/frames/hit-right-000.png",
+          "gloamink/frames/hit-right-001.png",
+          "gloamink/frames/hit-right-002.png",
+          "gloamink/frames/hit-right-003.png",
+          "gloamink/frames/hit-right-004.png",
+          "gloamink/frames/hit-right-005.png"
+        ],
+        "frameHoldMs": [
+          83.33333333333333,
+          83.33333333333333,
+          83.33333333333333,
+          83.33333333333333,
+          83.33333333333333,
+          83.33333333333333
+        ],
+        "loop": false,
+        "canvas": {
+          "width": 128,
+          "height": 128
+        },
+        "footOrigin": {
+          "x": 64,
+          "y": 125
+        }
+      }
+    },
+    "ko": {
+      "left": {
+        "source": "gloamink/source/defeated-left.sif",
+        "frames": [
+          "gloamink/frames/defeated-left-000.png",
+          "gloamink/frames/defeated-left-001.png",
+          "gloamink/frames/defeated-left-002.png",
+          "gloamink/frames/defeated-left-003.png",
+          "gloamink/frames/defeated-left-004.png",
+          "gloamink/frames/defeated-left-005.png",
+          "gloamink/frames/defeated-left-006.png",
+          "gloamink/frames/defeated-left-007.png",
+          "gloamink/frames/defeated-left-008.png",
+          "gloamink/frames/defeated-left-009.png",
+          "gloamink/frames/defeated-left-010.png",
+          "gloamink/frames/defeated-left-011.png"
+        ],
+        "frameHoldMs": [
+          83.33333333333333,
+          83.33333333333333,
+          83.33333333333333,
+          83.33333333333333,
+          83.33333333333333,
+          83.33333333333333,
+          83.33333333333333,
+          83.33333333333333,
+          83.33333333333333,
+          83.33333333333333,
+          83.33333333333333,
+          83.33333333333333
+        ],
+        "loop": false,
+        "canvas": {
+          "width": 128,
+          "height": 128
+        },
+        "footOrigin": {
+          "x": 64,
+          "y": 125
+        }
+      },
+      "right": {
+        "source": "gloamink/source/defeated-right.sif",
+        "frames": [
+          "gloamink/frames/defeated-right-000.png",
+          "gloamink/frames/defeated-right-001.png",
+          "gloamink/frames/defeated-right-002.png",
+          "gloamink/frames/defeated-right-003.png",
+          "gloamink/frames/defeated-right-004.png",
+          "gloamink/frames/defeated-right-005.png",
+          "gloamink/frames/defeated-right-006.png",
+          "gloamink/frames/defeated-right-007.png",
+          "gloamink/frames/defeated-right-008.png",
+          "gloamink/frames/defeated-right-009.png",
+          "gloamink/frames/defeated-right-010.png",
+          "gloamink/frames/defeated-right-011.png"
+        ],
+        "frameHoldMs": [
+          83.33333333333333,
+          83.33333333333333,
+          83.33333333333333,
+          83.33333333333333,
+          83.33333333333333,
+          83.33333333333333,
+          83.33333333333333,
+          83.33333333333333,
+          83.33333333333333,
+          83.33333333333333,
+          83.33333333333333,
+          83.33333333333333
+        ],
+        "loop": false,
+        "canvas": {
+          "width": 128,
+          "height": 128
+        },
+        "footOrigin": {
+          "x": 64,
+          "y": 125
+        }
+      }
+    },
+    "spawn": {
+      "left": {
+        "source": "gloamink/source/spawn-left.sif",
+        "frames": [
+          "gloamink/frames/spawn-left-000.png",
+          "gloamink/frames/spawn-left-001.png",
+          "gloamink/frames/spawn-left-002.png",
+          "gloamink/frames/spawn-left-003.png",
+          "gloamink/frames/spawn-left-004.png",
+          "gloamink/frames/spawn-left-005.png",
+          "gloamink/frames/spawn-left-006.png",
+          "gloamink/frames/spawn-left-007.png",
+          "gloamink/frames/spawn-left-008.png"
+        ],
+        "frameHoldMs": [
+          83.33333333333333,
+          83.33333333333333,
+          83.33333333333333,
+          83.33333333333333,
+          83.33333333333333,
+          83.33333333333333,
+          83.33333333333333,
+          83.33333333333333,
+          83.33333333333333
+        ],
+        "loop": false,
+        "canvas": {
+          "width": 128,
+          "height": 128
+        },
+        "footOrigin": {
+          "x": 64,
+          "y": 125
+        }
+      },
+      "right": {
+        "source": "gloamink/source/spawn-right.sif",
+        "frames": [
+          "gloamink/frames/spawn-right-000.png",
+          "gloamink/frames/spawn-right-001.png",
+          "gloamink/frames/spawn-right-002.png",
+          "gloamink/frames/spawn-right-003.png",
+          "gloamink/frames/spawn-right-004.png",
+          "gloamink/frames/spawn-right-005.png",
+          "gloamink/frames/spawn-right-006.png",
+          "gloamink/frames/spawn-right-007.png",
+          "gloamink/frames/spawn-right-008.png"
+        ],
+        "frameHoldMs": [
+          83.33333333333333,
+          83.33333333333333,
+          83.33333333333333,
+          83.33333333333333,
+          83.33333333333333,
+          83.33333333333333,
+          83.33333333333333,
+          83.33333333333333,
+          83.33333333333333
+        ],
+        "loop": false,
+        "canvas": {
+          "width": 128,
+          "height": 128
+        },
+        "footOrigin": {
+          "x": 64,
+          "y": 125
+        }
+      }
+    }
+  }
+}

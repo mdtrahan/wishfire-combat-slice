@@ -1,0 +1,13 @@
+{
+  "tool": "image_gen.imagegen",
+  "date": "2026-10-27",
+  "model": "backend model identifier not exposed",
+  "transparent_background": true,
+  "referenced_image_paths": [
+    "/Users/Mace/Codex-Orka/.worktrees/wt-ORKA-6jh1-rust-combat-mvp/experiments/rust-combat-mvp/art/_work/enemy-identities/new/gloamink-source.png"
+  ],
+  "reference_sha256": "aad05cdd034856f285ed6e5c19d25e486e9dbaf7678361b85aefcfa9684934dc",
+  "output": "parts-left-v1.png",
+  "cleanup": "Explicit atlas crops, dominant connected paint island, retain one-pixel antialias fringe, crop to alpha.",
+  "promptSummary": "Create a production cut-out puppet parts sheet of EXACTLY the attached approved creature GLOAMINK. Preserve painted ash grey fur, cream cheek/chest, exact sharp gold eye and swept ears, brown ink outlines, red/navy small gold-edged harness. LEFT FACING. No redesign. Transparent background, no shadows, no labels. Strict 4 columns x 3 rows: head including both ears; torso including chest and harness; tail base; tail tip; near front upper; near front lower and paw; far front upper; far front lower and paw; near rear upper; near rear lower and paw; far rear upper; far rear lower and paw. Complete rounded joint overlaps, same handmade painted style as attached reference."
+}

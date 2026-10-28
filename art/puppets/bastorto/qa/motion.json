@@ -1,0 +1,4284 @@
+{
+  "canvas": [
+    128,
+    128
+  ],
+  "readabilityCanvas": [
+    58,
+    58
+  ],
+  "alphaThreshold": 32,
+  "states": {
+    "idle": [
+      {
+        "frame": 0,
+        "bbox": [
+          9,
+          43,
+          121,
+          124
+        ],
+        "bbox58": [
+          4,
+          19,
+          55,
+          56
+        ],
+        "opaquePixels": 6736,
+        "wrapChangedPixels": 1917
+      },
+      {
+        "frame": 1,
+        "bbox": [
+          9,
+          43,
+          122,
+          124
+        ],
+        "bbox58": [
+          4,
+          19,
+          55,
+          56
+        ],
+        "opaquePixels": 6778,
+        "changedPixels": 1936,
+        "changedPixels58": 451,
+        "meanAbsoluteRGBAChange": 2.818206787109375,
+        "bboxDelta": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "bboxDelta58": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "frame": 2,
+        "bbox": [
+          9,
+          43,
+          122,
+          124
+        ],
+        "bbox58": [
+          4,
+          19,
+          55,
+          56
+        ],
+        "opaquePixels": 6815,
+        "changedPixels": 1624,
+        "changedPixels58": 338,
+        "meanAbsoluteRGBAChange": 2.1123504638671875,
+        "bboxDelta": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "bboxDelta58": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "frame": 3,
+        "bbox": [
+          9,
+          43,
+          122,
+          124
+        ],
+        "bbox58": [
+          4,
+          19,
+          55,
+          56
+        ],
+        "opaquePixels": 6823,
+        "changedPixels": 756,
+        "changedPixels58": 128,
+        "meanAbsoluteRGBAChange": 0.8246612548828125,
+        "bboxDelta": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "bboxDelta58": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "frame": 4,
+        "bbox": [
+          9,
+          43,
+          122,
+          124
+        ],
+        "bbox58": [
+          4,
+          19,
+          55,
+          56
+        ],
+        "opaquePixels": 6815,
+        "changedPixels": 756,
+        "changedPixels58": 128,
+        "meanAbsoluteRGBAChange": 0.8246612548828125,
+        "bboxDelta": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "bboxDelta58": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "frame": 5,
+        "bbox": [
+          9,
+          43,
+          122,
+          124
+        ],
+        "bbox58": [
+          4,
+          19,
+          55,
+          56
+        ],
+        "opaquePixels": 6778,
+        "changedPixels": 1624,
+        "changedPixels58": 338,
+        "meanAbsoluteRGBAChange": 2.1123504638671875,
+        "bboxDelta": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "bboxDelta58": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "frame": 6,
+        "bbox": [
+          9,
+          43,
+          121,
+          124
+        ],
+        "bbox58": [
+          4,
+          19,
+          55,
+          56
+        ],
+        "opaquePixels": 6736,
+        "changedPixels": 1936,
+        "changedPixels58": 451,
+        "meanAbsoluteRGBAChange": 2.818206787109375,
+        "bboxDelta": [
+          0,
+          0,
+          -1,
+          0
+        ],
+        "bboxDelta58": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "frame": 7,
+        "bbox": [
+          9,
+          43,
+          121,
+          124
+        ],
+        "bbox58": [
+          4,
+          19,
+          55,
+          56
+        ],
+        "opaquePixels": 6697,
+        "changedPixels": 1917,
+        "changedPixels58": 453,
+        "meanAbsoluteRGBAChange": 2.830596923828125,
+        "bboxDelta": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "bboxDelta58": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "frame": 8,
+        "bbox": [
+          9,
+          43,
+          121,
+          124
+        ],
+        "bbox58": [
+          4,
+          19,
+          55,
+          56
+        ],
+        "opaquePixels": 6656,
+        "changedPixels": 1625,
+        "changedPixels58": 327,
+        "meanAbsoluteRGBAChange": 2.10430908203125,
+        "bboxDelta": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "bboxDelta58": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "frame": 9,
+        "bbox": [
+          9,
+          43,
+          121,
+          124
+        ],
+        "bbox58": [
+          4,
+          19,
+          55,
+          56
+        ],
+        "opaquePixels": 6652,
+        "changedPixels": 755,
+        "changedPixels58": 128,
+        "meanAbsoluteRGBAChange": 0.842620849609375,
+        "bboxDelta": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "bboxDelta58": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "frame": 10,
+        "bbox": [
+          9,
+          43,
+          121,
+          124
+        ],
+        "bbox58": [
+          4,
+          19,
+          55,
+          56
+        ],
+        "opaquePixels": 6656,
+        "changedPixels": 755,
+        "changedPixels58": 128,
+        "meanAbsoluteRGBAChange": 0.8426361083984375,
+        "bboxDelta": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "bboxDelta58": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "frame": 11,
+        "bbox": [
+          9,
+          43,
+          121,
+          124
+        ],
+        "bbox58": [
+          4,
+          19,
+          55,
+          56
+        ],
+        "opaquePixels": 6697,
+        "changedPixels": 1625,
+        "changedPixels58": 327,
+        "meanAbsoluteRGBAChange": 2.1042938232421875,
+        "bboxDelta": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "bboxDelta58": [
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    ],
+    "walk": [
+      {
+        "frame": 0,
+        "bbox": [
+          9,
+          42,
+          121,
+          124
+        ],
+        "bbox58": [
+          4,
+          19,
+          55,
+          56
+        ],
+        "opaquePixels": 6813,
+        "wrapChangedPixels": 5780
+      },
+      {
+        "frame": 1,
+        "bbox": [
+          9,
+          40,
+          122,
+          124
+        ],
+        "bbox58": [
+          4,
+          18,
+          55,
+          56
+        ],
+        "opaquePixels": 6869,
+        "changedPixels": 6067,
+        "changedPixels58": 1494,
+        "meanAbsoluteRGBAChange": 15.744094848632812,
+        "bboxDelta": [
+          0,
+          -2,
+          1,
+          0
+        ],
+        "bboxDelta58": [
+          0,
+          -1,
+          0,
+          0
+        ]
+      },
+      {
+        "frame": 2,
+        "bbox": [
+          9,
+          35,
+          123,
+          124
+        ],
+        "bbox58": [
+          4,
+          16,
+          56,
+          56
+        ],
+        "opaquePixels": 7123,
+        "changedPixels": 6919,
+        "changedPixels58": 1623,
+        "meanAbsoluteRGBAChange": 21.761917114257812,
+        "bboxDelta": [
+          0,
+          -5,
+          1,
+          0
+        ],
+        "bboxDelta58": [
+          0,
+          -2,
+          1,
+          0
+        ]
+      },
+      {
+        "frame": 3,
+        "bbox": [
+          9,
+          33,
+          123,
+          124
+        ],
+        "bbox58": [
+          4,
+          15,
+          56,
+          56
+        ],
+        "opaquePixels": 7227,
+        "changedPixels": 6121,
+        "changedPixels58": 1560,
+        "meanAbsoluteRGBAChange": 15.111709594726562,
+        "bboxDelta": [
+          0,
+          -2,
+          0,
+          0
+        ],
+        "bboxDelta58": [
+          0,
+          -1,
+          0,
+          0
+        ]
+      },
+      {
+        "frame": 4,
+        "bbox": [
+          9,
+          35,
+          123,
+          124
+        ],
+        "bbox58": [
+          4,
+          16,
+          56,
+          56
+        ],
+        "opaquePixels": 7063,
+        "changedPixels": 6370,
+        "changedPixels58": 1587,
+        "meanAbsoluteRGBAChange": 16.079803466796875,
+        "bboxDelta": [
+          0,
+          2,
+          0,
+          0
+        ],
+        "bboxDelta58": [
+          0,
+          1,
+          0,
+          0
+        ]
+      },
+      {
+        "frame": 5,
+        "bbox": [
+          9,
+          40,
+          123,
+          124
+        ],
+        "bbox58": [
+          4,
+          18,
+          56,
+          56
+        ],
+        "opaquePixels": 6800,
+        "changedPixels": 6877,
+        "changedPixels58": 1634,
+        "meanAbsoluteRGBAChange": 21.647186279296875,
+        "bboxDelta": [
+          0,
+          5,
+          0,
+          0
+        ],
+        "bboxDelta58": [
+          0,
+          2,
+          0,
+          0
+        ]
+      },
+      {
+        "frame": 6,
+        "bbox": [
+          9,
+          42,
+          124,
+          124
+        ],
+        "bbox58": [
+          4,
+          19,
+          56,
+          56
+        ],
+        "opaquePixels": 6778,
+        "changedPixels": 5859,
+        "changedPixels58": 1454,
+        "meanAbsoluteRGBAChange": 15.065658569335938,
+        "bboxDelta": [
+          0,
+          2,
+          1,
+          0
+        ],
+        "bboxDelta58": [
+          0,
+          1,
+          0,
+          0
+        ]
+      },
+      {
+        "frame": 7,
+        "bbox": [
+          9,
+          39,
+          123,
+          124
+        ],
+        "bbox58": [
+          4,
+          18,
+          56,
+          56
+        ],
+        "opaquePixels": 6795,
+        "changedPixels": 6053,
+        "changedPixels58": 1462,
+        "meanAbsoluteRGBAChange": 16.982711791992188,
+        "bboxDelta": [
+          0,
+          -3,
+          -1,
+          0
+        ],
+        "bboxDelta58": [
+          0,
+          -1,
+          0,
+          0
+        ]
+      },
+      {
+        "frame": 8,
+        "bbox": [
+          9,
+          34,
+          122,
+          124
+        ],
+        "bbox58": [
+          4,
+          15,
+          55,
+          56
+        ],
+        "opaquePixels": 7037,
+        "changedPixels": 6927,
+        "changedPixels58": 1633,
+        "meanAbsoluteRGBAChange": 22.669677734375,
+        "bboxDelta": [
+          0,
+          -5,
+          -1,
+          0
+        ],
+        "bboxDelta58": [
+          0,
+          -3,
+          -1,
+          0
+        ]
+      },
+      {
+        "frame": 9,
+        "bbox": [
+          9,
+          31,
+          121,
+          124
+        ],
+        "bbox58": [
+          4,
+          14,
+          55,
+          56
+        ],
+        "opaquePixels": 7153,
+        "changedPixels": 6100,
+        "changedPixels58": 1530,
+        "meanAbsoluteRGBAChange": 15.05419921875,
+        "bboxDelta": [
+          0,
+          -3,
+          -1,
+          0
+        ],
+        "bboxDelta58": [
+          0,
+          -1,
+          0,
+          0
+        ]
+      },
+      {
+        "frame": 10,
+        "bbox": [
+          9,
+          34,
+          121,
+          124
+        ],
+        "bbox58": [
+          4,
+          15,
+          55,
+          56
+        ],
+        "opaquePixels": 7010,
+        "changedPixels": 6329,
+        "changedPixels58": 1585,
+        "meanAbsoluteRGBAChange": 15.782394409179688,
+        "bboxDelta": [
+          0,
+          3,
+          0,
+          0
+        ],
+        "bboxDelta58": [
+          0,
+          1,
+          0,
+          0
+        ]
+      },
+      {
+        "frame": 11,
+        "bbox": [
+          9,
+          39,
+          121,
+          124
+        ],
+        "bbox58": [
+          4,
+          18,
+          55,
+          56
+        ],
+        "opaquePixels": 6787,
+        "changedPixels": 6825,
+        "changedPixels58": 1632,
+        "meanAbsoluteRGBAChange": 21.86138916015625,
+        "bboxDelta": [
+          0,
+          5,
+          0,
+          0
+        ],
+        "bboxDelta58": [
+          0,
+          3,
+          0,
+          0
+        ]
+      }
+    ],
+    "attack": [
+      {
+        "frame": 0,
+        "bbox": [
+          9,
+          43,
+          121,
+          124
+        ],
+        "bbox58": [
+          4,
+          19,
+          55,
+          56
+        ],
+        "opaquePixels": 6736
+      },
+      {
+        "frame": 1,
+        "bbox": [
+          16,
+          44,
+          122,
+          124
+        ],
+        "bbox58": [
+          7,
+          20,
+          56,
+          56
+        ],
+        "opaquePixels": 6551,
+        "changedPixels": 4931,
+        "changedPixels58": 1134,
+        "meanAbsoluteRGBAChange": 14.176651000976562,
+        "bboxDelta": [
+          7,
+          1,
+          1,
+          0
+        ],
+        "bboxDelta58": [
+          3,
+          1,
+          1,
+          0
+        ]
+      },
+      {
+        "frame": 2,
+        "bbox": [
+          20,
+          45,
+          124,
+          124
+        ],
+        "bbox58": [
+          9,
+          20,
+          56,
+          56
+        ],
+        "opaquePixels": 6320,
+        "changedPixels": 4711,
+        "changedPixels58": 1096,
+        "meanAbsoluteRGBAChange": 13.254150390625,
+        "bboxDelta": [
+          4,
+          1,
+          2,
+          0
+        ],
+        "bboxDelta58": [
+          2,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "frame": 3,
+        "bbox": [
+          8,
+          43,
+          119,
+          124
+        ],
+        "bbox58": [
+          3,
+          19,
+          54,
+          56
+        ],
+        "opaquePixels": 6560,
+        "changedPixels": 6356,
+        "changedPixels58": 1454,
+        "meanAbsoluteRGBAChange": 27.16815185546875,
+        "bboxDelta": [
+          -12,
+          -2,
+          -5,
+          0
+        ],
+        "bboxDelta58": [
+          -6,
+          -1,
+          -2,
+          0
+        ]
+      },
+      {
+        "frame": 4,
+        "bbox": [
+          2,
+          42,
+          119,
+          125
+        ],
+        "bbox58": [
+          1,
+          19,
+          54,
+          57
+        ],
+        "opaquePixels": 6721,
+        "changedPixels": 5768,
+        "changedPixels58": 1328,
+        "meanAbsoluteRGBAChange": 19.507659912109375,
+        "bboxDelta": [
+          -6,
+          -1,
+          0,
+          1
+        ],
+        "bboxDelta58": [
+          -2,
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "frame": 5,
+        "bbox": [
+          3,
+          42,
+          119,
+          124
+        ],
+        "bbox58": [
+          1,
+          19,
+          54,
+          56
+        ],
+        "opaquePixels": 6720,
+        "changedPixels": 3841,
+        "changedPixels58": 899,
+        "meanAbsoluteRGBAChange": 7.5999298095703125,
+        "bboxDelta": [
+          1,
+          0,
+          0,
+          -1
+        ],
+        "bboxDelta58": [
+          0,
+          0,
+          0,
+          -1
+        ]
+      },
+      {
+        "frame": 6,
+        "bbox": [
+          5,
+          42,
+          119,
+          124
+        ],
+        "bbox58": [
+          2,
+          19,
+          54,
+          56
+        ],
+        "opaquePixels": 6725,
+        "changedPixels": 5550,
+        "changedPixels58": 1299,
+        "meanAbsoluteRGBAChange": 16.789443969726562,
+        "bboxDelta": [
+          2,
+          0,
+          0,
+          0
+        ],
+        "bboxDelta58": [
+          1,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "frame": 7,
+        "bbox": [
+          8,
+          43,
+          119,
+          124
+        ],
+        "bbox58": [
+          3,
+          19,
+          54,
+          56
+        ],
+        "opaquePixels": 6727,
+        "changedPixels": 5435,
+        "changedPixels58": 1299,
+        "meanAbsoluteRGBAChange": 16.30389404296875,
+        "bboxDelta": [
+          3,
+          1,
+          0,
+          0
+        ],
+        "bboxDelta58": [
+          1,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "frame": 8,
+        "bbox": [
+          9,
+          43,
+          121,
+          124
+        ],
+        "bbox58": [
+          4,
+          19,
+          55,
+          56
+        ],
+        "opaquePixels": 6736,
+        "changedPixels": 4491,
+        "changedPixels58": 1115,
+        "meanAbsoluteRGBAChange": 10.496353149414062,
+        "bboxDelta": [
+          1,
+          0,
+          2,
+          0
+        ],
+        "bboxDelta58": [
+          1,
+          0,
+          1,
+          0
+        ]
+      }
+    ],
+    "cast": [
+      {
+        "frame": 0,
+        "bbox": [
+          9,
+          43,
+          121,
+          124
+        ],
+        "bbox58": [
+          4,
+          19,
+          55,
+          56
+        ],
+        "opaquePixels": 6736
+      },
+      {
+        "frame": 1,
+        "bbox": [
+          10,
+          40,
+          121,
+          124
+        ],
+        "bbox58": [
+          4,
+          18,
+          55,
+          56
+        ],
+        "opaquePixels": 6863,
+        "changedPixels": 4528,
+        "changedPixels58": 1051,
+        "meanAbsoluteRGBAChange": 11.264785766601562,
+        "bboxDelta": [
+          1,
+          -3,
+          0,
+          0
+        ],
+        "bboxDelta58": [
+          0,
+          -1,
+          0,
+          0
+        ]
+      },
+      {
+        "frame": 2,
+        "bbox": [
+          15,
+          32,
+          121,
+          124
+        ],
+        "bbox58": [
+          6,
+          14,
+          55,
+          56
+        ],
+        "opaquePixels": 7163,
+        "changedPixels": 5762,
+        "changedPixels58": 1342,
+        "meanAbsoluteRGBAChange": 19.487075805664062,
+        "bboxDelta": [
+          5,
+          -8,
+          0,
+          0
+        ],
+        "bboxDelta58": [
+          2,
+          -4,
+          0,
+          0
+        ]
+      },
+      {
+        "frame": 3,
+        "bbox": [
+          20,
+          25,
+          120,
+          124
+        ],
+        "bbox58": [
+          9,
+          11,
+          55,
+          56
+        ],
+        "opaquePixels": 7496,
+        "changedPixels": 6107,
+        "changedPixels58": 1402,
+        "meanAbsoluteRGBAChange": 21.40789794921875,
+        "bboxDelta": [
+          5,
+          -7,
+          -1,
+          0
+        ],
+        "bboxDelta58": [
+          3,
+          -3,
+          0,
+          0
+        ]
+      },
+      {
+        "frame": 4,
+        "bbox": [
+          20,
+          16,
+          119,
+          124
+        ],
+        "bbox58": [
+          9,
+          7,
+          54,
+          56
+        ],
+        "opaquePixels": 7826,
+        "changedPixels": 6521,
+        "changedPixels58": 1460,
+        "meanAbsoluteRGBAChange": 22.934600830078125,
+        "bboxDelta": [
+          0,
+          -9,
+          -1,
+          0
+        ],
+        "bboxDelta58": [
+          0,
+          -4,
+          -1,
+          0
+        ]
+      },
+      {
+        "frame": 5,
+        "bbox": [
+          20,
+          16,
+          119,
+          124
+        ],
+        "bbox58": [
+          9,
+          7,
+          54,
+          56
+        ],
+        "opaquePixels": 7826,
+        "changedPixels": 0,
+        "changedPixels58": 0,
+        "meanAbsoluteRGBAChange": 0.0,
+        "bboxDelta": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "bboxDelta58": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "frame": 6,
+        "bbox": [
+          20,
+          18,
+          119,
+          124
+        ],
+        "bbox58": [
+          9,
+          8,
+          54,
+          56
+        ],
+        "opaquePixels": 7771,
+        "changedPixels": 3910,
+        "changedPixels58": 908,
+        "meanAbsoluteRGBAChange": 7.5518646240234375,
+        "bboxDelta": [
+          0,
+          2,
+          0,
+          0
+        ],
+        "bboxDelta58": [
+          0,
+          1,
+          0,
+          0
+        ]
+      },
+      {
+        "frame": 7,
+        "bbox": [
+          20,
+          21,
+          119,
+          124
+        ],
+        "bbox58": [
+          9,
+          9,
+          54,
+          56
+        ],
+        "opaquePixels": 7641,
+        "changedPixels": 5255,
+        "changedPixels58": 1165,
+        "meanAbsoluteRGBAChange": 13.3201904296875,
+        "bboxDelta": [
+          0,
+          3,
+          0,
+          0
+        ],
+        "bboxDelta58": [
+          0,
+          1,
+          0,
+          0
+        ]
+      },
+      {
+        "frame": 8,
+        "bbox": [
+          19,
+          27,
+          120,
+          124
+        ],
+        "bbox58": [
+          9,
+          12,
+          55,
+          56
+        ],
+        "opaquePixels": 7384,
+        "changedPixels": 5951,
+        "changedPixels58": 1327,
+        "meanAbsoluteRGBAChange": 19.108108520507812,
+        "bboxDelta": [
+          -1,
+          6,
+          1,
+          0
+        ],
+        "bboxDelta58": [
+          0,
+          3,
+          1,
+          0
+        ]
+      },
+      {
+        "frame": 9,
+        "bbox": [
+          14,
+          34,
+          121,
+          124
+        ],
+        "bbox58": [
+          6,
+          15,
+          55,
+          56
+        ],
+        "opaquePixels": 7096,
+        "changedPixels": 5824,
+        "changedPixels58": 1346,
+        "meanAbsoluteRGBAChange": 19.311798095703125,
+        "bboxDelta": [
+          -5,
+          7,
+          1,
+          0
+        ],
+        "bboxDelta58": [
+          -3,
+          3,
+          0,
+          0
+        ]
+      },
+      {
+        "frame": 10,
+        "bbox": [
+          10,
+          40,
+          121,
+          124
+        ],
+        "bbox58": [
+          4,
+          18,
+          55,
+          56
+        ],
+        "opaquePixels": 6863,
+        "changedPixels": 5450,
+        "changedPixels58": 1261,
+        "meanAbsoluteRGBAChange": 17.039321899414062,
+        "bboxDelta": [
+          -4,
+          6,
+          0,
+          0
+        ],
+        "bboxDelta58": [
+          -2,
+          3,
+          0,
+          0
+        ]
+      },
+      {
+        "frame": 11,
+        "bbox": [
+          9,
+          43,
+          121,
+          124
+        ],
+        "bbox58": [
+          4,
+          19,
+          55,
+          56
+        ],
+        "opaquePixels": 6736,
+        "changedPixels": 4528,
+        "changedPixels58": 1051,
+        "meanAbsoluteRGBAChange": 11.264724731445312,
+        "bboxDelta": [
+          -1,
+          3,
+          0,
+          0
+        ],
+        "bboxDelta58": [
+          0,
+          1,
+          0,
+          0
+        ]
+      }
+    ],
+    "hit": [
+      {
+        "frame": 0,
+        "bbox": [
+          9,
+          43,
+          121,
+          124
+        ],
+        "bbox58": [
+          4,
+          19,
+          55,
+          56
+        ],
+        "opaquePixels": 6736
+      },
+      {
+        "frame": 1,
+        "bbox": [
+          20,
+          48,
+          126,
+          124
+        ],
+        "bbox58": [
+          9,
+          22,
+          57,
+          56
+        ],
+        "opaquePixels": 4607,
+        "changedPixels": 6075,
+        "changedPixels58": 1398,
+        "meanAbsoluteRGBAChange": 35.280792236328125,
+        "bboxDelta": [
+          11,
+          5,
+          5,
+          0
+        ],
+        "bboxDelta58": [
+          5,
+          3,
+          2,
+          0
+        ]
+      },
+      {
+        "frame": 2,
+        "bbox": [
+          20,
+          48,
+          125,
+          124
+        ],
+        "bbox58": [
+          9,
+          21,
+          57,
+          56
+        ],
+        "opaquePixels": 4824,
+        "changedPixels": 3010,
+        "changedPixels58": 718,
+        "meanAbsoluteRGBAChange": 7.4136199951171875,
+        "bboxDelta": [
+          0,
+          0,
+          -1,
+          0
+        ],
+        "bboxDelta58": [
+          0,
+          -1,
+          0,
+          0
+        ]
+      },
+      {
+        "frame": 3,
+        "bbox": [
+          20,
+          47,
+          123,
+          124
+        ],
+        "bbox58": [
+          9,
+          21,
+          56,
+          56
+        ],
+        "opaquePixels": 5651,
+        "changedPixels": 4376,
+        "changedPixels58": 1044,
+        "meanAbsoluteRGBAChange": 17.513656616210938,
+        "bboxDelta": [
+          0,
+          -1,
+          -2,
+          0
+        ],
+        "bboxDelta58": [
+          0,
+          0,
+          -1,
+          0
+        ]
+      },
+      {
+        "frame": 4,
+        "bbox": [
+          15,
+          46,
+          122,
+          124
+        ],
+        "bbox58": [
+          6,
+          21,
+          55,
+          56
+        ],
+        "opaquePixels": 6450,
+        "changedPixels": 4847,
+        "changedPixels58": 1148,
+        "meanAbsoluteRGBAChange": 17.591278076171875,
+        "bboxDelta": [
+          -5,
+          -1,
+          -1,
+          0
+        ],
+        "bboxDelta58": [
+          -3,
+          0,
+          -1,
+          0
+        ]
+      },
+      {
+        "frame": 5,
+        "bbox": [
+          9,
+          43,
+          121,
+          124
+        ],
+        "bbox58": [
+          4,
+          19,
+          55,
+          56
+        ],
+        "opaquePixels": 6736,
+        "changedPixels": 3887,
+        "changedPixels58": 860,
+        "meanAbsoluteRGBAChange": 8.67767333984375,
+        "bboxDelta": [
+          -6,
+          -3,
+          -1,
+          0
+        ],
+        "bboxDelta58": [
+          -2,
+          -2,
+          0,
+          0
+        ]
+      }
+    ],
+    "defeated": [
+      {
+        "frame": 0,
+        "bbox": [
+          9,
+          43,
+          121,
+          124
+        ],
+        "bbox58": [
+          4,
+          19,
+          55,
+          56
+        ],
+        "opaquePixels": 6736
+      },
+      {
+        "frame": 1,
+        "bbox": [
+          20,
+          50,
+          122,
+          124
+        ],
+        "bbox58": [
+          9,
+          23,
+          55,
+          57
+        ],
+        "opaquePixels": 5687,
+        "changedPixels": 6450,
+        "changedPixels58": 1523,
+        "meanAbsoluteRGBAChange": 24.410400390625,
+        "bboxDelta": [
+          11,
+          7,
+          1,
+          0
+        ],
+        "bboxDelta58": [
+          5,
+          4,
+          0,
+          1
+        ]
+      },
+      {
+        "frame": 2,
+        "bbox": [
+          31,
+          54,
+          122,
+          125
+        ],
+        "bbox58": [
+          14,
+          24,
+          56,
+          57
+        ],
+        "opaquePixels": 4731,
+        "changedPixels": 5413,
+        "changedPixels58": 1285,
+        "meanAbsoluteRGBAChange": 20.355941772460938,
+        "bboxDelta": [
+          11,
+          4,
+          0,
+          1
+        ],
+        "bboxDelta58": [
+          5,
+          1,
+          1,
+          0
+        ]
+      },
+      {
+        "frame": 3,
+        "bbox": [
+          41,
+          58,
+          123,
+          125
+        ],
+        "bbox58": [
+          19,
+          26,
+          56,
+          57
+        ],
+        "opaquePixels": 3925,
+        "changedPixels": 4499,
+        "changedPixels58": 1082,
+        "meanAbsoluteRGBAChange": 16.774887084960938,
+        "bboxDelta": [
+          10,
+          4,
+          1,
+          0
+        ],
+        "bboxDelta58": [
+          5,
+          2,
+          0,
+          0
+        ]
+      },
+      {
+        "frame": 4,
+        "bbox": [
+          52,
+          62,
+          123,
+          124
+        ],
+        "bbox58": [
+          23,
+          28,
+          56,
+          57
+        ],
+        "opaquePixels": 3236,
+        "changedPixels": 3698,
+        "changedPixels58": 899,
+        "meanAbsoluteRGBAChange": 13.50921630859375,
+        "bboxDelta": [
+          11,
+          4,
+          0,
+          -1
+        ],
+        "bboxDelta58": [
+          4,
+          2,
+          0,
+          0
+        ]
+      },
+      {
+        "frame": 5,
+        "bbox": [
+          57,
+          66,
+          124,
+          124
+        ],
+        "bbox58": [
+          26,
+          30,
+          56,
+          56
+        ],
+        "opaquePixels": 2748,
+        "changedPixels": 3068,
+        "changedPixels58": 763,
+        "meanAbsoluteRGBAChange": 10.430511474609375,
+        "bboxDelta": [
+          5,
+          4,
+          1,
+          0
+        ],
+        "bboxDelta58": [
+          3,
+          2,
+          0,
+          -1
+        ]
+      },
+      {
+        "frame": 6,
+        "bbox": [
+          59,
+          69,
+          125,
+          125
+        ],
+        "bbox58": [
+          27,
+          31,
+          57,
+          57
+        ],
+        "opaquePixels": 2473,
+        "changedPixels": 2636,
+        "changedPixels58": 671,
+        "meanAbsoluteRGBAChange": 8.317474365234375,
+        "bboxDelta": [
+          2,
+          3,
+          1,
+          1
+        ],
+        "bboxDelta58": [
+          1,
+          1,
+          1,
+          1
+        ]
+      },
+      {
+        "frame": 7,
+        "bbox": [
+          59,
+          70,
+          125,
+          125
+        ],
+        "bbox58": [
+          27,
+          31,
+          57,
+          57
+        ],
+        "opaquePixels": 2451,
+        "changedPixels": 1264,
+        "changedPixels58": 268,
+        "meanAbsoluteRGBAChange": 1.5032958984375,
+        "bboxDelta": [
+          0,
+          1,
+          0,
+          0
+        ],
+        "bboxDelta58": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "frame": 8,
+        "bbox": [
+          59,
+          70,
+          125,
+          125
+        ],
+        "bbox58": [
+          27,
+          31,
+          57,
+          57
+        ],
+        "opaquePixels": 2451,
+        "changedPixels": 0,
+        "changedPixels58": 0,
+        "meanAbsoluteRGBAChange": 0.0,
+        "bboxDelta": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "bboxDelta58": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "frame": 9,
+        "bbox": [
+          59,
+          70,
+          125,
+          125
+        ],
+        "bbox58": [
+          27,
+          31,
+          57,
+          57
+        ],
+        "opaquePixels": 2451,
+        "changedPixels": 0,
+        "changedPixels58": 0,
+        "meanAbsoluteRGBAChange": 0.0,
+        "bboxDelta": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "bboxDelta58": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "frame": 10,
+        "bbox": [
+          59,
+          70,
+          125,
+          125
+        ],
+        "bbox58": [
+          27,
+          31,
+          57,
+          57
+        ],
+        "opaquePixels": 2451,
+        "changedPixels": 0,
+        "changedPixels58": 0,
+        "meanAbsoluteRGBAChange": 0.0,
+        "bboxDelta": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "bboxDelta58": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "frame": 11,
+        "bbox": [
+          59,
+          70,
+          125,
+          125
+        ],
+        "bbox58": [
+          27,
+          31,
+          57,
+          57
+        ],
+        "opaquePixels": 2451,
+        "changedPixels": 0,
+        "changedPixels58": 0,
+        "meanAbsoluteRGBAChange": 0.0,
+        "bboxDelta": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "bboxDelta58": [
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    ],
+    "spawn": [
+      {
+        "frame": 0,
+        "bbox": [
+          62,
+          58,
+          121,
+          125
+        ],
+        "bbox58": [
+          28,
+          26,
+          55,
+          57
+        ],
+        "opaquePixels": 2677
+      },
+      {
+        "frame": 1,
+        "bbox": [
+          60,
+          57,
+          122,
+          124
+        ],
+        "bbox58": [
+          27,
+          25,
+          55,
+          56
+        ],
+        "opaquePixels": 2823,
+        "changedPixels": 2319,
+        "changedPixels58": 638,
+        "meanAbsoluteRGBAChange": 5.6104278564453125,
+        "bboxDelta": [
+          -2,
+          -1,
+          1,
+          -1
+        ],
+        "bboxDelta58": [
+          -1,
+          -1,
+          0,
+          -1
+        ]
+      },
+      {
+        "frame": 2,
+        "bbox": [
+          54,
+          54,
+          122,
+          122
+        ],
+        "bbox58": [
+          24,
+          24,
+          55,
+          56
+        ],
+        "opaquePixels": 3206,
+        "changedPixels": 2934,
+        "changedPixels58": 760,
+        "meanAbsoluteRGBAChange": 9.215988159179688,
+        "bboxDelta": [
+          -6,
+          -3,
+          0,
+          -2
+        ],
+        "bboxDelta58": [
+          -3,
+          -1,
+          0,
+          0
+        ]
+      },
+      {
+        "frame": 3,
+        "bbox": [
+          39,
+          50,
+          122,
+          122
+        ],
+        "bbox58": [
+          17,
+          22,
+          55,
+          55
+        ],
+        "opaquePixels": 4345,
+        "changedPixels": 4251,
+        "changedPixels58": 1020,
+        "meanAbsoluteRGBAChange": 18.392120361328125,
+        "bboxDelta": [
+          -15,
+          -4,
+          0,
+          0
+        ],
+        "bboxDelta58": [
+          -7,
+          -2,
+          0,
+          -1
+        ]
+      },
+      {
+        "frame": 4,
+        "bbox": [
+          15,
+          46,
+          121,
+          124
+        ],
+        "bbox58": [
+          7,
+          20,
+          55,
+          56
+        ],
+        "opaquePixels": 6165,
+        "changedPixels": 6121,
+        "changedPixels58": 1435,
+        "meanAbsoluteRGBAChange": 29.260528564453125,
+        "bboxDelta": [
+          -24,
+          -4,
+          -1,
+          2
+        ],
+        "bboxDelta58": [
+          -10,
+          -2,
+          0,
+          1
+        ]
+      },
+      {
+        "frame": 5,
+        "bbox": [
+          9,
+          43,
+          121,
+          124
+        ],
+        "bbox58": [
+          4,
+          19,
+          55,
+          56
+        ],
+        "opaquePixels": 6790,
+        "changedPixels": 5533,
+        "changedPixels58": 1331,
+        "meanAbsoluteRGBAChange": 16.3043212890625,
+        "bboxDelta": [
+          -6,
+          -3,
+          0,
+          0
+        ],
+        "bboxDelta58": [
+          -3,
+          -1,
+          0,
+          0
+        ]
+      },
+      {
+        "frame": 6,
+        "bbox": [
+          9,
+          43,
+          122,
+          124
+        ],
+        "bbox58": [
+          4,
+          19,
+          55,
+          56
+        ],
+        "opaquePixels": 6781,
+        "changedPixels": 1103,
+        "changedPixels58": 225,
+        "meanAbsoluteRGBAChange": 1.2659149169921875,
+        "bboxDelta": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "bboxDelta58": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "frame": 7,
+        "bbox": [
+          9,
+          43,
+          122,
+          124
+        ],
+        "bbox58": [
+          4,
+          19,
+          55,
+          56
+        ],
+        "opaquePixels": 6762,
+        "changedPixels": 1333,
+        "changedPixels58": 295,
+        "meanAbsoluteRGBAChange": 1.9017791748046875,
+        "bboxDelta": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "bboxDelta58": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "frame": 8,
+        "bbox": [
+          9,
+          43,
+          121,
+          124
+        ],
+        "bbox58": [
+          4,
+          19,
+          55,
+          56
+        ],
+        "opaquePixels": 6736,
+        "changedPixels": 1410,
+        "changedPixels58": 331,
+        "meanAbsoluteRGBAChange": 2.177703857421875,
+        "bboxDelta": [
+          0,
+          0,
+          -1,
+          0
+        ],
+        "bboxDelta58": [
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    ]
+  },
+  "authoredAmplitudes": {
+    "walkBodyBobCanvas": 10,
+    "walkBodyBob58": 4.53125,
+    "walkShellRockPeakToPeakDegrees": 10,
+    "walkLegLiftCanvas": 9,
+    "walkLegLift58": 4.078125,
+    "attackBodyTravelFromAnticipationCanvas": 22,
+    "attackBodyTravel58": 9.96875,
+    "castBodyLiftCanvas": 12,
+    "castBodyLift58": 5.4375
+  },
+  "landmarks": {
+    "idle": [
+      {
+        "frame": 0,
+        "frontShell": [
+          63.16,
+          85.0
+        ],
+        "body": [
+          64.0,
+          80.0
+        ],
+        "toes": {
+          "foot_front_near": [
+            75.0,
+            123.5
+          ],
+          "foot_rear_near": [
+            107.0,
+            123.5
+          ],
+          "foot_front_far": [
+            34.0,
+            123.5
+          ],
+          "foot_rear_far": [
+            59.0,
+            123.5
+          ]
+        }
+      },
+      {
+        "frame": 1,
+        "frontShell": [
+          63.049161509737004,
+          84.54574407993503
+        ],
+        "body": [
+          64.0,
+          80.0
+        ],
+        "toes": {
+          "foot_front_near": [
+            75.0,
+            123.5
+          ],
+          "foot_rear_near": [
+            107.0,
+            123.5
+          ],
+          "foot_front_far": [
+            34.0,
+            123.5
+          ],
+          "foot_rear_far": [
+            59.0,
+            123.5
+          ]
+        }
+      },
+      {
+        "frame": 2,
+        "frontShell": [
+          62.96868790452902,
+          84.21406450669782
+        ],
+        "body": [
+          64.0,
+          80.0
+        ],
+        "toes": {
+          "foot_front_near": [
+            75.0,
+            123.5
+          ],
+          "foot_rear_near": [
+            107.0,
+            123.5
+          ],
+          "foot_front_far": [
+            34.0,
+            123.5
+          ],
+          "foot_rear_far": [
+            59.0,
+            123.5
+          ]
+        }
+      },
+      {
+        "frame": 3,
+        "frontShell": [
+          62.93937433032224,
+          84.09284227367931
+        ],
+        "body": [
+          64.0,
+          80.0
+        ],
+        "toes": {
+          "foot_front_near": [
+            75.0,
+            123.5
+          ],
+          "foot_rear_near": [
+            107.0,
+            123.5
+          ],
+          "foot_front_far": [
+            34.0,
+            123.5
+          ],
+          "foot_rear_far": [
+            59.0,
+            123.5
+          ]
+        }
+      },
+      {
+        "frame": 4,
+        "frontShell": [
+          62.96868790452902,
+          84.21406450669782
+        ],
+        "body": [
+          64.0,
+          80.0
+        ],
+        "toes": {
+          "foot_front_near": [
+            75.0,
+            123.5
+          ],
+          "foot_rear_near": [
+            107.0,
+            123.5
+          ],
+          "foot_front_far": [
+            34.0,
+            123.5
+          ],
+          "foot_rear_far": [
+            59.0,
+            123.5
+          ]
+        }
+      },
+      {
+        "frame": 5,
+        "frontShell": [
+          63.049161509737004,
+          84.54574407993503
+        ],
+        "body": [
+          64.0,
+          80.0
+        ],
+        "toes": {
+          "foot_front_near": [
+            75.0,
+            123.5
+          ],
+          "foot_rear_near": [
+            107.0,
+            123.5
+          ],
+          "foot_front_far": [
+            34.0,
+            123.5
+          ],
+          "foot_rear_far": [
+            59.0,
+            123.5
+          ]
+        }
+      },
+      {
+        "frame": 6,
+        "frontShell": [
+          63.16,
+          85.0
+        ],
+        "body": [
+          64.0,
+          80.0
+        ],
+        "toes": {
+          "foot_front_near": [
+            75.0,
+            123.5
+          ],
+          "foot_rear_near": [
+            107.0,
+            123.5
+          ],
+          "foot_front_far": [
+            34.0,
+            123.5
+          ],
+          "foot_rear_far": [
+            59.0,
+            123.5
+          ]
+        }
+      },
+      {
+        "frame": 7,
+        "frontShell": [
+          63.27187735428094,
+          85.45561643066206
+        ],
+        "body": [
+          64.0,
+          80.0
+        ],
+        "toes": {
+          "foot_front_near": [
+            75.0,
+            123.5
+          ],
+          "foot_rear_near": [
+            107.0,
+            123.5
+          ],
+          "foot_front_far": [
+            34.0,
+            123.5
+          ],
+          "foot_rear_far": [
+            59.0,
+            123.5
+          ]
+        }
+      },
+      {
+        "frame": 8,
+        "frontShell": [
+          63.35442866814192,
+          85.7900169743252
+        ],
+        "body": [
+          64.0,
+          80.0
+        ],
+        "toes": {
+          "foot_front_near": [
+            75.0,
+            123.5
+          ],
+          "foot_rear_near": [
+            107.0,
+            123.5
+          ],
+          "foot_front_far": [
+            34.0,
+            123.5
+          ],
+          "foot_rear_far": [
+            59.0,
+            123.5
+          ]
+        }
+      },
+      {
+        "frame": 9,
+        "frontShell": [
+          63.38478108698379,
+          85.91259966717274
+        ],
+        "body": [
+          64.0,
+          80.0
+        ],
+        "toes": {
+          "foot_front_near": [
+            75.0,
+            123.5
+          ],
+          "foot_rear_near": [
+            107.0,
+            123.5
+          ],
+          "foot_front_far": [
+            34.0,
+            123.5
+          ],
+          "foot_rear_far": [
+            59.0,
+            123.5
+          ]
+        }
+      },
+      {
+        "frame": 10,
+        "frontShell": [
+          63.35442866814192,
+          85.7900169743252
+        ],
+        "body": [
+          64.0,
+          80.0
+        ],
+        "toes": {
+          "foot_front_near": [
+            75.0,
+            123.5
+          ],
+          "foot_rear_near": [
+            107.0,
+            123.5
+          ],
+          "foot_front_far": [
+            34.0,
+            123.5
+          ],
+          "foot_rear_far": [
+            59.0,
+            123.5
+          ]
+        }
+      },
+      {
+        "frame": 11,
+        "frontShell": [
+          63.27187735428094,
+          85.45561643066206
+        ],
+        "body": [
+          64.0,
+          80.0
+        ],
+        "toes": {
+          "foot_front_near": [
+            75.0,
+            123.5
+          ],
+          "foot_rear_near": [
+            107.0,
+            123.5
+          ],
+          "foot_front_far": [
+            34.0,
+            123.5
+          ],
+          "foot_rear_far": [
+            59.0,
+            123.5
+          ]
+        }
+      }
+    ],
+    "walk": [
+      {
+        "frame": 0,
+        "frontShell": [
+          63.16,
+          85.0
+        ],
+        "body": [
+          64.0,
+          80.0
+        ],
+        "toes": {
+          "foot_front_near": [
+            79.5,
+            123.5
+          ],
+          "foot_rear_near": [
+            102.5,
+            123.5
+          ],
+          "foot_front_far": [
+            29.5,
+            123.5
+          ],
+          "foot_rear_far": [
+            63.5,
+            123.5
+          ]
+        }
+      },
+      {
+        "frame": 1,
+        "frontShell": [
+          63.32089025036277,
+          83.21233373920866
+        ],
+        "body": [
+          64.0,
+          77.5
+        ],
+        "toes": {
+          "foot_front_near": [
+            78.89711431702997,
+            119.0
+          ],
+          "foot_rear_near": [
+            103.10288568297003,
+            123.5
+          ],
+          "foot_front_far": [
+            30.10288568297002,
+            123.5
+          ],
+          "foot_rear_far": [
+            62.897114317029974,
+            119.0
+          ]
+        }
+      },
+      {
+        "frame": 2,
+        "frontShell": [
+          63.508656516989504,
+          79.1079381089652
+        ],
+        "body": [
+          64.0,
+          72.5
+        ],
+        "toes": {
+          "foot_front_near": [
+            77.25,
+            115.70577136594005
+          ],
+          "foot_rear_near": [
+            104.75,
+            123.5
+          ],
+          "foot_front_far": [
+            31.749999999999996,
+            123.50000000000003
+          ],
+          "foot_rear_far": [
+            61.25,
+            115.70577136594005
+          ]
+        }
+      },
+      {
+        "frame": 3,
+        "frontShell": [
+          63.616586597460355,
+          77.45275060769474
+        ],
+        "body": [
+          64.0,
+          70.0
+        ],
+        "toes": {
+          "foot_front_near": [
+            75.0,
+            114.50000000000001
+          ],
+          "foot_rear_near": [
+            107.00000000000001,
+            123.5
+          ],
+          "foot_front_far": [
+            34.0,
+            123.5
+          ],
+          "foot_rear_far": [
+            59.0,
+            114.5
+          ]
+        }
+      },
+      {
+        "frame": 4,
+        "frontShell": [
+          63.55105624609763,
+          80.14630329663838
+        ],
+        "body": [
+          64.0,
+          72.5
+        ],
+        "toes": {
+          "foot_front_near": [
+            72.74999999999999,
+            115.70577136594007
+          ],
+          "foot_rear_near": [
+            109.25000000000003,
+            123.5
+          ],
+          "foot_front_far": [
+            36.24999999999999,
+            123.5
+          ],
+          "foot_rear_far": [
+            56.75,
+            115.70577136594005
+          ]
+        }
+      },
+      {
+        "frame": 5,
+        "frontShell": [
+          63.34537427618648,
+          84.25127576477094
+        ],
+        "body": [
+          64.0,
+          77.5
+        ],
+        "toes": {
+          "foot_front_near": [
+            71.10288568297003,
+            119.0
+          ],
+          "foot_rear_near": [
+            110.89711431702997,
+            123.5
+          ],
+          "foot_front_far": [
+            37.897114317029974,
+            123.5
+          ],
+          "foot_rear_far": [
+            55.10288568297002,
+            119.00000000000001
+          ]
+        }
+      },
+      {
+        "frame": 6,
+        "frontShell": [
+          63.16,
+          85.0
+        ],
+        "body": [
+          64.0,
+          80.0
+        ],
+        "toes": {
+          "foot_front_near": [
+            70.5,
+            123.5
+          ],
+          "foot_rear_near": [
+            111.5,
+            123.5
+          ],
+          "foot_front_far": [
+            38.5,
+            123.5
+          ],
+          "foot_rear_far": [
+            54.5,
+            123.5
+          ]
+        }
+      },
+      {
+        "frame": 7,
+        "frontShell": [
+          63.10977662785039,
+          80.74594853740906
+        ],
+        "body": [
+          64.0,
+          77.5
+        ],
+        "toes": {
+          "foot_front_near": [
+            71.10288568297003,
+            123.5
+          ],
+          "foot_rear_near": [
+            110.89711431702999,
+            119.0
+          ],
+          "foot_front_far": [
+            37.897114317029974,
+            119.00000000000001
+          ],
+          "foot_rear_far": [
+            55.102885682970026,
+            123.5
+          ]
+        }
+      },
+      {
+        "frame": 8,
+        "frontShell": [
+          63.14306466252867,
+          74.84537038036575
+        ],
+        "body": [
+          64.0,
+          72.5
+        ],
+        "toes": {
+          "foot_front_near": [
+            72.75,
+            123.5
+          ],
+          "foot_rear_near": [
+            109.25,
+            115.70577136594005
+          ],
+          "foot_front_far": [
+            36.25,
+            115.70577136594005
+          ],
+          "foot_rear_far": [
+            56.75,
+            123.5
+          ]
+        }
+      },
+      {
+        "frame": 9,
+        "frontShell": [
+          63.145522090363926,
+          72.53614814192495
+        ],
+        "body": [
+          64.0,
+          70.0
+        ],
+        "toes": {
+          "foot_front_near": [
+            75.0,
+            123.5
+          ],
+          "foot_rear_near": [
+            107.0,
+            114.5
+          ],
+          "foot_front_far": [
+            33.99999999999999,
+            114.5
+          ],
+          "foot_rear_far": [
+            59.0,
+            123.50000000000001
+          ]
+        }
+      },
+      {
+        "frame": 10,
+        "frontShell": [
+          63.100664933420546,
+          75.88373556803892
+        ],
+        "body": [
+          64.0,
+          72.5
+        ],
+        "toes": {
+          "foot_front_near": [
+            77.25000000000001,
+            123.5
+          ],
+          "foot_rear_near": [
+            104.75,
+            115.70577136594005
+          ],
+          "foot_front_far": [
+            31.749999999999996,
+            115.70577136594004
+          ],
+          "foot_rear_far": [
+            61.25,
+            123.5
+          ]
+        }
+      },
+      {
+        "frame": 11,
+        "frontShell": [
+          63.085292602026676,
+          81.78489056297134
+        ],
+        "body": [
+          64.0,
+          77.5
+        ],
+        "toes": {
+          "foot_front_near": [
+            78.89711431702997,
+            123.5
+          ],
+          "foot_rear_near": [
+            103.10288568297003,
+            119.0
+          ],
+          "foot_front_far": [
+            30.102885682970026,
+            118.99999999999999
+          ],
+          "foot_rear_far": [
+            62.89711431702997,
+            123.5
+          ]
+        }
+      }
+    ],
+    "attack": [
+      {
+        "frame": 0,
+        "frontShell": [
+          63.16,
+          85.0
+        ],
+        "body": [
+          64,
+          80.0
+        ],
+        "toes": {
+          "foot_front_near": [
+            75.0,
+            123.5
+          ],
+          "foot_rear_near": [
+            107.0,
+            123.5
+          ],
+          "foot_front_far": [
+            34.0,
+            123.5
+          ],
+          "foot_rear_far": [
+            59.0,
+            123.5
+          ]
+        }
+      },
+      {
+        "frame": 1,
+        "frontShell": [
+          64.84880981217961,
+          86.0842307815622
+        ],
+        "body": [
+          68.0,
+          81.0
+        ],
+        "toes": {
+          "foot_front_near": [
+            74.99999999999999,
+            123.5
+          ],
+          "foot_rear_near": [
+            107.0,
+            123.5
+          ],
+          "foot_front_far": [
+            34.00000000000001,
+            123.49999999999999
+          ],
+          "foot_rear_far": [
+            59.0,
+            123.5
+          ]
+        }
+      },
+      {
+        "frame": 2,
+        "frontShell": [
+          66.54312761339614,
+          87.29284429360246
+        ],
+        "body": [
+          72,
+          82.0
+        ],
+        "toes": {
+          "foot_front_near": [
+            75.0,
+            123.5
+          ],
+          "foot_rear_near": [
+            106.99999999999999,
+            123.5
+          ],
+          "foot_front_far": [
+            34.00000000000001,
+            123.5
+          ],
+          "foot_rear_far": [
+            59.0,
+            123.5
+          ]
+        }
+      },
+      {
+        "frame": 3,
+        "frontShell": [
+          53.026987421936404,
+          84.4703442932992
+        ],
+        "body": [
+          57.6,
+          79.6
+        ],
+        "toes": {
+          "foot_front_near": [
+            75.0,
+            123.5
+          ],
+          "foot_rear_near": [
+            107.0,
+            123.5
+          ],
+          "foot_front_far": [
+            34.0,
+            123.5
+          ],
+          "foot_rear_far": [
+            59.0,
+            123.5
+          ]
+        }
+      },
+      {
+        "frame": 4,
+        "frontShell": [
+          44.874082907395135,
+          83.15377044983326
+        ],
+        "body": [
+          50,
+          78.5
+        ],
+        "toes": {
+          "foot_front_near": [
+            74.99999999999999,
+            123.5
+          ],
+          "foot_rear_near": [
+            106.99999999999997,
+            123.5
+          ],
+          "foot_front_far": [
+            34.0,
+            123.5
+          ],
+          "foot_rear_far": [
+            58.99999999999999,
+            123.5
+          ]
+        }
+      },
+      {
+        "frame": 5,
+        "frontShell": [
+          46.70079779977789,
+          83.36423712257113
+        ],
+        "body": [
+          51.4,
+          78.65
+        ],
+        "toes": {
+          "foot_front_near": [
+            75.0,
+            123.5
+          ],
+          "foot_rear_near": [
+            107.0,
+            123.49999999999999
+          ],
+          "foot_front_far": [
+            34.0,
+            123.5
+          ],
+          "foot_rear_far": [
+            59.0,
+            123.5
+          ]
+        }
+      },
+      {
+        "frame": 6,
+        "frontShell": [
+          54.01281697292495,
+          84.14873299157595
+        ],
+        "body": [
+          57.0,
+          79.25
+        ],
+        "toes": {
+          "foot_front_near": [
+            75.0,
+            123.49999999999999
+          ],
+          "foot_rear_near": [
+            107.00000000000001,
+            123.5
+          ],
+          "foot_front_far": [
+            34.0,
+            123.5
+          ],
+          "foot_rear_far": [
+            58.99999999999999,
+            123.5
+          ]
+        }
+      },
+      {
+        "frame": 7,
+        "frontShell": [
+          60.415399614433156,
+          84.75972690100218
+        ],
+        "body": [
+          61.9,
+          79.775
+        ],
+        "toes": {
+          "foot_front_near": [
+            75.0,
+            123.5
+          ],
+          "foot_rear_near": [
+            107.0,
+            123.49999999999999
+          ],
+          "foot_front_far": [
+            34.0,
+            123.5
+          ],
+          "foot_rear_far": [
+            59.0,
+            123.5
+          ]
+        }
+      },
+      {
+        "frame": 8,
+        "frontShell": [
+          63.16,
+          85.0
+        ],
+        "body": [
+          64,
+          80.0
+        ],
+        "toes": {
+          "foot_front_near": [
+            75.0,
+            123.5
+          ],
+          "foot_rear_near": [
+            107.0,
+            123.5
+          ],
+          "foot_front_far": [
+            34.0,
+            123.5
+          ],
+          "foot_rear_far": [
+            59.0,
+            123.5
+          ]
+        }
+      }
+    ],
+    "cast": [
+      {
+        "frame": 0,
+        "frontShell": [
+          63.16,
+          85.0
+        ],
+        "body": [
+          64.0,
+          80
+        ],
+        "toes": {
+          "foot_front_near": [
+            75.0,
+            123.5
+          ],
+          "foot_rear_near": [
+            107.0,
+            123.5
+          ],
+          "foot_front_far": [
+            34.0,
+            123.5
+          ],
+          "foot_rear_far": [
+            59.0,
+            123.5
+          ]
+        }
+      },
+      {
+        "frame": 1,
+        "frontShell": [
+          62.92753073131796,
+          83.42715932932921
+        ],
+        "body": [
+          64.0,
+          78.8
+        ],
+        "toes": {
+          "foot_front_near": [
+            75.0,
+            123.5
+          ],
+          "foot_rear_near": [
+            107.0,
+            123.5
+          ],
+          "foot_front_far": [
+            34.0,
+            123.5
+          ],
+          "foot_rear_far": [
+            59.0,
+            123.5
+          ]
+        }
+      },
+      {
+        "frame": 2,
+        "frontShell": [
+          62.43399686239282,
+          79.45473162661736
+        ],
+        "body": [
+          64.0,
+          75.8
+        ],
+        "toes": {
+          "foot_front_near": [
+            75.0,
+            123.5
+          ],
+          "foot_rear_near": [
+            107.0,
+            123.5
+          ],
+          "foot_front_far": [
+            34.0,
+            123.50000000000001
+          ],
+          "foot_rear_far": [
+            59.0,
+            123.5
+          ]
+        }
+      },
+      {
+        "frame": 3,
+        "frontShell": [
+          62.013056743376296,
+          74.62661016384239
+        ],
+        "body": [
+          64.0,
+          72.2
+        ],
+        "toes": {
+          "foot_front_near": [
+            75.0,
+            123.5
+          ],
+          "foot_rear_near": [
+            107.0,
+            123.5
+          ],
+          "foot_front_far": [
+            34.0,
+            123.5
+          ],
+          "foot_rear_far": [
+            59.0,
+            123.5
+          ]
+        }
+      },
+      {
+        "frame": 4,
+        "frontShell": [
+          61.76703022429391,
+          68.9387372483008
+        ],
+        "body": [
+          64.0,
+          68
+        ],
+        "toes": {
+          "foot_front_near": [
+            75.0,
+            123.5
+          ],
+          "foot_rear_near": [
+            106.99999999999999,
+            123.5
+          ],
+          "foot_front_far": [
+            33.999999999999986,
+            123.50000000000001
+          ],
+          "foot_rear_far": [
+            59.0,
+            123.50000000000001
+          ]
+        }
+      },
+      {
+        "frame": 5,
+        "frontShell": [
+          61.76703022429391,
+          68.9387372483008
+        ],
+        "body": [
+          64.0,
+          68
+        ],
+        "toes": {
+          "foot_front_near": [
+            75.0,
+            123.5
+          ],
+          "foot_rear_near": [
+            106.99999999999999,
+            123.5
+          ],
+          "foot_front_far": [
+            33.999999999999986,
+            123.50000000000001
+          ],
+          "foot_rear_far": [
+            59.0,
+            123.50000000000001
+          ]
+        }
+      },
+      {
+        "frame": 6,
+        "frontShell": [
+          61.790131192338976,
+          69.91650711855476
+        ],
+        "body": [
+          64.0,
+          68.72
+        ],
+        "toes": {
+          "foot_front_near": [
+            75.0,
+            123.5
+          ],
+          "foot_rear_near": [
+            107.0,
+            123.5
+          ],
+          "foot_front_far": [
+            34.0,
+            123.5
+          ],
+          "foot_rear_far": [
+            58.99999999999999,
+            123.5
+          ]
+        }
+      },
+      {
+        "frame": 7,
+        "frontShell": [
+          61.874838898625,
+          72.19423818922746
+        ],
+        "body": [
+          64.0,
+          70.4
+        ],
+        "toes": {
+          "foot_front_near": [
+            75.0,
+            123.5
+          ],
+          "foot_rear_near": [
+            106.99999999999999,
+            123.50000000000001
+          ],
+          "foot_front_far": [
+            34.0,
+            123.5
+          ],
+          "foot_rear_far": [
+            58.999999999999986,
+            123.5
+          ]
+        }
+      },
+      {
+        "frame": 8,
+        "frontShell": [
+          62.132162818133324,
+          76.24213191524068
+        ],
+        "body": [
+          64.0,
+          73.4
+        ],
+        "toes": {
+          "foot_front_near": [
+            75.0,
+            123.50000000000001
+          ],
+          "foot_rear_near": [
+            107.00000000000001,
+            123.5
+          ],
+          "foot_front_far": [
+            34.00000000000001,
+            123.5
+          ],
+          "foot_rear_far": [
+            59.0,
+            123.5
+          ]
+        }
+      },
+      {
+        "frame": 9,
+        "frontShell": [
+          62.52250555390759,
+          80.2534167049767
+        ],
+        "body": [
+          64.0,
+          76.4
+        ],
+        "toes": {
+          "foot_front_near": [
+            75.0,
+            123.5
+          ],
+          "foot_rear_near": [
+            107.0,
+            123.5
+          ],
+          "foot_front_far": [
+            34.0,
+            123.5
+          ],
+          "foot_rear_far": [
+            59.0,
+            123.5
+          ]
+        }
+      },
+      {
+        "frame": 10,
+        "frontShell": [
+          62.92753073131796,
+          83.42715932932921
+        ],
+        "body": [
+          64.0,
+          78.8
+        ],
+        "toes": {
+          "foot_front_near": [
+            75.0,
+            123.5
+          ],
+          "foot_rear_near": [
+            107.0,
+            123.5
+          ],
+          "foot_front_far": [
+            34.0,
+            123.5
+          ],
+          "foot_rear_far": [
+            59.0,
+            123.5
+          ]
+        }
+      },
+      {
+        "frame": 11,
+        "frontShell": [
+          63.16,
+          85.0
+        ],
+        "body": [
+          64.0,
+          80
+        ],
+        "toes": {
+          "foot_front_near": [
+            75.0,
+            123.5
+          ],
+          "foot_rear_near": [
+            107.0,
+            123.5
+          ],
+          "foot_front_far": [
+            34.0,
+            123.5
+          ],
+          "foot_rear_far": [
+            59.0,
+            123.5
+          ]
+        }
+      }
+    ],
+    "hit": [
+      {
+        "frame": 0,
+        "frontShell": [
+          63.16,
+          85.0
+        ],
+        "body": [
+          64,
+          80
+        ],
+        "toes": {
+          "foot_front_near": [
+            75.0,
+            123.5
+          ],
+          "foot_rear_near": [
+            107.0,
+            123.5
+          ],
+          "foot_front_far": [
+            34.0,
+            123.5
+          ],
+          "foot_rear_far": [
+            59.0,
+            123.5
+          ]
+        }
+      },
+      {
+        "frame": 1,
+        "frontShell": [
+          68.19815375243266,
+          85.54296697819645
+        ],
+        "body": [
+          67,
+          82
+        ],
+        "toes": {
+          "foot_front_near": [
+            75.0,
+            123.5
+          ],
+          "foot_rear_near": [
+            107.0,
+            123.5
+          ],
+          "foot_front_far": [
+            34.0,
+            123.5
+          ],
+          "foot_rear_far": [
+            59.0,
+            123.5
+          ]
+        }
+      },
+      {
+        "frame": 2,
+        "frontShell": [
+          67.2856565033854,
+          85.44505403790248
+        ],
+        "body": [
+          66.46,
+          81.64
+        ],
+        "toes": {
+          "foot_front_near": [
+            75.0,
+            123.5
+          ],
+          "foot_rear_near": [
+            107.0,
+            123.5
+          ],
+          "foot_front_far": [
+            34.0,
+            123.5
+          ],
+          "foot_rear_far": [
+            59.0,
+            123.5
+          ]
+        }
+      },
+      {
+        "frame": 3,
+        "frontShell": [
+          65.1661057720603,
+          85.21696303044735
+        ],
+        "body": [
+          65.2,
+          80.8
+        ],
+        "toes": {
+          "foot_front_near": [
+            75.0,
+            123.5
+          ],
+          "foot_rear_near": [
+            107.0,
+            123.5
+          ],
+          "foot_front_far": [
+            34.0,
+            123.5
+          ],
+          "foot_rear_far": [
+            59.0,
+            123.5
+          ]
+        }
+      },
+      {
+        "frame": 4,
+        "frontShell": [
+          63.66038162383164,
+          85.05423076693329
+        ],
+        "body": [
+          64.3,
+          80.2
+        ],
+        "toes": {
+          "foot_front_near": [
+            75.0,
+            123.5
+          ],
+          "foot_rear_near": [
+            107.0,
+            123.5
+          ],
+          "foot_front_far": [
+            34.0,
+            123.5
+          ],
+          "foot_rear_far": [
+            59.0,
+            123.5
+          ]
+        }
+      },
+      {
+        "frame": 5,
+        "frontShell": [
+          63.16,
+          85.0
+        ],
+        "body": [
+          64,
+          80
+        ],
+        "toes": {
+          "foot_front_near": [
+            75.0,
+            123.5
+          ],
+          "foot_rear_near": [
+            107.0,
+            123.5
+          ],
+          "foot_front_far": [
+            34.0,
+            123.5
+          ],
+          "foot_rear_far": [
+            59.0,
+            123.5
+          ]
+        }
+      }
+    ],
+    "defeated": [
+      {
+        "frame": 0,
+        "frontShell": [
+          63.16,
+          85.0
+        ],
+        "body": [
+          64.0,
+          80.0
+        ],
+        "toes": {
+          "foot_front_near": [
+            75.0,
+            123.5
+          ],
+          "foot_rear_near": [
+            107.0,
+            123.5
+          ],
+          "foot_front_far": [
+            34.0,
+            123.5
+          ],
+          "foot_rear_far": [
+            59.0,
+            123.5
+          ]
+        }
+      },
+      {
+        "frame": 1,
+        "frontShell": [
+          63.10770229574612,
+          88.93605115549248
+        ],
+        "body": [
+          64.0,
+          82.78181818181818
+        ],
+        "toes": {
+          "foot_front_near": [
+            76.84278433583427,
+            123.36771421256947
+          ],
+          "foot_rear_near": [
+            103.60249134350939,
+            122.90911605694511
+          ],
+          "foot_front_far": [
+            42.55690973225052,
+            123.95529309946316
+          ],
+          "foot_rear_far": [
+            63.4629308319967,
+            123.59701329038164
+          ]
+        }
+      },
+      {
+        "frame": 2,
+        "frontShell": [
+          63.09857101776977,
+          92.87850006656267
+        ],
+        "body": [
+          64.0,
+          85.56363636363636
+        ],
+        "toes": {
+          "foot_front_near": [
+            78.58860888494486,
+            123.18584729368297
+          ],
+          "foot_rear_near": [
+            100.10324026456648,
+            122.44821074809892
+          ],
+          "foot_front_far": [
+            51.02298742980467,
+            124.13094411771249
+          ],
+          "foot_rear_far": [
+            67.83129319513407,
+            123.55466556647497
+          ]
+        }
+      },
+      {
+        "frame": 3,
+        "frontShell": [
+          63.132921545411435,
+          96.8260927168512
+        ],
+        "body": [
+          64.0,
+          88.34545454545454
+        ],
+        "toes": {
+          "foot_front_near": [
+            80.23632932301138,
+            122.9568718113806
+          ],
+          "foot_rear_near": [
+            96.50571659055913,
+            122.11975954482422
+          ],
+          "foot_front_far": [
+            59.39117688646579,
+            124.02942190290594
+          ],
+          "foot_rear_far": [
+            72.1016356892375,
+            123.37542794465878
+          ]
+        }
+      },
+      {
+        "frame": 4,
+        "frontShell": [
+          63.21103559778079,
+          100.77756238536499
+        ],
+        "body": [
+          64.0,
+          91.12727272727273
+        ],
+        "toes": {
+          "foot_front_near": [
+            81.78485768126325,
+            122.6832847552279
+          ],
+          "foot_rear_near": [
+            92.81344474835967,
+            121.92615695222185
+          ],
+          "foot_front_far": [
+            67.65448050154593,
+            123.65335475282942
+          ],
+          "foot_rear_far": [
+            76.27056414771502,
+            123.06184865673092
+          ]
+        }
+      },
+      {
+        "frame": 5,
+        "frontShell": [
+          63.33316076688796,
+          104.73163053150782
+        ],
+        "body": [
+          64.0,
+          93.9090909090909
+        ],
+        "toes": {
+          "foot_front_near": [
+            83.23316284334112,
+            122.36760632950741
+          ],
+          "foot_rear_near": [
+            89.03000200472405,
+            121.86971537108508
+          ],
+          "foot_front_far": [
+            75.80596266781923,
+            123.00552911998604
+          ],
+          "foot_rear_far": [
+            80.33474326264965,
+            122.61655180871858
+          ]
+        }
+      },
+      {
+        "frame": 6,
+        "frontShell": [
+          63.499510074188805,
+          108.68700769637695
+        ],
+        "body": [
+          64.0,
+          96.69090909090909
+        ],
+        "toes": {
+          "foot_front_near": [
+            84.58027101732281,
+            122.01237873662342
+          ],
+          "foot_rear_near": [
+            85.1590166838289,
+            121.95266399644436
+          ],
+          "foot_front_far": [
+            83.8387531321119,
+            122.08888824747784
+          ],
+          "foot_rear_far": [
+            84.29089818406977,
+            122.04223610671295
+          ]
+        }
+      },
+      {
+        "frame": 7,
+        "frontShell": [
+          63.520731289224955,
+          109.1265184960221
+        ],
+        "body": [
+          64.0,
+          97
+        ],
+        "toes": {
+          "foot_front_near": [
+            84.72366262485556,
+            121.97057883612563
+          ],
+          "foot_rear_near": [
+            84.72366262485556,
+            121.97057883612563
+          ],
+          "foot_front_far": [
+            84.72366262485556,
+            121.97057883612563
+          ],
+          "foot_rear_far": [
+            84.72366262485556,
+            121.97057883612563
+          ]
+        }
+      },
+      {
+        "frame": 8,
+        "frontShell": [
+          63.520731289224955,
+          109.1265184960221
+        ],
+        "body": [
+          64.0,
+          97
+        ],
+        "toes": {
+          "foot_front_near": [
+            84.72366262485556,
+            121.97057883612563
+          ],
+          "foot_rear_near": [
+            84.72366262485556,
+            121.97057883612563
+          ],
+          "foot_front_far": [
+            84.72366262485556,
+            121.97057883612563
+          ],
+          "foot_rear_far": [
+            84.72366262485556,
+            121.97057883612563
+          ]
+        }
+      },
+      {
+        "frame": 9,
+        "frontShell": [
+          63.520731289224955,
+          109.1265184960221
+        ],
+        "body": [
+          64.0,
+          97
+        ],
+        "toes": {
+          "foot_front_near": [
+            84.72366262485556,
+            121.97057883612563
+          ],
+          "foot_rear_near": [
+            84.72366262485556,
+            121.97057883612563
+          ],
+          "foot_front_far": [
+            84.72366262485556,
+            121.97057883612563
+          ],
+          "foot_rear_far": [
+            84.72366262485556,
+            121.97057883612563
+          ]
+        }
+      },
+      {
+        "frame": 10,
+        "frontShell": [
+          63.520731289224955,
+          109.1265184960221
+        ],
+        "body": [
+          64.0,
+          97
+        ],
+        "toes": {
+          "foot_front_near": [
+            84.72366262485556,
+            121.97057883612563
+          ],
+          "foot_rear_near": [
+            84.72366262485556,
+            121.97057883612563
+          ],
+          "foot_front_far": [
+            84.72366262485556,
+            121.97057883612563
+          ],
+          "foot_rear_far": [
+            84.72366262485556,
+            121.97057883612563
+          ]
+        }
+      },
+      {
+        "frame": 11,
+        "frontShell": [
+          63.520731289224955,
+          109.1265184960221
+        ],
+        "body": [
+          64.0,
+          97
+        ],
+        "toes": {
+          "foot_front_near": [
+            84.72366262485556,
+            121.97057883612563
+          ],
+          "foot_rear_near": [
+            84.72366262485556,
+            121.97057883612563
+          ],
+          "foot_front_far": [
+            84.72366262485556,
+            121.97057883612563
+          ],
+          "foot_rear_far": [
+            84.72366262485556,
+            121.97057883612563
+          ]
+        }
+      }
+    ],
+    "spawn": [
+      {
+        "frame": 0,
+        "frontShell": [
+          63.16,
+          97.0
+        ],
+        "body": [
+          64.0,
+          92
+        ],
+        "toes": {
+          "foot_front_near": [
+            82.0,
+            119.0
+          ],
+          "foot_rear_near": [
+            82.0,
+            119.0
+          ],
+          "foot_front_far": [
+            82.0,
+            119.0
+          ],
+          "foot_rear_far": [
+            82.0,
+            119.0
+          ]
+        }
+      },
+      {
+        "frame": 1,
+        "frontShell": [
+          63.16,
+          95.27463313526982
+        ],
+        "body": [
+          64.0,
+          91.04
+        ],
+        "toes": {
+          "foot_front_near": [
+            81.44,
+            119.36000000000001
+          ],
+          "foot_rear_near": [
+            84.0,
+            119.36000000000001
+          ],
+          "foot_front_far": [
+            78.16,
+            119.36000000000001
+          ],
+          "foot_rear_far": [
+            80.16,
+            119.36000000000001
+          ]
+        }
+      },
+      {
+        "frame": 2,
+        "frontShell": [
+          63.16,
+          92.58578643762691
+        ],
+        "body": [
+          64.0,
+          89.0
+        ],
+        "toes": {
+          "foot_front_near": [
+            80.25,
+            120.125
+          ],
+          "foot_rear_near": [
+            88.25,
+            120.125
+          ],
+          "foot_front_far": [
+            70.0,
+            120.125
+          ],
+          "foot_rear_far": [
+            76.25,
+            120.125
+          ]
+        }
+      },
+      {
+        "frame": 3,
+        "frontShell": [
+          63.16,
+          88.55224093497743
+        ],
+        "body": [
+          64.0,
+          85.4
+        ],
+        "toes": {
+          "foot_front_near": [
+            78.15,
+            121.47500000000001
+          ],
+          "foot_rear_near": [
+            95.75,
+            121.47500000000001
+          ],
+          "foot_front_far": [
+            55.6,
+            121.47500000000001
+          ],
+          "foot_rear_far": [
+            69.35,
+            121.47500000000001
+          ]
+        }
+      },
+      {
+        "frame": 4,
+        "frontShell": [
+          63.16,
+          84.2
+        ],
+        "body": [
+          64.0,
+          81.2
+        ],
+        "toes": {
+          "foot_front_near": [
+            75.7,
+            123.05000000000001
+          ],
+          "foot_rear_near": [
+            104.5,
+            123.05000000000001
+          ],
+          "foot_front_far": [
+            38.8,
+            123.05000000000001
+          ],
+          "foot_rear_far": [
+            61.3,
+            123.05000000000001
+          ]
+        }
+      },
+      {
+        "frame": 5,
+        "frontShell": [
+          63.16,
+          83.15224093497743
+        ],
+        "body": [
+          64.0,
+          80
+        ],
+        "toes": {
+          "foot_front_near": [
+            75.0,
+            123.5
+          ],
+          "foot_rear_near": [
+            107.0,
+            123.5
+          ],
+          "foot_front_far": [
+            34.0,
+            123.5
+          ],
+          "foot_rear_far": [
+            59.0,
+            123.5
+          ]
+        }
+      },
+      {
+        "frame": 6,
+        "frontShell": [
+          63.16,
+          83.58578643762691
+        ],
+        "body": [
+          64.0,
+          80
+        ],
+        "toes": {
+          "foot_front_near": [
+            75.0,
+            123.5
+          ],
+          "foot_rear_near": [
+            107.0,
+            123.5
+          ],
+          "foot_front_far": [
+            34.0,
+            123.5
+          ],
+          "foot_rear_far": [
+            59.0,
+            123.5
+          ]
+        }
+      },
+      {
+        "frame": 7,
+        "frontShell": [
+          63.16,
+          84.23463313526982
+        ],
+        "body": [
+          64.0,
+          80
+        ],
+        "toes": {
+          "foot_front_near": [
+            75.0,
+            123.5
+          ],
+          "foot_rear_near": [
+            107.0,
+            123.5
+          ],
+          "foot_front_far": [
+            34.0,
+            123.5
+          ],
+          "foot_rear_far": [
+            59.0,
+            123.5
+          ]
+        }
+      },
+      {
+        "frame": 8,
+        "frontShell": [
+          63.16,
+          85.0
+        ],
+        "body": [
+          64.0,
+          80
+        ],
+        "toes": {
+          "foot_front_near": [
+            75.0,
+            123.5
+          ],
+          "foot_rear_near": [
+            107.0,
+            123.5
+          ],
+          "foot_front_far": [
+            34.0,
+            123.5
+          ],
+          "foot_rear_far": [
+            59.0,
+            123.5
+          ]
+        }
+      }
+    ]
+  },
+  "measuredRigAmplitudes": {
+    "castFrontShellLiftCanvas": 16.061262751699203,
+    "castFrontShellLift58": 7.277759684363701,
+    "walkBodyBobCanvas": 10.0,
+    "attackTravelCanvas": 22,
+    "walkToeLiftCanvas": 9.000000000000028,
+    "walkToeLift58": 4.078125000000012,
+    "attackTravel58": 9.96875,
+    "walkBodyBob58": 4.53125,
+    "attackForwardFromNeutralCanvas": 14,
+    "attackForwardFromNeutral58": 6.34375
+  },
+  "measurementsNote": "Bounds and pixel deltas are measured from exported RGBA. Amplitudes and planted toes are independently reconstructed from native rig transforms. 58 values multiply canvas pixels by 58/128. Purposeful identical holds remain explicit."
+}

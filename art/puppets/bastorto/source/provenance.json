@@ -1,0 +1,24 @@
+{
+  "bead": "ORKA-6jh1.8",
+  "approvedRound": 2,
+  "rejectedInputsUsed": false,
+  "method": "built-in image_gen reference-attached nine-part transparent atlas; Pillow dominant-island cleanup; original approved face/neck and visible shell recovered by masks; native Synfig bone_link rig; 1024 render reduced with Lanczos to 128 RGBA",
+  "generator": "image_gen.imagegen",
+  "generatedImageId": "01a1812c-1467-7803-b34a-481846cc803e",
+  "sourceReferences": [
+    "experiments/rust-combat-mvp/art/_work/enemy-identities/new/bastorto-source.png",
+    "experiments/rust-combat-mvp/art/_work/enemy-identities/new/bastorto-128.png"
+  ],
+  "inputHashes": {
+    "approved-bastorto-source.png": "0b21347a6e740c7b2e6a5ad3ab8a435420c7d6798d0f91ee9f72a40f948d6c56",
+    "approved-bastorto-128.png": "504a4d386f1375c19ad65432e7c53b0ff9268aba193118e68438fc27908c2e4e",
+    "parts-left-v1.png": "a886ea945522085c920f09e878af2f22bc3fe72ad6b1734a033b0a6d49ac9293"
+  },
+  "pipelineReferences": [
+    "gloamink/source/prepare.py",
+    "fizzmite/source/build.py",
+    "web-runner/assets/puppets/skeleton/README.md",
+    "web-runner/assets/puppets/chimerilass/"
+  ],
+  "paintedEffects": []
+}

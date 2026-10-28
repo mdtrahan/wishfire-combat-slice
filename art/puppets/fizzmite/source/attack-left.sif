@@ -1,0 +1,4175 @@
+<?xml version="1.0"?>
+<canvas version="1.0" width="256" height="256" view-box="0 256 256 0" fps="12" begin-time="0f" end-time="0.75s" bgcolor="0 0 0 0">
+<name>Fizzmite attack left</name>
+<bones>
+<bone_root type="bone_object" guid="9AB633E5829DFE6CC522AC06029845E2"/>
+<bone type="bone_object" guid="864A7F45F8844A8623D2512635F9FBB3">
+<name>
+<string>body</string>
+</name>
+<parent>
+<bone_valuenode type="bone_object" guid="9AB633E5829DFE6CC522AC06029845E2"/>
+</parent>
+<origin>
+<animated type="vector">
+<waypoint time="0.00000000s" before="linear" after="linear">
+<vector>
+<x>128.0000000</x>
+<y>96.0000000</y>
+</vector>
+</waypoint>
+<waypoint time="0.08333333s" before="linear" after="linear">
+<vector>
+<x>129.6250000</x>
+<y>96.1496180</y>
+</vector>
+</waypoint>
+<waypoint time="0.16666667s" before="linear" after="linear">
+<vector>
+<x>130.2500000</x>
+<y>95.5205379</y>
+</vector>
+</waypoint>
+<waypoint time="0.25000000s" before="linear" after="linear">
+<vector>
+<x>125.1250000</x>
+<y>96.7035000</y>
+</vector>
+</waypoint>
+<waypoint time="0.33333333s" before="linear" after="linear">
+<vector>
+<x>124.5000000</x>
+<y>95.4559789</y>
+</vector>
+</waypoint>
+<waypoint time="0.41666667s" before="linear" after="linear">
+<vector>
+<x>132.1250000</x>
+<y>95.9170976</y>
+</vector>
+</waypoint>
+<waypoint time="0.50000000s" before="linear" after="linear">
+<vector>
+<x>123.2500000</x>
+<y>96.9754318</y>
+</vector>
+</waypoint>
+<waypoint time="0.58333333s" before="linear" after="linear">
+<vector>
+<x>133.3750000</x>
+<y>94.2926545</y>
+</vector>
+</waypoint>
+<waypoint time="0.66666667s" before="linear" after="linear">
+<vector>
+<x>122.0000000</x>
+<y>97.8258905</y>
+</vector>
+</waypoint>
+</animated>
+</origin>
+<angle>
+<animated type="angle">
+<waypoint time="0.00000000s" before="linear" after="linear">
+<angle value="0.00000000"/>
+</waypoint>
+<waypoint time="0.08333333s" before="linear" after="linear">
+<angle value="0.00000000"/>
+</waypoint>
+<waypoint time="0.16666667s" before="linear" after="linear">
+<angle value="0.00000000"/>
+</waypoint>
+<waypoint time="0.25000000s" before="linear" after="linear">
+<angle value="0.00000000"/>
+</waypoint>
+<waypoint time="0.33333333s" before="linear" after="linear">
+<angle value="0.00000000"/>
+</waypoint>
+<waypoint time="0.41666667s" before="linear" after="linear">
+<angle value="0.00000000"/>
+</waypoint>
+<waypoint time="0.50000000s" before="linear" after="linear">
+<angle value="0.00000000"/>
+</waypoint>
+<waypoint time="0.58333333s" before="linear" after="linear">
+<angle value="0.00000000"/>
+</waypoint>
+<waypoint time="0.66666667s" before="linear" after="linear">
+<angle value="0.00000000"/>
+</waypoint>
+</animated>
+</angle>
+<scalelx>
+<real value="1"/>
+</scalelx>
+<scalex>
+<real value="1"/>
+</scalex>
+<width>
+<real value=".1"/>
+</width>
+<tipwidth>
+<real value=".1"/>
+</tipwidth>
+<bone_depth>
+<real value="0"/>
+</bone_depth>
+<length>
+<real value="1"/>
+</length>
+</bone>
+<bone type="bone_object" guid="232D21EF37165A7BF17AF70AFE2CE699">
+<name>
+<string>underbody</string>
+</name>
+<parent>
+<bone_valuenode type="bone_object" guid="864A7F45F8844A8623D2512635F9FBB3"/>
+</parent>
+<origin>
+<animated type="vector">
+<waypoint time="0.00000000s" before="linear" after="linear">
+<vector>
+<x>-11.0000000</x>
+<y>-47.0000000</y>
+</vector>
+</waypoint>
+<waypoint time="0.08333333s" before="linear" after="linear">
+<vector>
+<x>-11.0000000</x>
+<y>-47.0000000</y>
+</vector>
+</waypoint>
+<waypoint time="0.16666667s" before="linear" after="linear">
+<vector>
+<x>-11.0000000</x>
+<y>-47.0000000</y>
+</vector>
+</waypoint>
+<waypoint time="0.25000000s" before="linear" after="linear">
+<vector>
+<x>-11.0000000</x>
+<y>-47.0000000</y>
+</vector>
+</waypoint>
+<waypoint time="0.33333333s" before="linear" after="linear">
+<vector>
+<x>-11.0000000</x>
+<y>-47.0000000</y>
+</vector>
+</waypoint>
+<waypoint time="0.41666667s" before="linear" after="linear">
+<vector>
+<x>-11.0000000</x>
+<y>-47.0000000</y>
+</vector>
+</waypoint>
+<waypoint time="0.50000000s" before="linear" after="linear">
+<vector>
+<x>-11.0000000</x>
+<y>-47.0000000</y>
+</vector>
+</waypoint>
+<waypoint time="0.58333333s" before="linear" after="linear">
+<vector>
+<x>-11.0000000</x>
+<y>-47.0000000</y>
+</vector>
+</waypoint>
+<waypoint time="0.66666667s" before="linear" after="linear">
+<vector>
+<x>-11.0000000</x>
+<y>-47.0000000</y>
+</vector>
+</waypoint>
+</animated>
+</origin>
+<angle>
+<animated type="angle">
+<waypoint time="0.00000000s" before="linear" after="linear">
+<angle value="0.00000000"/>
+</waypoint>
+<waypoint time="0.08333333s" before="linear" after="linear">
+<angle value="0.00000000"/>
+</waypoint>
+<waypoint time="0.16666667s" before="linear" after="linear">
+<angle value="0.00000000"/>
+</waypoint>
+<waypoint time="0.25000000s" before="linear" after="linear">
+<angle value="0.00000000"/>
+</waypoint>
+<waypoint time="0.33333333s" before="linear" after="linear">
+<angle value="0.00000000"/>
+</waypoint>
+<waypoint time="0.41666667s" before="linear" after="linear">
+<angle value="0.00000000"/>
+</waypoint>
+<waypoint time="0.50000000s" before="linear" after="linear">
+<angle value="0.00000000"/>
+</waypoint>
+<waypoint time="0.58333333s" before="linear" after="linear">
+<angle value="0.00000000"/>
+</waypoint>
+<waypoint time="0.66666667s" before="linear" after="linear">
+<angle value="0.00000000"/>
+</waypoint>
+</animated>
+</angle>
+<scalelx>
+<real value="1"/>
+</scalelx>
+<scalex>
+<real value="1"/>
+</scalex>
+<width>
+<real value=".1"/>
+</width>
+<tipwidth>
+<real value=".1"/>
+</tipwidth>
+<bone_depth>
+<real value="0"/>
+</bone_depth>
+<length>
+<real value="1"/>
+</length>
+</bone>
+<bone type="bone_object" guid="704D366CFAE53F1D457518054DEBB6AF">
+<name>
+<string>shell</string>
+</name>
+<parent>
+<bone_valuenode type="bone_object" guid="864A7F45F8844A8623D2512635F9FBB3"/>
+</parent>
+<origin>
+<animated type="vector">
+<waypoint time="0.00000000s" before="linear" after="linear">
+<vector>
+<x>44.0000000</x>
+<y>5.0000000</y>
+</vector>
+</waypoint>
+<waypoint time="0.08333333s" before="linear" after="linear">
+<vector>
+<x>44.0000000</x>
+<y>5.0000000</y>
+</vector>
+</waypoint>
+<waypoint time="0.16666667s" before="linear" after="linear">
+<vector>
+<x>44.0000000</x>
+<y>5.0000000</y>
+</vector>
+</waypoint>
+<waypoint time="0.25000000s" before="linear" after="linear">
+<vector>
+<x>44.0000000</x>
+<y>5.0000000</y>
+</vector>
+</waypoint>
+<waypoint time="0.33333333s" before="linear" after="linear">
+<vector>
+<x>44.0000000</x>
+<y>5.0000000</y>
+</vector>
+</waypoint>
+<waypoint time="0.41666667s" before="linear" after="linear">
+<vector>
+<x>44.0000000</x>
+<y>5.0000000</y>
+</vector>
+</waypoint>
+<waypoint time="0.50000000s" before="linear" after="linear">
+<vector>
+<x>44.0000000</x>
+<y>5.0000000</y>
+</vector>
+</waypoint>
+<waypoint time="0.58333333s" before="linear" after="linear">
+<vector>
+<x>44.0000000</x>
+<y>5.0000000</y>
+</vector>
+</waypoint>
+<waypoint time="0.66666667s" before="linear" after="linear">
+<vector>
+<x>44.0000000</x>
+<y>5.0000000</y>
+</vector>
+</waypoint>
+</animated>
+</origin>
+<angle>
+<animated type="angle">
+<waypoint time="0.00000000s" before="linear" after="linear">
+<angle value="0.00000000"/>
+</waypoint>
+<waypoint time="0.08333333s" before="linear" after="linear">
+<angle value="0.00000000"/>
+</waypoint>
+<waypoint time="0.16666667s" before="linear" after="linear">
+<angle value="0.00000000"/>
+</waypoint>
+<waypoint time="0.25000000s" before="linear" after="linear">
+<angle value="0.00000000"/>
+</waypoint>
+<waypoint time="0.33333333s" before="linear" after="linear">
+<angle value="0.00000000"/>
+</waypoint>
+<waypoint time="0.41666667s" before="linear" after="linear">
+<angle value="0.00000000"/>
+</waypoint>
+<waypoint time="0.50000000s" before="linear" after="linear">
+<angle value="0.00000000"/>
+</waypoint>
+<waypoint time="0.58333333s" before="linear" after="linear">
+<angle value="0.00000000"/>
+</waypoint>
+<waypoint time="0.66666667s" before="linear" after="linear">
+<angle value="0.00000000"/>
+</waypoint>
+</animated>
+</angle>
+<scalelx>
+<real value="1"/>
+</scalelx>
+<scalex>
+<real value="1"/>
+</scalex>
+<width>
+<real value=".1"/>
+</width>
+<tipwidth>
+<real value=".1"/>
+</tipwidth>
+<bone_depth>
+<real value="0"/>
+</bone_depth>
+<length>
+<real value="1"/>
+</length>
+</bone>
+<bone type="bone_object" guid="CDA5A3566FD9607A21F2E10FD93669FF">
+<name>
+<string>head</string>
+</name>
+<parent>
+<bone_valuenode type="bone_object" guid="864A7F45F8844A8623D2512635F9FBB3"/>
+</parent>
+<origin>
+<animated type="vector">
+<waypoint time="0.00000000s" before="linear" after="linear">
+<vector>
+<x>-46.0000000</x>
+<y>0.0000000</y>
+</vector>
+</waypoint>
+<waypoint time="0.08333333s" before="linear" after="linear">
+<vector>
+<x>-46.5000000</x>
+<y>-0.2500000</y>
+</vector>
+</waypoint>
+<waypoint time="0.16666667s" before="linear" after="linear">
+<vector>
+<x>-47.0000000</x>
+<y>-0.5000000</y>
+</vector>
+</waypoint>
+<waypoint time="0.25000000s" before="linear" after="linear">
+<vector>
+<x>-47.5000000</x>
+<y>-0.7500000</y>
+</vector>
+</waypoint>
+<waypoint time="0.33333333s" before="linear" after="linear">
+<vector>
+<x>-48.0000000</x>
+<y>-1.0000000</y>
+</vector>
+</waypoint>
+<waypoint time="0.41666667s" before="linear" after="linear">
+<vector>
+<x>-48.5000000</x>
+<y>-1.2500000</y>
+</vector>
+</waypoint>
+<waypoint time="0.50000000s" before="linear" after="linear">
+<vector>
+<x>-49.0000000</x>
+<y>-1.5000000</y>
+</vector>
+</waypoint>
+<waypoint time="0.58333333s" before="linear" after="linear">
+<vector>
+<x>-49.5000000</x>
+<y>-1.7500000</y>
+</vector>
+</waypoint>
+<waypoint time="0.66666667s" before="linear" after="linear">
+<vector>
+<x>-50.0000000</x>
+<y>-2.0000000</y>
+</vector>
+</waypoint>
+</animated>
+</origin>
+<angle>
+<animated type="angle">
+<waypoint time="0.00000000s" before="linear" after="linear">
+<angle value="0.00000000"/>
+</waypoint>
+<waypoint time="0.08333333s" before="linear" after="linear">
+<angle value="1.48750000"/>
+</waypoint>
+<waypoint time="0.16666667s" before="linear" after="linear">
+<angle value="2.67500000"/>
+</waypoint>
+<waypoint time="0.25000000s" before="linear" after="linear">
+<angle value="2.13750000"/>
+</waypoint>
+<waypoint time="0.33333333s" before="linear" after="linear">
+<angle value="2.95000000"/>
+</waypoint>
+<waypoint time="0.41666667s" before="linear" after="linear">
+<angle value="6.23750000"/>
+</waypoint>
+<waypoint time="0.50000000s" before="linear" after="linear">
+<angle value="4.57500000"/>
+</waypoint>
+<waypoint time="0.58333333s" before="linear" after="linear">
+<angle value="8.61250000"/>
+</waypoint>
+<waypoint time="0.66666667s" before="linear" after="linear">
+<angle value="6.20000000"/>
+</waypoint>
+</animated>
+</angle>
+<scalelx>
+<real value="1"/>
+</scalelx>
+<scalex>
+<real value="1"/>
+</scalex>
+<width>
+<real value=".1"/>
+</width>
+<tipwidth>
+<real value=".1"/>
+</tipwidth>
+<bone_depth>
+<real value="0"/>
+</bone_depth>
+<length>
+<real value="1"/>
+</length>
+</bone>
+<bone type="bone_object" guid="8CCE47A223D6530B60C69F61CDAB973E">
+<name>
+<string>fuse</string>
+</name>
+<parent>
+<bone_valuenode type="bone_object" guid="704D366CFAE53F1D457518054DEBB6AF"/>
+</parent>
+<origin>
+<animated type="vector">
+<waypoint time="0.00000000s" before="linear" after="linear">
+<vector>
+<x>7.0000000</x>
+<y>74.0000000</y>
+</vector>
+</waypoint>
+<waypoint time="0.08333333s" before="linear" after="linear">
+<vector>
+<x>7.0000000</x>
+<y>73.5000000</y>
+</vector>
+</waypoint>
+<waypoint time="0.16666667s" before="linear" after="linear">
+<vector>
+<x>7.0000000</x>
+<y>73.0000000</y>
+</vector>
+</waypoint>
+<waypoint time="0.25000000s" before="linear" after="linear">
+<vector>
+<x>7.0000000</x>
+<y>72.5000000</y>
+</vector>
+</waypoint>
+<waypoint time="0.33333333s" before="linear" after="linear">
+<vector>
+<x>7.0000000</x>
+<y>72.0000000</y>
+</vector>
+</waypoint>
+<waypoint time="0.41666667s" before="linear" after="linear">
+<vector>
+<x>7.0000000</x>
+<y>71.5000000</y>
+</vector>
+</waypoint>
+<waypoint time="0.50000000s" before="linear" after="linear">
+<vector>
+<x>7.0000000</x>
+<y>71.0000000</y>
+</vector>
+</waypoint>
+<waypoint time="0.58333333s" before="linear" after="linear">
+<vector>
+<x>7.0000000</x>
+<y>70.5000000</y>
+</vector>
+</waypoint>
+<waypoint time="0.66666667s" before="linear" after="linear">
+<vector>
+<x>7.0000000</x>
+<y>70.0000000</y>
+</vector>
+</waypoint>
+</animated>
+</origin>
+<angle>
+<animated type="angle">
+<waypoint time="0.00000000s" before="linear" after="linear">
+<angle value="0.00000000"/>
+</waypoint>
+<waypoint time="0.08333333s" before="linear" after="linear">
+<angle value="0.32053491"/>
+</waypoint>
+<waypoint time="0.16666667s" before="linear" after="linear">
+<angle value="-1.15914673"/>
+</waypoint>
+<waypoint time="0.25000000s" before="linear" after="linear">
+<angle value="2.18225207"/>
+</waypoint>
+<waypoint time="0.33333333s" before="linear" after="linear">
+<angle value="-2.94280869"/>
+</waypoint>
+<waypoint time="0.41666667s" before="linear" after="linear">
+<angle value="3.01419160"/>
+</waypoint>
+<waypoint time="0.50000000s" before="linear" after="linear">
+<angle value="-2.12589894"/>
+</waypoint>
+<waypoint time="0.58333333s" before="linear" after="linear">
+<angle value="0.26471911"/>
+</waypoint>
+<waypoint time="0.66666667s" before="linear" after="linear">
+<angle value="2.28750295"/>
+</waypoint>
+</animated>
+</angle>
+<scalelx>
+<real value="1"/>
+</scalelx>
+<scalex>
+<real value="1"/>
+</scalex>
+<width>
+<real value=".1"/>
+</width>
+<tipwidth>
+<real value=".1"/>
+</tipwidth>
+<bone_depth>
+<real value="0"/>
+</bone_depth>
+<length>
+<real value="1"/>
+</length>
+</bone>
+<bone type="bone_object" guid="5BEEDB07C43989C6CD8DBAF89132BA43">
+<name>
+<string>flame</string>
+</name>
+<parent>
+<bone_valuenode type="bone_object" guid="8CCE47A223D6530B60C69F61CDAB973E"/>
+</parent>
+<origin>
+<animated type="vector">
+<waypoint time="0.00000000s" before="linear" after="linear">
+<vector>
+<x>25.0000000</x>
+<y>31.0000000</y>
+</vector>
+</waypoint>
+<waypoint time="0.08333333s" before="linear" after="linear">
+<vector>
+<x>25.0000000</x>
+<y>30.3750000</y>
+</vector>
+</waypoint>
+<waypoint time="0.16666667s" before="linear" after="linear">
+<vector>
+<x>25.0000000</x>
+<y>29.7500000</y>
+</vector>
+</waypoint>
+<waypoint time="0.25000000s" before="linear" after="linear">
+<vector>
+<x>25.0000000</x>
+<y>29.1250000</y>
+</vector>
+</waypoint>
+<waypoint time="0.33333333s" before="linear" after="linear">
+<vector>
+<x>25.0000000</x>
+<y>28.5000000</y>
+</vector>
+</waypoint>
+<waypoint time="0.41666667s" before="linear" after="linear">
+<vector>
+<x>25.0000000</x>
+<y>27.8750000</y>
+</vector>
+</waypoint>
+<waypoint time="0.50000000s" before="linear" after="linear">
+<vector>
+<x>25.0000000</x>
+<y>27.2500000</y>
+</vector>
+</waypoint>
+<waypoint time="0.58333333s" before="linear" after="linear">
+<vector>
+<x>25.0000000</x>
+<y>26.6250000</y>
+</vector>
+</waypoint>
+<waypoint time="0.66666667s" before="linear" after="linear">
+<vector>
+<x>25.0000000</x>
+<y>26.0000000</y>
+</vector>
+</waypoint>
+</animated>
+</origin>
+<angle>
+<animated type="angle">
+<waypoint time="0.00000000s" before="linear" after="linear">
+<angle value="0.00000000"/>
+</waypoint>
+<waypoint time="0.08333333s" before="linear" after="linear">
+<angle value="0.14112001"/>
+</waypoint>
+<waypoint time="0.16666667s" before="linear" after="linear">
+<angle value="-0.55883100"/>
+</waypoint>
+<waypoint time="0.25000000s" before="linear" after="linear">
+<angle value="1.23635546"/>
+</waypoint>
+<waypoint time="0.33333333s" before="linear" after="linear">
+<angle value="-2.14629167"/>
+</waypoint>
+<waypoint time="0.41666667s" before="linear" after="linear">
+<angle value="3.25143920"/>
+</waypoint>
+<waypoint time="0.50000000s" before="linear" after="linear">
+<angle value="-4.50592348"/>
+</waypoint>
+<waypoint time="0.58333333s" before="linear" after="linear">
+<angle value="5.85658947"/>
+</waypoint>
+<waypoint time="0.66666667s" before="linear" after="linear">
+<angle value="-7.24462690"/>
+</waypoint>
+</animated>
+</angle>
+<scalelx>
+<real value="1"/>
+</scalelx>
+<scalex>
+<real value="1"/>
+</scalex>
+<width>
+<real value=".1"/>
+</width>
+<tipwidth>
+<real value=".1"/>
+</tipwidth>
+<bone_depth>
+<real value="0"/>
+</bone_depth>
+<length>
+<real value="1"/>
+</length>
+</bone>
+<bone type="bone_object" guid="69F3E6086D7E07EF12775477C9FB2017">
+<name>
+<string>leg_front_far</string>
+</name>
+<parent>
+<bone_valuenode type="bone_object" guid="864A7F45F8844A8623D2512635F9FBB3"/>
+</parent>
+<origin>
+<animated type="vector">
+<waypoint time="0.00000000s" before="linear" after="linear">
+<vector>
+<x>-37.0000000</x>
+<y>-78.0000000</y>
+</vector>
+</waypoint>
+<waypoint time="0.08333333s" before="linear" after="linear">
+<vector>
+<x>-41.2500000</x>
+<y>-78.1496180</y>
+</vector>
+</waypoint>
+<waypoint time="0.16666667s" before="linear" after="linear">
+<vector>
+<x>-44.5000000</x>
+<y>-77.5205379</y>
+</vector>
+</waypoint>
+<waypoint time="0.25000000s" before="linear" after="linear">
+<vector>
+<x>-41.1250000</x>
+<y>-78.7035000</y>
+</vector>
+</waypoint>
+<waypoint time="0.33333333s" before="linear" after="linear">
+<vector>
+<x>-40.5000000</x>
+<y>-77.4559789</y>
+</vector>
+</waypoint>
+<waypoint time="0.41666667s" before="linear" after="linear">
+<vector>
+<x>-48.1250000</x>
+<y>-77.9170976</y>
+</vector>
+</waypoint>
+<waypoint time="0.50000000s" before="linear" after="linear">
+<vector>
+<x>-39.2500000</x>
+<y>-78.9754318</y>
+</vector>
+</waypoint>
+<waypoint time="0.58333333s" before="linear" after="linear">
+<vector>
+<x>-49.3750000</x>
+<y>-76.2926545</y>
+</vector>
+</waypoint>
+<waypoint time="0.66666667s" before="linear" after="linear">
+<vector>
+<x>-38.0000000</x>
+<y>-79.8258905</y>
+</vector>
+</waypoint>
+</animated>
+</origin>
+<angle>
+<animated type="angle">
+<waypoint time="0.00000000s" before="linear" after="linear">
+<angle value="0.00000000"/>
+</waypoint>
+<waypoint time="0.08333333s" before="linear" after="linear">
+<angle value="0.00000000"/>
+</waypoint>
+<waypoint time="0.16666667s" before="linear" after="linear">
+<angle value="0.00000000"/>
+</waypoint>
+<waypoint time="0.25000000s" before="linear" after="linear">
+<angle value="0.00000000"/>
+</waypoint>
+<waypoint time="0.33333333s" before="linear" after="linear">
+<angle value="0.00000000"/>
+</waypoint>
+<waypoint time="0.41666667s" before="linear" after="linear">
+<angle value="0.00000000"/>
+</waypoint>
+<waypoint time="0.50000000s" before="linear" after="linear">
+<angle value="0.00000000"/>
+</waypoint>
+<waypoint time="0.58333333s" before="linear" after="linear">
+<angle value="0.00000000"/>
+</waypoint>
+<waypoint time="0.66666667s" before="linear" after="linear">
+<angle value="0.00000000"/>
+</waypoint>
+</animated>
+</angle>
+<scalelx>
+<real value="1"/>
+</scalelx>
+<scalex>
+<real value="1"/>
+</scalex>
+<width>
+<real value=".1"/>
+</width>
+<tipwidth>
+<real value=".1"/>
+</tipwidth>
+<bone_depth>
+<real value="0"/>
+</bone_depth>
+<length>
+<real value="1"/>
+</length>
+</bone>
+<bone type="bone_object" guid="65346A6B7632D8486A6C5D30C2CE9C5E">
+<name>
+<string>leg_mid_far</string>
+</name>
+<parent>
+<bone_valuenode type="bone_object" guid="864A7F45F8844A8623D2512635F9FBB3"/>
+</parent>
+<origin>
+<animated type="vector">
+<waypoint time="0.00000000s" before="linear" after="linear">
+<vector>
+<x>13.0000000</x>
+<y>-75.0000000</y>
+</vector>
+</waypoint>
+<waypoint time="0.08333333s" before="linear" after="linear">
+<vector>
+<x>11.3750000</x>
+<y>-75.1496180</y>
+</vector>
+</waypoint>
+<waypoint time="0.16666667s" before="linear" after="linear">
+<vector>
+<x>10.7500000</x>
+<y>-74.5205379</y>
+</vector>
+</waypoint>
+<waypoint time="0.25000000s" before="linear" after="linear">
+<vector>
+<x>15.8750000</x>
+<y>-75.7035000</y>
+</vector>
+</waypoint>
+<waypoint time="0.33333333s" before="linear" after="linear">
+<vector>
+<x>16.5000000</x>
+<y>-74.4559789</y>
+</vector>
+</waypoint>
+<waypoint time="0.41666667s" before="linear" after="linear">
+<vector>
+<x>8.8750000</x>
+<y>-74.9170976</y>
+</vector>
+</waypoint>
+<waypoint time="0.50000000s" before="linear" after="linear">
+<vector>
+<x>17.7500000</x>
+<y>-75.9754318</y>
+</vector>
+</waypoint>
+<waypoint time="0.58333333s" before="linear" after="linear">
+<vector>
+<x>7.6250000</x>
+<y>-73.2926545</y>
+</vector>
+</waypoint>
+<waypoint time="0.66666667s" before="linear" after="linear">
+<vector>
+<x>19.0000000</x>
+<y>-76.8258905</y>
+</vector>
+</waypoint>
+</animated>
+</origin>
+<angle>
+<animated type="angle">
+<waypoint time="0.00000000s" before="linear" after="linear">
+<angle value="0.00000000"/>
+</waypoint>
+<waypoint time="0.08333333s" before="linear" after="linear">
+<angle value="0.00000000"/>
+</waypoint>
+<waypoint time="0.16666667s" before="linear" after="linear">
+<angle value="0.00000000"/>
+</waypoint>
+<waypoint time="0.25000000s" before="linear" after="linear">
+<angle value="0.00000000"/>
+</waypoint>
+<waypoint time="0.33333333s" before="linear" after="linear">
+<angle value="0.00000000"/>
+</waypoint>
+<waypoint time="0.41666667s" before="linear" after="linear">
+<angle value="0.00000000"/>
+</waypoint>
+<waypoint time="0.50000000s" before="linear" after="linear">
+<angle value="0.00000000"/>
+</waypoint>
+<waypoint time="0.58333333s" before="linear" after="linear">
+<angle value="0.00000000"/>
+</waypoint>
+<waypoint time="0.66666667s" before="linear" after="linear">
+<angle value="0.00000000"/>
+</waypoint>
+</animated>
+</angle>
+<scalelx>
+<real value="1"/>
+</scalelx>
+<scalex>
+<real value="1"/>
+</scalex>
+<width>
+<real value=".1"/>
+</width>
+<tipwidth>
+<real value=".1"/>
+</tipwidth>
+<bone_depth>
+<real value="0"/>
+</bone_depth>
+<length>
+<real value="1"/>
+</length>
+</bone>
+<bone type="bone_object" guid="42BB157B13A2E7DD1C9CACC511A8B76A">
+<name>
+<string>leg_rear_far</string>
+</name>
+<parent>
+<bone_valuenode type="bone_object" guid="864A7F45F8844A8623D2512635F9FBB3"/>
+</parent>
+<origin>
+<animated type="vector">
+<waypoint time="0.00000000s" before="linear" after="linear">
+<vector>
+<x>73.0000000</x>
+<y>-73.0000000</y>
+</vector>
+</waypoint>
+<waypoint time="0.08333333s" before="linear" after="linear">
+<vector>
+<x>73.2500000</x>
+<y>-73.1496180</y>
+</vector>
+</waypoint>
+<waypoint time="0.16666667s" before="linear" after="linear">
+<vector>
+<x>74.5000000</x>
+<y>-72.5205379</y>
+</vector>
+</waypoint>
+<waypoint time="0.25000000s" before="linear" after="linear">
+<vector>
+<x>80.8750000</x>
+<y>-73.7035000</y>
+</vector>
+</waypoint>
+<waypoint time="0.33333333s" before="linear" after="linear">
+<vector>
+<x>81.5000000</x>
+<y>-72.4559789</y>
+</vector>
+</waypoint>
+<waypoint time="0.41666667s" before="linear" after="linear">
+<vector>
+<x>73.8750000</x>
+<y>-72.9170976</y>
+</vector>
+</waypoint>
+<waypoint time="0.50000000s" before="linear" after="linear">
+<vector>
+<x>82.7500000</x>
+<y>-73.9754318</y>
+</vector>
+</waypoint>
+<waypoint time="0.58333333s" before="linear" after="linear">
+<vector>
+<x>72.6250000</x>
+<y>-71.2926545</y>
+</vector>
+</waypoint>
+<waypoint time="0.66666667s" before="linear" after="linear">
+<vector>
+<x>84.0000000</x>
+<y>-74.8258905</y>
+</vector>
+</waypoint>
+</animated>
+</origin>
+<angle>
+<animated type="angle">
+<waypoint time="0.00000000s" before="linear" after="linear">
+<angle value="0.00000000"/>
+</waypoint>
+<waypoint time="0.08333333s" before="linear" after="linear">
+<angle value="0.00000000"/>
+</waypoint>
+<waypoint time="0.16666667s" before="linear" after="linear">
+<angle value="0.00000000"/>
+</waypoint>
+<waypoint time="0.25000000s" before="linear" after="linear">
+<angle value="0.00000000"/>
+</waypoint>
+<waypoint time="0.33333333s" before="linear" after="linear">
+<angle value="0.00000000"/>
+</waypoint>
+<waypoint time="0.41666667s" before="linear" after="linear">
+<angle value="0.00000000"/>
+</waypoint>
+<waypoint time="0.50000000s" before="linear" after="linear">
+<angle value="0.00000000"/>
+</waypoint>
+<waypoint time="0.58333333s" before="linear" after="linear">
+<angle value="0.00000000"/>
+</waypoint>
+<waypoint time="0.66666667s" before="linear" after="linear">
+<angle value="0.00000000"/>
+</waypoint>
+</animated>
+</angle>
+<scalelx>
+<real value="1"/>
+</scalelx>
+<scalex>
+<real value="1"/>
+</scalex>
+<width>
+<real value=".1"/>
+</width>
+<tipwidth>
+<real value=".1"/>
+</tipwidth>
+<bone_depth>
+<real value="0"/>
+</bone_depth>
+<length>
+<real value="1"/>
+</length>
+</bone>
+<bone type="bone_object" guid="FF0C409EFD89ABE64315B6C02FA1E178">
+<name>
+<string>leg_front_near</string>
+</name>
+<parent>
+<bone_valuenode type="bone_object" guid="864A7F45F8844A8623D2512635F9FBB3"/>
+</parent>
+<origin>
+<animated type="vector">
+<waypoint time="0.00000000s" before="linear" after="linear">
+<vector>
+<x>-48.0000000</x>
+<y>-82.0000000</y>
+</vector>
+</waypoint>
+<waypoint time="0.08333333s" before="linear" after="linear">
+<vector>
+<x>-52.2500000</x>
+<y>-82.1496180</y>
+</vector>
+</waypoint>
+<waypoint time="0.16666667s" before="linear" after="linear">
+<vector>
+<x>-55.5000000</x>
+<y>-81.5205379</y>
+</vector>
+</waypoint>
+<waypoint time="0.25000000s" before="linear" after="linear">
+<vector>
+<x>-52.1250000</x>
+<y>-82.7035000</y>
+</vector>
+</waypoint>
+<waypoint time="0.33333333s" before="linear" after="linear">
+<vector>
+<x>-51.5000000</x>
+<y>-81.4559789</y>
+</vector>
+</waypoint>
+<waypoint time="0.41666667s" before="linear" after="linear">
+<vector>
+<x>-59.1250000</x>
+<y>-81.9170976</y>
+</vector>
+</waypoint>
+<waypoint time="0.50000000s" before="linear" after="linear">
+<vector>
+<x>-50.2500000</x>
+<y>-82.9754318</y>
+</vector>
+</waypoint>
+<waypoint time="0.58333333s" before="linear" after="linear">
+<vector>
+<x>-60.3750000</x>
+<y>-80.2926545</y>
+</vector>
+</waypoint>
+<waypoint time="0.66666667s" before="linear" after="linear">
+<vector>
+<x>-49.0000000</x>
+<y>-83.8258905</y>
+</vector>
+</waypoint>
+</animated>
+</origin>
+<angle>
+<animated type="angle">
+<waypoint time="0.00000000s" before="linear" after="linear">
+<angle value="0.00000000"/>
+</waypoint>
+<waypoint time="0.08333333s" before="linear" after="linear">
+<angle value="0.00000000"/>
+</waypoint>
+<waypoint time="0.16666667s" before="linear" after="linear">
+<angle value="0.00000000"/>
+</waypoint>
+<waypoint time="0.25000000s" before="linear" after="linear">
+<angle value="0.00000000"/>
+</waypoint>
+<waypoint time="0.33333333s" before="linear" after="linear">
+<angle value="0.00000000"/>
+</waypoint>
+<waypoint time="0.41666667s" before="linear" after="linear">
+<angle value="0.00000000"/>
+</waypoint>
+<waypoint time="0.50000000s" before="linear" after="linear">
+<angle value="0.00000000"/>
+</waypoint>
+<waypoint time="0.58333333s" before="linear" after="linear">
+<angle value="0.00000000"/>
+</waypoint>
+<waypoint time="0.66666667s" before="linear" after="linear">
+<angle value="0.00000000"/>
+</waypoint>
+</animated>
+</angle>
+<scalelx>
+<real value="1"/>
+</scalelx>
+<scalex>
+<real value="1"/>
+</scalex>
+<width>
+<real value=".1"/>
+</width>
+<tipwidth>
+<real value=".1"/>
+</tipwidth>
+<bone_depth>
+<real value="0"/>
+</bone_depth>
+<length>
+<real value="1"/>
+</length>
+</bone>
+<bone type="bone_object" guid="489B105DE5C4B13BE31673B6E7FD25DC">
+<name>
+<string>leg_mid_near</string>
+</name>
+<parent>
+<bone_valuenode type="bone_object" guid="864A7F45F8844A8623D2512635F9FBB3"/>
+</parent>
+<origin>
+<animated type="vector">
+<waypoint time="0.00000000s" before="linear" after="linear">
+<vector>
+<x>25.0000000</x>
+<y>-88.0000000</y>
+</vector>
+</waypoint>
+<waypoint time="0.08333333s" before="linear" after="linear">
+<vector>
+<x>23.3750000</x>
+<y>-88.1496180</y>
+</vector>
+</waypoint>
+<waypoint time="0.16666667s" before="linear" after="linear">
+<vector>
+<x>22.7500000</x>
+<y>-87.5205379</y>
+</vector>
+</waypoint>
+<waypoint time="0.25000000s" before="linear" after="linear">
+<vector>
+<x>27.8750000</x>
+<y>-88.7035000</y>
+</vector>
+</waypoint>
+<waypoint time="0.33333333s" before="linear" after="linear">
+<vector>
+<x>28.5000000</x>
+<y>-87.4559789</y>
+</vector>
+</waypoint>
+<waypoint time="0.41666667s" before="linear" after="linear">
+<vector>
+<x>20.8750000</x>
+<y>-87.9170976</y>
+</vector>
+</waypoint>
+<waypoint time="0.50000000s" before="linear" after="linear">
+<vector>
+<x>29.7500000</x>
+<y>-88.9754318</y>
+</vector>
+</waypoint>
+<waypoint time="0.58333333s" before="linear" after="linear">
+<vector>
+<x>19.6250000</x>
+<y>-86.2926545</y>
+</vector>
+</waypoint>
+<waypoint time="0.66666667s" before="linear" after="linear">
+<vector>
+<x>31.0000000</x>
+<y>-89.8258905</y>
+</vector>
+</waypoint>
+</animated>
+</origin>
+<angle>
+<animated type="angle">
+<waypoint time="0.00000000s" before="linear" after="linear">
+<angle value="0.00000000"/>
+</waypoint>
+<waypoint time="0.08333333s" before="linear" after="linear">
+<angle value="0.00000000"/>
+</waypoint>
+<waypoint time="0.16666667s" before="linear" after="linear">
+<angle value="0.00000000"/>
+</waypoint>
+<waypoint time="0.25000000s" before="linear" after="linear">
+<angle value="0.00000000"/>
+</waypoint>
+<waypoint time="0.33333333s" before="linear" after="linear">
+<angle value="0.00000000"/>
+</waypoint>
+<waypoint time="0.41666667s" before="linear" after="linear">
+<angle value="0.00000000"/>
+</waypoint>
+<waypoint time="0.50000000s" before="linear" after="linear">
+<angle value="0.00000000"/>
+</waypoint>
+<waypoint time="0.58333333s" before="linear" after="linear">
+<angle value="0.00000000"/>
+</waypoint>
+<waypoint time="0.66666667s" before="linear" after="linear">
+<angle value="0.00000000"/>
+</waypoint>
+</animated>
+</angle>
+<scalelx>
+<real value="1"/>
+</scalelx>
+<scalex>
+<real value="1"/>
+</scalex>
+<width>
+<real value=".1"/>
+</width>
+<tipwidth>
+<real value=".1"/>
+</tipwidth>
+<bone_depth>
+<real value="0"/>
+</bone_depth>
+<length>
+<real value="1"/>
+</length>
+</bone>
+<bone type="bone_object" guid="09A65EA2B8823E77F3A35346F7D84DB7">
+<name>
+<string>leg_rear_near</string>
+</name>
+<parent>
+<bone_valuenode type="bone_object" guid="864A7F45F8844A8623D2512635F9FBB3"/>
+</parent>
+<origin>
+<animated type="vector">
+<waypoint time="0.00000000s" before="linear" after="linear">
+<vector>
+<x>90.0000000</x>
+<y>-83.0000000</y>
+</vector>
+</waypoint>
+<waypoint time="0.08333333s" before="linear" after="linear">
+<vector>
+<x>90.2500000</x>
+<y>-83.1496180</y>
+</vector>
+</waypoint>
+<waypoint time="0.16666667s" before="linear" after="linear">
+<vector>
+<x>91.5000000</x>
+<y>-82.5205379</y>
+</vector>
+</waypoint>
+<waypoint time="0.25000000s" before="linear" after="linear">
+<vector>
+<x>97.8750000</x>
+<y>-83.7035000</y>
+</vector>
+</waypoint>
+<waypoint time="0.33333333s" before="linear" after="linear">
+<vector>
+<x>98.5000000</x>
+<y>-82.4559789</y>
+</vector>
+</waypoint>
+<waypoint time="0.41666667s" before="linear" after="linear">
+<vector>
+<x>90.8750000</x>
+<y>-82.9170976</y>
+</vector>
+</waypoint>
+<waypoint time="0.50000000s" before="linear" after="linear">
+<vector>
+<x>99.7500000</x>
+<y>-83.9754318</y>
+</vector>
+</waypoint>
+<waypoint time="0.58333333s" before="linear" after="linear">
+<vector>
+<x>89.6250000</x>
+<y>-81.2926545</y>
+</vector>
+</waypoint>
+<waypoint time="0.66666667s" before="linear" after="linear">
+<vector>
+<x>101.0000000</x>
+<y>-84.8258905</y>
+</vector>
+</waypoint>
+</animated>
+</origin>
+<angle>
+<animated type="angle">
+<waypoint time="0.00000000s" before="linear" after="linear">
+<angle value="0.00000000"/>
+</waypoint>
+<waypoint time="0.08333333s" before="linear" after="linear">
+<angle value="0.00000000"/>
+</waypoint>
+<waypoint time="0.16666667s" before="linear" after="linear">
+<angle value="0.00000000"/>
+</waypoint>
+<waypoint time="0.25000000s" before="linear" after="linear">
+<angle value="0.00000000"/>
+</waypoint>
+<waypoint time="0.33333333s" before="linear" after="linear">
+<angle value="0.00000000"/>
+</waypoint>
+<waypoint time="0.41666667s" before="linear" after="linear">
+<angle value="0.00000000"/>
+</waypoint>
+<waypoint time="0.50000000s" before="linear" after="linear">
+<angle value="0.00000000"/>
+</waypoint>
+<waypoint time="0.58333333s" before="linear" after="linear">
+<angle value="0.00000000"/>
+</waypoint>
+<waypoint time="0.66666667s" before="linear" after="linear">
+<angle value="0.00000000"/>
+</waypoint>
+</animated>
+</angle>
+<scalelx>
+<real value="1"/>
+</scalelx>
+<scalex>
+<real value="1"/>
+</scalex>
+<width>
+<real value=".1"/>
+</width>
+<tipwidth>
+<real value=".1"/>
+</tipwidth>
+<bone_depth>
+<real value="0"/>
+</bone_depth>
+<length>
+<real value="1"/>
+</length>
+</bone>
+<bone type="bone_object" guid="165CD48635750CC35C33E18CCF0C276A">
+<name>
+<string>spark_0</string>
+</name>
+<parent>
+<bone_valuenode type="bone_object" guid="5BEEDB07C43989C6CD8DBAF89132BA43"/>
+</parent>
+<origin>
+<animated type="vector">
+<waypoint time="0.00000000s" before="linear" after="linear">
+<vector>
+<x>18.0000000</x>
+<y>13.0000000</y>
+</vector>
+</waypoint>
+<waypoint time="0.08333333s" before="linear" after="linear">
+<vector>
+<x>19.0000000</x>
+<y>14.3333333</y>
+</vector>
+</waypoint>
+<waypoint time="0.16666667s" before="linear" after="linear">
+<vector>
+<x>20.0000000</x>
+<y>15.6666667</y>
+</vector>
+</waypoint>
+<waypoint time="0.25000000s" before="linear" after="linear">
+<vector>
+<x>21.0000000</x>
+<y>17.0000000</y>
+</vector>
+</waypoint>
+<waypoint time="0.33333333s" before="linear" after="linear">
+<vector>
+<x>22.0000000</x>
+<y>18.3333333</y>
+</vector>
+</waypoint>
+<waypoint time="0.41666667s" before="linear" after="linear">
+<vector>
+<x>23.0000000</x>
+<y>19.6666667</y>
+</vector>
+</waypoint>
+<waypoint time="0.50000000s" before="linear" after="linear">
+<vector>
+<x>18.0000000</x>
+<y>13.0000000</y>
+</vector>
+</waypoint>
+<waypoint time="0.58333333s" before="linear" after="linear">
+<vector>
+<x>19.0000000</x>
+<y>14.3333333</y>
+</vector>
+</waypoint>
+<waypoint time="0.66666667s" before="linear" after="linear">
+<vector>
+<x>20.0000000</x>
+<y>15.6666667</y>
+</vector>
+</waypoint>
+</animated>
+</origin>
+<angle>
+<animated type="angle">
+<waypoint time="0.00000000s" before="linear" after="linear">
+<angle value="0.00000000"/>
+</waypoint>
+<waypoint time="0.08333333s" before="linear" after="linear">
+<angle value="11.66666667"/>
+</waypoint>
+<waypoint time="0.16666667s" before="linear" after="linear">
+<angle value="23.33333333"/>
+</waypoint>
+<waypoint time="0.25000000s" before="linear" after="linear">
+<angle value="35.00000000"/>
+</waypoint>
+<waypoint time="0.33333333s" before="linear" after="linear">
+<angle value="46.66666667"/>
+</waypoint>
+<waypoint time="0.41666667s" before="linear" after="linear">
+<angle value="58.33333333"/>
+</waypoint>
+<waypoint time="0.50000000s" before="linear" after="linear">
+<angle value="0.00000000"/>
+</waypoint>
+<waypoint time="0.58333333s" before="linear" after="linear">
+<angle value="11.66666667"/>
+</waypoint>
+<waypoint time="0.66666667s" before="linear" after="linear">
+<angle value="23.33333333"/>
+</waypoint>
+</animated>
+</angle>
+<scalelx>
+<real value="1"/>
+</scalelx>
+<scalex>
+<real value="1"/>
+</scalex>
+<width>
+<real value=".1"/>
+</width>
+<tipwidth>
+<real value=".1"/>
+</tipwidth>
+<bone_depth>
+<real value="0"/>
+</bone_depth>
+<length>
+<real value="1"/>
+</length>
+</bone>
+<bone type="bone_object" guid="A5143B7297DC7302F43A56580231AFEE">
+<name>
+<string>spark_1</string>
+</name>
+<parent>
+<bone_valuenode type="bone_object" guid="5BEEDB07C43989C6CD8DBAF89132BA43"/>
+</parent>
+<origin>
+<animated type="vector">
+<waypoint time="0.00000000s" before="linear" after="linear">
+<vector>
+<x>25.0000000</x>
+<y>1.0000000</y>
+</vector>
+</waypoint>
+<waypoint time="0.08333333s" before="linear" after="linear">
+<vector>
+<x>26.0000000</x>
+<y>2.3333333</y>
+</vector>
+</waypoint>
+<waypoint time="0.16666667s" before="linear" after="linear">
+<vector>
+<x>27.0000000</x>
+<y>3.6666667</y>
+</vector>
+</waypoint>
+<waypoint time="0.25000000s" before="linear" after="linear">
+<vector>
+<x>22.0000000</x>
+<y>-3.0000000</y>
+</vector>
+</waypoint>
+<waypoint time="0.33333333s" before="linear" after="linear">
+<vector>
+<x>23.0000000</x>
+<y>-1.6666667</y>
+</vector>
+</waypoint>
+<waypoint time="0.41666667s" before="linear" after="linear">
+<vector>
+<x>24.0000000</x>
+<y>-0.3333333</y>
+</vector>
+</waypoint>
+<waypoint time="0.50000000s" before="linear" after="linear">
+<vector>
+<x>25.0000000</x>
+<y>1.0000000</y>
+</vector>
+</waypoint>
+<waypoint time="0.58333333s" before="linear" after="linear">
+<vector>
+<x>26.0000000</x>
+<y>2.3333333</y>
+</vector>
+</waypoint>
+<waypoint time="0.66666667s" before="linear" after="linear">
+<vector>
+<x>27.0000000</x>
+<y>3.6666667</y>
+</vector>
+</waypoint>
+</animated>
+</origin>
+<angle>
+<animated type="angle">
+<waypoint time="0.00000000s" before="linear" after="linear">
+<angle value="35.00000000"/>
+</waypoint>
+<waypoint time="0.08333333s" before="linear" after="linear">
+<angle value="46.66666667"/>
+</waypoint>
+<waypoint time="0.16666667s" before="linear" after="linear">
+<angle value="58.33333333"/>
+</waypoint>
+<waypoint time="0.25000000s" before="linear" after="linear">
+<angle value="0.00000000"/>
+</waypoint>
+<waypoint time="0.33333333s" before="linear" after="linear">
+<angle value="11.66666667"/>
+</waypoint>
+<waypoint time="0.41666667s" before="linear" after="linear">
+<angle value="23.33333333"/>
+</waypoint>
+<waypoint time="0.50000000s" before="linear" after="linear">
+<angle value="35.00000000"/>
+</waypoint>
+<waypoint time="0.58333333s" before="linear" after="linear">
+<angle value="46.66666667"/>
+</waypoint>
+<waypoint time="0.66666667s" before="linear" after="linear">
+<angle value="58.33333333"/>
+</waypoint>
+</animated>
+</angle>
+<scalelx>
+<real value="1"/>
+</scalelx>
+<scalex>
+<real value="1"/>
+</scalex>
+<width>
+<real value=".1"/>
+</width>
+<tipwidth>
+<real value=".1"/>
+</tipwidth>
+<bone_depth>
+<real value="0"/>
+</bone_depth>
+<length>
+<real value="1"/>
+</length>
+</bone>
+<bone type="bone_object" guid="3E57BBEA29F979E21E49D60F0F01EC1C">
+<name>
+<string>spark_2</string>
+</name>
+<parent>
+<bone_valuenode type="bone_object" guid="5BEEDB07C43989C6CD8DBAF89132BA43"/>
+</parent>
+<origin>
+<animated type="vector">
+<waypoint time="0.00000000s" before="linear" after="linear">
+<vector>
+<x>18.0000000</x>
+<y>-19.0000000</y>
+</vector>
+</waypoint>
+<waypoint time="0.08333333s" before="linear" after="linear">
+<vector>
+<x>19.0000000</x>
+<y>-17.6666667</y>
+</vector>
+</waypoint>
+<waypoint time="0.16666667s" before="linear" after="linear">
+<vector>
+<x>20.0000000</x>
+<y>-16.3333333</y>
+</vector>
+</waypoint>
+<waypoint time="0.25000000s" before="linear" after="linear">
+<vector>
+<x>21.0000000</x>
+<y>-15.0000000</y>
+</vector>
+</waypoint>
+<waypoint time="0.33333333s" before="linear" after="linear">
+<vector>
+<x>22.0000000</x>
+<y>-13.6666667</y>
+</vector>
+</waypoint>
+<waypoint time="0.41666667s" before="linear" after="linear">
+<vector>
+<x>23.0000000</x>
+<y>-12.3333333</y>
+</vector>
+</waypoint>
+<waypoint time="0.50000000s" before="linear" after="linear">
+<vector>
+<x>18.0000000</x>
+<y>-19.0000000</y>
+</vector>
+</waypoint>
+<waypoint time="0.58333333s" before="linear" after="linear">
+<vector>
+<x>19.0000000</x>
+<y>-17.6666667</y>
+</vector>
+</waypoint>
+<waypoint time="0.66666667s" before="linear" after="linear">
+<vector>
+<x>20.0000000</x>
+<y>-16.3333333</y>
+</vector>
+</waypoint>
+</animated>
+</origin>
+<angle>
+<animated type="angle">
+<waypoint time="0.00000000s" before="linear" after="linear">
+<angle value="0.00000000"/>
+</waypoint>
+<waypoint time="0.08333333s" before="linear" after="linear">
+<angle value="11.66666667"/>
+</waypoint>
+<waypoint time="0.16666667s" before="linear" after="linear">
+<angle value="23.33333333"/>
+</waypoint>
+<waypoint time="0.25000000s" before="linear" after="linear">
+<angle value="35.00000000"/>
+</waypoint>
+<waypoint time="0.33333333s" before="linear" after="linear">
+<angle value="46.66666667"/>
+</waypoint>
+<waypoint time="0.41666667s" before="linear" after="linear">
+<angle value="58.33333333"/>
+</waypoint>
+<waypoint time="0.50000000s" before="linear" after="linear">
+<angle value="0.00000000"/>
+</waypoint>
+<waypoint time="0.58333333s" before="linear" after="linear">
+<angle value="11.66666667"/>
+</waypoint>
+<waypoint time="0.66666667s" before="linear" after="linear">
+<angle value="23.33333333"/>
+</waypoint>
+</animated>
+</angle>
+<scalelx>
+<real value="1"/>
+</scalelx>
+<scalex>
+<real value="1"/>
+</scalex>
+<width>
+<real value=".1"/>
+</width>
+<tipwidth>
+<real value=".1"/>
+</tipwidth>
+<bone_depth>
+<real value="0"/>
+</bone_depth>
+<length>
+<real value="1"/>
+</length>
+</bone>
+</bones>
+<layer type="skeleton" active="true" exclude_from_rendering="true" version="0.1" desc="editable parented Fizzmite rig">
+<param name="name">
+<string>Fizzmite</string>
+</param>
+<param name="bones">
+<static_list type="bone_object">
+<entry>
+<bone type="bone_object" guid="864A7F45F8844A8623D2512635F9FBB3"/>
+</entry>
+<entry>
+<bone type="bone_object" guid="232D21EF37165A7BF17AF70AFE2CE699"/>
+</entry>
+<entry>
+<bone type="bone_object" guid="704D366CFAE53F1D457518054DEBB6AF"/>
+</entry>
+<entry>
+<bone type="bone_object" guid="CDA5A3566FD9607A21F2E10FD93669FF"/>
+</entry>
+<entry>
+<bone type="bone_object" guid="8CCE47A223D6530B60C69F61CDAB973E"/>
+</entry>
+<entry>
+<bone type="bone_object" guid="5BEEDB07C43989C6CD8DBAF89132BA43"/>
+</entry>
+<entry>
+<bone type="bone_object" guid="69F3E6086D7E07EF12775477C9FB2017"/>
+</entry>
+<entry>
+<bone type="bone_object" guid="65346A6B7632D8486A6C5D30C2CE9C5E"/>
+</entry>
+<entry>
+<bone type="bone_object" guid="42BB157B13A2E7DD1C9CACC511A8B76A"/>
+</entry>
+<entry>
+<bone type="bone_object" guid="FF0C409EFD89ABE64315B6C02FA1E178"/>
+</entry>
+<entry>
+<bone type="bone_object" guid="489B105DE5C4B13BE31673B6E7FD25DC"/>
+</entry>
+<entry>
+<bone type="bone_object" guid="09A65EA2B8823E77F3A35346F7D84DB7"/>
+</entry>
+<entry>
+<bone type="bone_object" guid="165CD48635750CC35C33E18CCF0C276A"/>
+</entry>
+<entry>
+<bone type="bone_object" guid="A5143B7297DC7302F43A56580231AFEE"/>
+</entry>
+<entry>
+<bone type="bone_object" guid="3E57BBEA29F979E21E49D60F0F01EC1C"/>
+</entry>
+</static_list>
+</param>
+</layer>
+<layer type="group" version="0.2">
+<param name="amount">
+<real value="1"/>
+</param>
+<param name="origin">
+<vector>
+<x>0.0000000</x>
+<y>0.0000000</y>
+</vector>
+</param>
+<param name="transformation">
+<composite type="transformation">
+<offset>
+<vector>
+<x>0.0000000</x>
+<y>0.0000000</y>
+</vector>
+</offset>
+<angle>
+<angle value="0"/>
+</angle>
+<skew_angle>
+<angle value="0"/>
+</skew_angle>
+<scale>
+<vector>
+<x>1.0000000</x>
+<y>1.0000000</y>
+</vector>
+</scale>
+</composite>
+</param>
+<param name="canvas">
+<canvas>
+<layer type="group" version="0.2" desc="leg_rear_far">
+<param name="amount">
+<animated type="real">
+<waypoint time="0.00000000s" before="linear" after="linear">
+<real value="1.00000000"/>
+</waypoint>
+<waypoint time="0.08333333s" before="linear" after="linear">
+<real value="1.00000000"/>
+</waypoint>
+<waypoint time="0.16666667s" before="linear" after="linear">
+<real value="1.00000000"/>
+</waypoint>
+<waypoint time="0.25000000s" before="linear" after="linear">
+<real value="1.00000000"/>
+</waypoint>
+<waypoint time="0.33333333s" before="linear" after="linear">
+<real value="1.00000000"/>
+</waypoint>
+<waypoint time="0.41666667s" before="linear" after="linear">
+<real value="1.00000000"/>
+</waypoint>
+<waypoint time="0.50000000s" before="linear" after="linear">
+<real value="1.00000000"/>
+</waypoint>
+<waypoint time="0.58333333s" before="linear" after="linear">
+<real value="1.00000000"/>
+</waypoint>
+<waypoint time="0.66666667s" before="linear" after="linear">
+<real value="1.00000000"/>
+</waypoint>
+</animated>
+</param>
+<param name="blend_method">
+<integer value="0"/>
+</param>
+<param name="origin">
+<vector>
+<x>0.0000000</x>
+<y>0.0000000</y>
+</vector>
+</param>
+<param name="transformation">
+<bone_link type="transformation">
+<bone>
+<bone_valuenode type="bone_object" guid="42BB157B13A2E7DD1C9CACC511A8B76A"/>
+</bone>
+<base_value>
+<composite type="transformation">
+<offset>
+<vector>
+<x>0.0000000</x>
+<y>0.0000000</y>
+</vector>
+</offset>
+<angle>
+<angle value="0"/>
+</angle>
+<skew_angle>
+<angle value="0"/>
+</skew_angle>
+<scale>
+<animated type="vector">
+<waypoint time="0.00000000s" before="linear" after="linear">
+<vector>
+<x>1.0000000</x>
+<y>1.0000000</y>
+</vector>
+</waypoint>
+<waypoint time="0.08333333s" before="linear" after="linear">
+<vector>
+<x>1.0000000</x>
+<y>1.0000000</y>
+</vector>
+</waypoint>
+<waypoint time="0.16666667s" before="linear" after="linear">
+<vector>
+<x>1.0000000</x>
+<y>1.0000000</y>
+</vector>
+</waypoint>
+<waypoint time="0.25000000s" before="linear" after="linear">
+<vector>
+<x>1.0000000</x>
+<y>1.0000000</y>
+</vector>
+</waypoint>
+<waypoint time="0.33333333s" before="linear" after="linear">
+<vector>
+<x>1.0000000</x>
+<y>1.0000000</y>
+</vector>
+</waypoint>
+<waypoint time="0.41666667s" before="linear" after="linear">
+<vector>
+<x>1.0000000</x>
+<y>1.0000000</y>
+</vector>
+</waypoint>
+<waypoint time="0.50000000s" before="linear" after="linear">
+<vector>
+<x>1.0000000</x>
+<y>1.0000000</y>
+</vector>
+</waypoint>
+<waypoint time="0.58333333s" before="linear" after="linear">
+<vector>
+<x>1.0000000</x>
+<y>1.0000000</y>
+</vector>
+</waypoint>
+<waypoint time="0.66666667s" before="linear" after="linear">
+<vector>
+<x>1.0000000</x>
+<y>1.0000000</y>
+</vector>
+</waypoint>
+</animated>
+</scale>
+</composite>
+</base_value>
+<translate>
+<bool value="true"/>
+</translate>
+<rotate>
+<bool value="true"/>
+</rotate>
+<skew>
+<bool value="true"/>
+</skew>
+<scale_x>
+<bool value="true"/>
+</scale_x>
+<scale_y>
+<bool value="true"/>
+</scale_y>
+</bone_link>
+</param>
+<param name="canvas">
+<canvas>
+<layer type="import" version="0.1">
+<param name="amount">
+<real value="1"/>
+</param>
+<param name="blend_method">
+<integer value="0"/>
+</param>
+<param name="tl">
+<vector>
+<x>-12.5000000</x>
+<y>26.6000000</y>
+</vector>
+</param>
+<param name="br">
+<vector>
+<x>12.5000000</x>
+<y>-1.4000000</y>
+</vector>
+</param>
+<param name="c">
+<integer value="1"/>
+</param>
+<param name="filename">
+<string>leg_rear_far.png</string>
+</param>
+</layer>
+</canvas>
+</param>
+</layer>
+<layer type="group" version="0.2" desc="leg_mid_far">
+<param name="amount">
+<animated type="real">
+<waypoint time="0.00000000s" before="linear" after="linear">
+<real value="1.00000000"/>
+</waypoint>
+<waypoint time="0.08333333s" before="linear" after="linear">
+<real value="1.00000000"/>
+</waypoint>
+<waypoint time="0.16666667s" before="linear" after="linear">
+<real value="1.00000000"/>
+</waypoint>
+<waypoint time="0.25000000s" before="linear" after="linear">
+<real value="1.00000000"/>
+</waypoint>
+<waypoint time="0.33333333s" before="linear" after="linear">
+<real value="1.00000000"/>
+</waypoint>
+<waypoint time="0.41666667s" before="linear" after="linear">
+<real value="1.00000000"/>
+</waypoint>
+<waypoint time="0.50000000s" before="linear" after="linear">
+<real value="1.00000000"/>
+</waypoint>
+<waypoint time="0.58333333s" before="linear" after="linear">
+<real value="1.00000000"/>
+</waypoint>
+<waypoint time="0.66666667s" before="linear" after="linear">
+<real value="1.00000000"/>
+</waypoint>
+</animated>
+</param>
+<param name="blend_method">
+<integer value="0"/>
+</param>
+<param name="origin">
+<vector>
+<x>0.0000000</x>
+<y>0.0000000</y>
+</vector>
+</param>
+<param name="transformation">
+<bone_link type="transformation">
+<bone>
+<bone_valuenode type="bone_object" guid="65346A6B7632D8486A6C5D30C2CE9C5E"/>
+</bone>
+<base_value>
+<composite type="transformation">
+<offset>
+<vector>
+<x>0.0000000</x>
+<y>0.0000000</y>
+</vector>
+</offset>
+<angle>
+<angle value="0"/>
+</angle>
+<skew_angle>
+<angle value="0"/>
+</skew_angle>
+<scale>
+<animated type="vector">
+<waypoint time="0.00000000s" before="linear" after="linear">
+<vector>
+<x>1.0000000</x>
+<y>1.0000000</y>
+</vector>
+</waypoint>
+<waypoint time="0.08333333s" before="linear" after="linear">
+<vector>
+<x>1.0000000</x>
+<y>1.0000000</y>
+</vector>
+</waypoint>
+<waypoint time="0.16666667s" before="linear" after="linear">
+<vector>
+<x>1.0000000</x>
+<y>1.0000000</y>
+</vector>
+</waypoint>
+<waypoint time="0.25000000s" before="linear" after="linear">
+<vector>
+<x>1.0000000</x>
+<y>1.0000000</y>
+</vector>
+</waypoint>
+<waypoint time="0.33333333s" before="linear" after="linear">
+<vector>
+<x>1.0000000</x>
+<y>1.0000000</y>
+</vector>
+</waypoint>
+<waypoint time="0.41666667s" before="linear" after="linear">
+<vector>
+<x>1.0000000</x>
+<y>1.0000000</y>
+</vector>
+</waypoint>
+<waypoint time="0.50000000s" before="linear" after="linear">
+<vector>
+<x>1.0000000</x>
+<y>1.0000000</y>
+</vector>
+</waypoint>
+<waypoint time="0.58333333s" before="linear" after="linear">
+<vector>
+<x>1.0000000</x>
+<y>1.0000000</y>
+</vector>
+</waypoint>
+<waypoint time="0.66666667s" before="linear" after="linear">
+<vector>
+<x>1.0000000</x>
+<y>1.0000000</y>
+</vector>
+</waypoint>
+</animated>
+</scale>
+</composite>
+</base_value>
+<translate>
+<bool value="true"/>
+</translate>
+<rotate>
+<bool value="true"/>
+</rotate>
+<skew>
+<bool value="true"/>
+</skew>
+<scale_x>
+<bool value="true"/>
+</scale_x>
+<scale_y>
+<bool value="true"/>
+</scale_y>
+</bone_link>
+</param>
+<param name="canvas">
+<canvas>
+<layer type="import" version="0.1">
+<param name="amount">
+<real value="1"/>
+</param>
+<param name="blend_method">
+<integer value="0"/>
+</param>
+<param name="tl">
+<vector>
+<x>-12.0000000</x>
+<y>27.5500000</y>
+</vector>
+</param>
+<param name="br">
+<vector>
+<x>12.0000000</x>
+<y>-1.4500000</y>
+</vector>
+</param>
+<param name="c">
+<integer value="1"/>
+</param>
+<param name="filename">
+<string>leg_mid_far.png</string>
+</param>
+</layer>
+</canvas>
+</param>
+</layer>
+<layer type="group" version="0.2" desc="leg_front_far">
+<param name="amount">
+<animated type="real">
+<waypoint time="0.00000000s" before="linear" after="linear">
+<real value="1.00000000"/>
+</waypoint>
+<waypoint time="0.08333333s" before="linear" after="linear">
+<real value="1.00000000"/>
+</waypoint>
+<waypoint time="0.16666667s" before="linear" after="linear">
+<real value="1.00000000"/>
+</waypoint>
+<waypoint time="0.25000000s" before="linear" after="linear">
+<real value="1.00000000"/>
+</waypoint>
+<waypoint time="0.33333333s" before="linear" after="linear">
+<real value="1.00000000"/>
+</waypoint>
+<waypoint time="0.41666667s" before="linear" after="linear">
+<real value="1.00000000"/>
+</waypoint>
+<waypoint time="0.50000000s" before="linear" after="linear">
+<real value="1.00000000"/>
+</waypoint>
+<waypoint time="0.58333333s" before="linear" after="linear">
+<real value="1.00000000"/>
+</waypoint>
+<waypoint time="0.66666667s" before="linear" after="linear">
+<real value="1.00000000"/>
+</waypoint>
+</animated>
+</param>
+<param name="blend_method">
+<integer value="0"/>
+</param>
+<param name="origin">
+<vector>
+<x>0.0000000</x>
+<y>0.0000000</y>
+</vector>
+</param>
+<param name="transformation">
+<bone_link type="transformation">
+<bone>
+<bone_valuenode type="bone_object" guid="69F3E6086D7E07EF12775477C9FB2017"/>
+</bone>
+<base_value>
+<composite type="transformation">
+<offset>
+<vector>
+<x>0.0000000</x>
+<y>0.0000000</y>
+</vector>
+</offset>
+<angle>
+<angle value="0"/>
+</angle>
+<skew_angle>
+<angle value="0"/>
+</skew_angle>
+<scale>
+<animated type="vector">
+<waypoint time="0.00000000s" before="linear" after="linear">
+<vector>
+<x>1.0000000</x>
+<y>1.0000000</y>
+</vector>
+</waypoint>
+<waypoint time="0.08333333s" before="linear" after="linear">
+<vector>
+<x>1.0000000</x>
+<y>1.0000000</y>
+</vector>
+</waypoint>
+<waypoint time="0.16666667s" before="linear" after="linear">
+<vector>
+<x>1.0000000</x>
+<y>1.0000000</y>
+</vector>
+</waypoint>
+<waypoint time="0.25000000s" before="linear" after="linear">
+<vector>
+<x>1.0000000</x>
+<y>1.0000000</y>
+</vector>
+</waypoint>
+<waypoint time="0.33333333s" before="linear" after="linear">
+<vector>
+<x>1.0000000</x>
+<y>1.0000000</y>
+</vector>
+</waypoint>
+<waypoint time="0.41666667s" before="linear" after="linear">
+<vector>
+<x>1.0000000</x>
+<y>1.0000000</y>
+</vector>
+</waypoint>
+<waypoint time="0.50000000s" before="linear" after="linear">
+<vector>
+<x>1.0000000</x>
+<y>1.0000000</y>
+</vector>
+</waypoint>
+<waypoint time="0.58333333s" before="linear" after="linear">
+<vector>
+<x>1.0000000</x>
+<y>1.0000000</y>
+</vector>
+</waypoint>
+<waypoint time="0.66666667s" before="linear" after="linear">
+<vector>
+<x>1.0000000</x>
+<y>1.0000000</y>
+</vector>
+</waypoint>
+</animated>
+</scale>
+</composite>
+</base_value>
+<translate>
+<bool value="true"/>
+</translate>
+<rotate>
+<bool value="true"/>
+</rotate>
+<skew>
+<bool value="true"/>
+</skew>
+<scale_x>
+<bool value="true"/>
+</scale_x>
+<scale_y>
+<bool value="true"/>
+</scale_y>
+</bone_link>
+</param>
+<param name="canvas">
+<canvas>
+<layer type="import" version="0.1">
+<param name="amount">
+<real value="1"/>
+</param>
+<param name="blend_method">
+<integer value="0"/>
+</param>
+<param name="tl">
+<vector>
+<x>-11.5000000</x>
+<y>26.6000000</y>
+</vector>
+</param>
+<param name="br">
+<vector>
+<x>11.5000000</x>
+<y>-1.4000000</y>
+</vector>
+</param>
+<param name="c">
+<integer value="1"/>
+</param>
+<param name="filename">
+<string>leg_front_far.png</string>
+</param>
+</layer>
+</canvas>
+</param>
+</layer>
+<layer type="group" version="0.2" desc="shell">
+<param name="amount">
+<animated type="real">
+<waypoint time="0.00000000s" before="linear" after="linear">
+<real value="1.00000000"/>
+</waypoint>
+<waypoint time="0.08333333s" before="linear" after="linear">
+<real value="1.00000000"/>
+</waypoint>
+<waypoint time="0.16666667s" before="linear" after="linear">
+<real value="1.00000000"/>
+</waypoint>
+<waypoint time="0.25000000s" before="linear" after="linear">
+<real value="1.00000000"/>
+</waypoint>
+<waypoint time="0.33333333s" before="linear" after="linear">
+<real value="1.00000000"/>
+</waypoint>
+<waypoint time="0.41666667s" before="linear" after="linear">
+<real value="1.00000000"/>
+</waypoint>
+<waypoint time="0.50000000s" before="linear" after="linear">
+<real value="1.00000000"/>
+</waypoint>
+<waypoint time="0.58333333s" before="linear" after="linear">
+<real value="1.00000000"/>
+</waypoint>
+<waypoint time="0.66666667s" before="linear" after="linear">
+<real value="1.00000000"/>
+</waypoint>
+</animated>
+</param>
+<param name="blend_method">
+<integer value="0"/>
+</param>
+<param name="origin">
+<vector>
+<x>0.0000000</x>
+<y>0.0000000</y>
+</vector>
+</param>
+<param name="transformation">
+<bone_link type="transformation">
+<bone>
+<bone_valuenode type="bone_object" guid="704D366CFAE53F1D457518054DEBB6AF"/>
+</bone>
+<base_value>
+<composite type="transformation">
+<offset>
+<vector>
+<x>0.0000000</x>
+<y>0.0000000</y>
+</vector>
+</offset>
+<angle>
+<angle value="0"/>
+</angle>
+<skew_angle>
+<angle value="0"/>
+</skew_angle>
+<scale>
+<animated type="vector">
+<waypoint time="0.00000000s" before="linear" after="linear">
+<vector>
+<x>1.0000000</x>
+<y>1.0000000</y>
+</vector>
+</waypoint>
+<waypoint time="0.08333333s" before="linear" after="linear">
+<vector>
+<x>1.0025000</x>
+<y>1.0028125</y>
+</vector>
+</waypoint>
+<waypoint time="0.16666667s" before="linear" after="linear">
+<vector>
+<x>1.0100000</x>
+<y>1.0112500</y>
+</vector>
+</waypoint>
+<waypoint time="0.25000000s" before="linear" after="linear">
+<vector>
+<x>1.0225000</x>
+<y>1.0253125</y>
+</vector>
+</waypoint>
+<waypoint time="0.33333333s" before="linear" after="linear">
+<vector>
+<x>1.0400000</x>
+<y>1.0450000</y>
+</vector>
+</waypoint>
+<waypoint time="0.41666667s" before="linear" after="linear">
+<vector>
+<x>1.0625000</x>
+<y>1.0703125</y>
+</vector>
+</waypoint>
+<waypoint time="0.50000000s" before="linear" after="linear">
+<vector>
+<x>1.0900000</x>
+<y>1.1012500</y>
+</vector>
+</waypoint>
+<waypoint time="0.58333333s" before="linear" after="linear">
+<vector>
+<x>1.1225000</x>
+<y>1.1378125</y>
+</vector>
+</waypoint>
+<waypoint time="0.66666667s" before="linear" after="linear">
+<vector>
+<x>1.1600000</x>
+<y>1.1800000</y>
+</vector>
+</waypoint>
+</animated>
+</scale>
+</composite>
+</base_value>
+<translate>
+<bool value="true"/>
+</translate>
+<rotate>
+<bool value="true"/>
+</rotate>
+<skew>
+<bool value="true"/>
+</skew>
+<scale_x>
+<bool value="true"/>
+</scale_x>
+<scale_y>
+<bool value="true"/>
+</scale_y>
+</bone_link>
+</param>
+<param name="canvas">
+<canvas>
+<layer type="import" version="0.1">
+<param name="amount">
+<real value="1"/>
+</param>
+<param name="blend_method">
+<integer value="0"/>
+</param>
+<param name="tl">
+<vector>
+<x>-64.0000000</x>
+<y>73.0000000</y>
+</vector>
+</param>
+<param name="br">
+<vector>
+<x>64.0000000</x>
+<y>-73.0000000</y>
+</vector>
+</param>
+<param name="c">
+<integer value="1"/>
+</param>
+<param name="filename">
+<string>shell.png</string>
+</param>
+</layer>
+</canvas>
+</param>
+</layer>
+<layer type="group" version="0.2" desc="underbody">
+<param name="amount">
+<animated type="real">
+<waypoint time="0.00000000s" before="linear" after="linear">
+<real value="1.00000000"/>
+</waypoint>
+<waypoint time="0.08333333s" before="linear" after="linear">
+<real value="1.00000000"/>
+</waypoint>
+<waypoint time="0.16666667s" before="linear" after="linear">
+<real value="1.00000000"/>
+</waypoint>
+<waypoint time="0.25000000s" before="linear" after="linear">
+<real value="1.00000000"/>
+</waypoint>
+<waypoint time="0.33333333s" before="linear" after="linear">
+<real value="1.00000000"/>
+</waypoint>
+<waypoint time="0.41666667s" before="linear" after="linear">
+<real value="1.00000000"/>
+</waypoint>
+<waypoint time="0.50000000s" before="linear" after="linear">
+<real value="1.00000000"/>
+</waypoint>
+<waypoint time="0.58333333s" before="linear" after="linear">
+<real value="1.00000000"/>
+</waypoint>
+<waypoint time="0.66666667s" before="linear" after="linear">
+<real value="1.00000000"/>
+</waypoint>
+</animated>
+</param>
+<param name="blend_method">
+<integer value="0"/>
+</param>
+<param name="origin">
+<vector>
+<x>0.0000000</x>
+<y>0.0000000</y>
+</vector>
+</param>
+<param name="transformation">
+<bone_link type="transformation">
+<bone>
+<bone_valuenode type="bone_object" guid="232D21EF37165A7BF17AF70AFE2CE699"/>
+</bone>
+<base_value>
+<composite type="transformation">
+<offset>
+<vector>
+<x>0.0000000</x>
+<y>0.0000000</y>
+</vector>
+</offset>
+<angle>
+<angle value="0"/>
+</angle>
+<skew_angle>
+<angle value="0"/>
+</skew_angle>
+<scale>
+<animated type="vector">
+<waypoint time="0.00000000s" before="linear" after="linear">
+<vector>
+<x>1.0000000</x>
+<y>1.0000000</y>
+</vector>
+</waypoint>
+<waypoint time="0.08333333s" before="linear" after="linear">
+<vector>
+<x>1.0000000</x>
+<y>1.0000000</y>
+</vector>
+</waypoint>
+<waypoint time="0.16666667s" before="linear" after="linear">
+<vector>
+<x>1.0000000</x>
+<y>1.0000000</y>
+</vector>
+</waypoint>
+<waypoint time="0.25000000s" before="linear" after="linear">
+<vector>
+<x>1.0000000</x>
+<y>1.0000000</y>
+</vector>
+</waypoint>
+<waypoint time="0.33333333s" before="linear" after="linear">
+<vector>
+<x>1.0000000</x>
+<y>1.0000000</y>
+</vector>
+</waypoint>
+<waypoint time="0.41666667s" before="linear" after="linear">
+<vector>
+<x>1.0000000</x>
+<y>1.0000000</y>
+</vector>
+</waypoint>
+<waypoint time="0.50000000s" before="linear" after="linear">
+<vector>
+<x>1.0000000</x>
+<y>1.0000000</y>
+</vector>
+</waypoint>
+<waypoint time="0.58333333s" before="linear" after="linear">
+<vector>
+<x>1.0000000</x>
+<y>1.0000000</y>
+</vector>
+</waypoint>
+<waypoint time="0.66666667s" before="linear" after="linear">
+<vector>
+<x>1.0000000</x>
+<y>1.0000000</y>
+</vector>
+</waypoint>
+</animated>
+</scale>
+</composite>
+</base_value>
+<translate>
+<bool value="true"/>
+</translate>
+<rotate>
+<bool value="true"/>
+</rotate>
+<skew>
+<bool value="true"/>
+</skew>
+<scale_x>
+<bool value="true"/>
+</scale_x>
+<scale_y>
+<bool value="true"/>
+</scale_y>
+</bone_link>
+</param>
+<param name="canvas">
+<canvas>
+<layer type="import" version="0.1">
+<param name="amount">
+<real value="1"/>
+</param>
+<param name="blend_method">
+<integer value="0"/>
+</param>
+<param name="tl">
+<vector>
+<x>-55.0000000</x>
+<y>28.0000000</y>
+</vector>
+</param>
+<param name="br">
+<vector>
+<x>55.0000000</x>
+<y>-28.0000000</y>
+</vector>
+</param>
+<param name="c">
+<integer value="1"/>
+</param>
+<param name="filename">
+<string>underbody.png</string>
+</param>
+</layer>
+</canvas>
+</param>
+</layer>
+<layer type="group" version="0.2" desc="leg_rear_near">
+<param name="amount">
+<animated type="real">
+<waypoint time="0.00000000s" before="linear" after="linear">
+<real value="1.00000000"/>
+</waypoint>
+<waypoint time="0.08333333s" before="linear" after="linear">
+<real value="1.00000000"/>
+</waypoint>
+<waypoint time="0.16666667s" before="linear" after="linear">
+<real value="1.00000000"/>
+</waypoint>
+<waypoint time="0.25000000s" before="linear" after="linear">
+<real value="1.00000000"/>
+</waypoint>
+<waypoint time="0.33333333s" before="linear" after="linear">
+<real value="1.00000000"/>
+</waypoint>
+<waypoint time="0.41666667s" before="linear" after="linear">
+<real value="1.00000000"/>
+</waypoint>
+<waypoint time="0.50000000s" before="linear" after="linear">
+<real value="1.00000000"/>
+</waypoint>
+<waypoint time="0.58333333s" before="linear" after="linear">
+<real value="1.00000000"/>
+</waypoint>
+<waypoint time="0.66666667s" before="linear" after="linear">
+<real value="1.00000000"/>
+</waypoint>
+</animated>
+</param>
+<param name="blend_method">
+<integer value="0"/>
+</param>
+<param name="origin">
+<vector>
+<x>0.0000000</x>
+<y>0.0000000</y>
+</vector>
+</param>
+<param name="transformation">
+<bone_link type="transformation">
+<bone>
+<bone_valuenode type="bone_object" guid="09A65EA2B8823E77F3A35346F7D84DB7"/>
+</bone>
+<base_value>
+<composite type="transformation">
+<offset>
+<vector>
+<x>0.0000000</x>
+<y>0.0000000</y>
+</vector>
+</offset>
+<angle>
+<angle value="0"/>
+</angle>
+<skew_angle>
+<angle value="0"/>
+</skew_angle>
+<scale>
+<animated type="vector">
+<waypoint time="0.00000000s" before="linear" after="linear">
+<vector>
+<x>1.0000000</x>
+<y>1.0000000</y>
+</vector>
+</waypoint>
+<waypoint time="0.08333333s" before="linear" after="linear">
+<vector>
+<x>1.0000000</x>
+<y>1.0000000</y>
+</vector>
+</waypoint>
+<waypoint time="0.16666667s" before="linear" after="linear">
+<vector>
+<x>1.0000000</x>
+<y>1.0000000</y>
+</vector>
+</waypoint>
+<waypoint time="0.25000000s" before="linear" after="linear">
+<vector>
+<x>1.0000000</x>
+<y>1.0000000</y>
+</vector>
+</waypoint>
+<waypoint time="0.33333333s" before="linear" after="linear">
+<vector>
+<x>1.0000000</x>
+<y>1.0000000</y>
+</vector>
+</waypoint>
+<waypoint time="0.41666667s" before="linear" after="linear">
+<vector>
+<x>1.0000000</x>
+<y>1.0000000</y>
+</vector>
+</waypoint>
+<waypoint time="0.50000000s" before="linear" after="linear">
+<vector>
+<x>1.0000000</x>
+<y>1.0000000</y>
+</vector>
+</waypoint>
+<waypoint time="0.58333333s" before="linear" after="linear">
+<vector>
+<x>1.0000000</x>
+<y>1.0000000</y>
+</vector>
+</waypoint>
+<waypoint time="0.66666667s" before="linear" after="linear">
+<vector>
+<x>1.0000000</x>
+<y>1.0000000</y>
+</vector>
+</waypoint>
+</animated>
+</scale>
+</composite>
+</base_value>
+<translate>
+<bool value="true"/>
+</translate>
+<rotate>
+<bool value="true"/>
+</rotate>
+<skew>
+<bool value="true"/>
+</skew>
+<scale_x>
+<bool value="true"/>
+</scale_x>
+<scale_y>
+<bool value="true"/>
+</scale_y>
+</bone_link>
+</param>
+<param name="canvas">
+<canvas>
+<layer type="import" version="0.1">
+<param name="amount">
+<real value="1"/>
+</param>
+<param name="blend_method">
+<integer value="0"/>
+</param>
+<param name="tl">
+<vector>
+<x>-15.5000000</x>
+<y>30.4000000</y>
+</vector>
+</param>
+<param name="br">
+<vector>
+<x>15.5000000</x>
+<y>-1.6000000</y>
+</vector>
+</param>
+<param name="c">
+<integer value="1"/>
+</param>
+<param name="filename">
+<string>leg_rear_near.png</string>
+</param>
+</layer>
+</canvas>
+</param>
+</layer>
+<layer type="group" version="0.2" desc="leg_mid_near">
+<param name="amount">
+<animated type="real">
+<waypoint time="0.00000000s" before="linear" after="linear">
+<real value="1.00000000"/>
+</waypoint>
+<waypoint time="0.08333333s" before="linear" after="linear">
+<real value="1.00000000"/>
+</waypoint>
+<waypoint time="0.16666667s" before="linear" after="linear">
+<real value="1.00000000"/>
+</waypoint>
+<waypoint time="0.25000000s" before="linear" after="linear">
+<real value="1.00000000"/>
+</waypoint>
+<waypoint time="0.33333333s" before="linear" after="linear">
+<real value="1.00000000"/>
+</waypoint>
+<waypoint time="0.41666667s" before="linear" after="linear">
+<real value="1.00000000"/>
+</waypoint>
+<waypoint time="0.50000000s" before="linear" after="linear">
+<real value="1.00000000"/>
+</waypoint>
+<waypoint time="0.58333333s" before="linear" after="linear">
+<real value="1.00000000"/>
+</waypoint>
+<waypoint time="0.66666667s" before="linear" after="linear">
+<real value="1.00000000"/>
+</waypoint>
+</animated>
+</param>
+<param name="blend_method">
+<integer value="0"/>
+</param>
+<param name="origin">
+<vector>
+<x>0.0000000</x>
+<y>0.0000000</y>
+</vector>
+</param>
+<param name="transformation">
+<bone_link type="transformation">
+<bone>
+<bone_valuenode type="bone_object" guid="489B105DE5C4B13BE31673B6E7FD25DC"/>
+</bone>
+<base_value>
+<composite type="transformation">
+<offset>
+<vector>
+<x>0.0000000</x>
+<y>0.0000000</y>
+</vector>
+</offset>
+<angle>
+<angle value="0"/>
+</angle>
+<skew_angle>
+<angle value="0"/>
+</skew_angle>
+<scale>
+<animated type="vector">
+<waypoint time="0.00000000s" before="linear" after="linear">
+<vector>
+<x>1.0000000</x>
+<y>1.0000000</y>
+</vector>
+</waypoint>
+<waypoint time="0.08333333s" before="linear" after="linear">
+<vector>
+<x>1.0000000</x>
+<y>1.0000000</y>
+</vector>
+</waypoint>
+<waypoint time="0.16666667s" before="linear" after="linear">
+<vector>
+<x>1.0000000</x>
+<y>1.0000000</y>
+</vector>
+</waypoint>
+<waypoint time="0.25000000s" before="linear" after="linear">
+<vector>
+<x>1.0000000</x>
+<y>1.0000000</y>
+</vector>
+</waypoint>
+<waypoint time="0.33333333s" before="linear" after="linear">
+<vector>
+<x>1.0000000</x>
+<y>1.0000000</y>
+</vector>
+</waypoint>
+<waypoint time="0.41666667s" before="linear" after="linear">
+<vector>
+<x>1.0000000</x>
+<y>1.0000000</y>
+</vector>
+</waypoint>
+<waypoint time="0.50000000s" before="linear" after="linear">
+<vector>
+<x>1.0000000</x>
+<y>1.0000000</y>
+</vector>
+</waypoint>
+<waypoint time="0.58333333s" before="linear" after="linear">
+<vector>
+<x>1.0000000</x>
+<y>1.0000000</y>
+</vector>
+</waypoint>
+<waypoint time="0.66666667s" before="linear" after="linear">
+<vector>
+<x>1.0000000</x>
+<y>1.0000000</y>
+</vector>
+</waypoint>
+</animated>
+</scale>
+</composite>
+</base_value>
+<translate>
+<bool value="true"/>
+</translate>
+<rotate>
+<bool value="true"/>
+</rotate>
+<skew>
+<bool value="true"/>
+</skew>
+<scale_x>
+<bool value="true"/>
+</scale_x>
+<scale_y>
+<bool value="true"/>
+</scale_y>
+</bone_link>
+</param>
+<param name="canvas">
+<canvas>
+<layer type="import" version="0.1">
+<param name="amount">
+<real value="1"/>
+</param>
+<param name="blend_method">
+<integer value="0"/>
+</param>
+<param name="tl">
+<vector>
+<x>-15.0000000</x>
+<y>36.1000000</y>
+</vector>
+</param>
+<param name="br">
+<vector>
+<x>15.0000000</x>
+<y>-1.9000000</y>
+</vector>
+</param>
+<param name="c">
+<integer value="1"/>
+</param>
+<param name="filename">
+<string>leg_mid_near.png</string>
+</param>
+</layer>
+</canvas>
+</param>
+</layer>
+<layer type="group" version="0.2" desc="leg_front_near">
+<param name="amount">
+<animated type="real">
+<waypoint time="0.00000000s" before="linear" after="linear">
+<real value="1.00000000"/>
+</waypoint>
+<waypoint time="0.08333333s" before="linear" after="linear">
+<real value="1.00000000"/>
+</waypoint>
+<waypoint time="0.16666667s" before="linear" after="linear">
+<real value="1.00000000"/>
+</waypoint>
+<waypoint time="0.25000000s" before="linear" after="linear">
+<real value="1.00000000"/>
+</waypoint>
+<waypoint time="0.33333333s" before="linear" after="linear">
+<real value="1.00000000"/>
+</waypoint>
+<waypoint time="0.41666667s" before="linear" after="linear">
+<real value="1.00000000"/>
+</waypoint>
+<waypoint time="0.50000000s" before="linear" after="linear">
+<real value="1.00000000"/>
+</waypoint>
+<waypoint time="0.58333333s" before="linear" after="linear">
+<real value="1.00000000"/>
+</waypoint>
+<waypoint time="0.66666667s" before="linear" after="linear">
+<real value="1.00000000"/>
+</waypoint>
+</animated>
+</param>
+<param name="blend_method">
+<integer value="0"/>
+</param>
+<param name="origin">
+<vector>
+<x>0.0000000</x>
+<y>0.0000000</y>
+</vector>
+</param>
+<param name="transformation">
+<bone_link type="transformation">
+<bone>
+<bone_valuenode type="bone_object" guid="FF0C409EFD89ABE64315B6C02FA1E178"/>
+</bone>
+<base_value>
+<composite type="transformation">
+<offset>
+<vector>
+<x>0.0000000</x>
+<y>0.0000000</y>
+</vector>
+</offset>
+<angle>
+<angle value="0"/>
+</angle>
+<skew_angle>
+<angle value="0"/>
+</skew_angle>
+<scale>
+<animated type="vector">
+<waypoint time="0.00000000s" before="linear" after="linear">
+<vector>
+<x>1.0000000</x>
+<y>1.0000000</y>
+</vector>
+</waypoint>
+<waypoint time="0.08333333s" before="linear" after="linear">
+<vector>
+<x>1.0000000</x>
+<y>1.0000000</y>
+</vector>
+</waypoint>
+<waypoint time="0.16666667s" before="linear" after="linear">
+<vector>
+<x>1.0000000</x>
+<y>1.0000000</y>
+</vector>
+</waypoint>
+<waypoint time="0.25000000s" before="linear" after="linear">
+<vector>
+<x>1.0000000</x>
+<y>1.0000000</y>
+</vector>
+</waypoint>
+<waypoint time="0.33333333s" before="linear" after="linear">
+<vector>
+<x>1.0000000</x>
+<y>1.0000000</y>
+</vector>
+</waypoint>
+<waypoint time="0.41666667s" before="linear" after="linear">
+<vector>
+<x>1.0000000</x>
+<y>1.0000000</y>
+</vector>
+</waypoint>
+<waypoint time="0.50000000s" before="linear" after="linear">
+<vector>
+<x>1.0000000</x>
+<y>1.0000000</y>
+</vector>
+</waypoint>
+<waypoint time="0.58333333s" before="linear" after="linear">
+<vector>
+<x>1.0000000</x>
+<y>1.0000000</y>
+</vector>
+</waypoint>
+<waypoint time="0.66666667s" before="linear" after="linear">
+<vector>
+<x>1.0000000</x>
+<y>1.0000000</y>
+</vector>
+</waypoint>
+</animated>
+</scale>
+</composite>
+</base_value>
+<translate>
+<bool value="true"/>
+</translate>
+<rotate>
+<bool value="true"/>
+</rotate>
+<skew>
+<bool value="true"/>
+</skew>
+<scale_x>
+<bool value="true"/>
+</scale_x>
+<scale_y>
+<bool value="true"/>
+</scale_y>
+</bone_link>
+</param>
+<param name="canvas">
+<canvas>
+<layer type="import" version="0.1">
+<param name="amount">
+<real value="1"/>
+</param>
+<param name="blend_method">
+<integer value="0"/>
+</param>
+<param name="tl">
+<vector>
+<x>-14.0000000</x>
+<y>30.4000000</y>
+</vector>
+</param>
+<param name="br">
+<vector>
+<x>14.0000000</x>
+<y>-1.6000000</y>
+</vector>
+</param>
+<param name="c">
+<integer value="1"/>
+</param>
+<param name="filename">
+<string>leg_front_near.png</string>
+</param>
+</layer>
+</canvas>
+</param>
+</layer>
+<layer type="group" version="0.2" desc="head">
+<param name="amount">
+<animated type="real">
+<waypoint time="0.00000000s" before="linear" after="linear">
+<real value="1.00000000"/>
+</waypoint>
+<waypoint time="0.08333333s" before="linear" after="linear">
+<real value="1.00000000"/>
+</waypoint>
+<waypoint time="0.16666667s" before="linear" after="linear">
+<real value="1.00000000"/>
+</waypoint>
+<waypoint time="0.25000000s" before="linear" after="linear">
+<real value="1.00000000"/>
+</waypoint>
+<waypoint time="0.33333333s" before="linear" after="linear">
+<real value="1.00000000"/>
+</waypoint>
+<waypoint time="0.41666667s" before="linear" after="linear">
+<real value="1.00000000"/>
+</waypoint>
+<waypoint time="0.50000000s" before="linear" after="linear">
+<real value="1.00000000"/>
+</waypoint>
+<waypoint time="0.58333333s" before="linear" after="linear">
+<real value="1.00000000"/>
+</waypoint>
+<waypoint time="0.66666667s" before="linear" after="linear">
+<real value="1.00000000"/>
+</waypoint>
+</animated>
+</param>
+<param name="blend_method">
+<integer value="0"/>
+</param>
+<param name="origin">
+<vector>
+<x>0.0000000</x>
+<y>0.0000000</y>
+</vector>
+</param>
+<param name="transformation">
+<bone_link type="transformation">
+<bone>
+<bone_valuenode type="bone_object" guid="CDA5A3566FD9607A21F2E10FD93669FF"/>
+</bone>
+<base_value>
+<composite type="transformation">
+<offset>
+<vector>
+<x>0.0000000</x>
+<y>0.0000000</y>
+</vector>
+</offset>
+<angle>
+<angle value="0"/>
+</angle>
+<skew_angle>
+<angle value="0"/>
+</skew_angle>
+<scale>
+<animated type="vector">
+<waypoint time="0.00000000s" before="linear" after="linear">
+<vector>
+<x>1.0000000</x>
+<y>1.0000000</y>
+</vector>
+</waypoint>
+<waypoint time="0.08333333s" before="linear" after="linear">
+<vector>
+<x>1.0043750</x>
+<y>0.9825000</y>
+</vector>
+</waypoint>
+<waypoint time="0.16666667s" before="linear" after="linear">
+<vector>
+<x>1.0087500</x>
+<y>0.9650000</y>
+</vector>
+</waypoint>
+<waypoint time="0.25000000s" before="linear" after="linear">
+<vector>
+<x>1.0131250</x>
+<y>0.9475000</y>
+</vector>
+</waypoint>
+<waypoint time="0.33333333s" before="linear" after="linear">
+<vector>
+<x>1.0175000</x>
+<y>0.9300000</y>
+</vector>
+</waypoint>
+<waypoint time="0.41666667s" before="linear" after="linear">
+<vector>
+<x>1.0218750</x>
+<y>0.9125000</y>
+</vector>
+</waypoint>
+<waypoint time="0.50000000s" before="linear" after="linear">
+<vector>
+<x>1.0262500</x>
+<y>0.8950000</y>
+</vector>
+</waypoint>
+<waypoint time="0.58333333s" before="linear" after="linear">
+<vector>
+<x>1.0306250</x>
+<y>0.8775000</y>
+</vector>
+</waypoint>
+<waypoint time="0.66666667s" before="linear" after="linear">
+<vector>
+<x>1.0350000</x>
+<y>0.8600000</y>
+</vector>
+</waypoint>
+</animated>
+</scale>
+</composite>
+</base_value>
+<translate>
+<bool value="true"/>
+</translate>
+<rotate>
+<bool value="true"/>
+</rotate>
+<skew>
+<bool value="true"/>
+</skew>
+<scale_x>
+<bool value="true"/>
+</scale_x>
+<scale_y>
+<bool value="true"/>
+</scale_y>
+</bone_link>
+</param>
+<param name="canvas">
+<canvas>
+<layer type="import" version="0.1">
+<param name="amount">
+<real value="1"/>
+</param>
+<param name="blend_method">
+<integer value="0"/>
+</param>
+<param name="tl">
+<vector>
+<x>-59.0000000</x>
+<y>55.0000000</y>
+</vector>
+</param>
+<param name="br">
+<vector>
+<x>59.0000000</x>
+<y>-55.0000000</y>
+</vector>
+</param>
+<param name="c">
+<integer value="1"/>
+</param>
+<param name="filename">
+<string>head.png</string>
+</param>
+</layer>
+</canvas>
+</param>
+</layer>
+<layer type="group" version="0.2" desc="fuse">
+<param name="amount">
+<animated type="real">
+<waypoint time="0.00000000s" before="linear" after="linear">
+<real value="1.00000000"/>
+</waypoint>
+<waypoint time="0.08333333s" before="linear" after="linear">
+<real value="1.00000000"/>
+</waypoint>
+<waypoint time="0.16666667s" before="linear" after="linear">
+<real value="1.00000000"/>
+</waypoint>
+<waypoint time="0.25000000s" before="linear" after="linear">
+<real value="1.00000000"/>
+</waypoint>
+<waypoint time="0.33333333s" before="linear" after="linear">
+<real value="1.00000000"/>
+</waypoint>
+<waypoint time="0.41666667s" before="linear" after="linear">
+<real value="1.00000000"/>
+</waypoint>
+<waypoint time="0.50000000s" before="linear" after="linear">
+<real value="1.00000000"/>
+</waypoint>
+<waypoint time="0.58333333s" before="linear" after="linear">
+<real value="1.00000000"/>
+</waypoint>
+<waypoint time="0.66666667s" before="linear" after="linear">
+<real value="1.00000000"/>
+</waypoint>
+</animated>
+</param>
+<param name="blend_method">
+<integer value="0"/>
+</param>
+<param name="origin">
+<vector>
+<x>0.0000000</x>
+<y>0.0000000</y>
+</vector>
+</param>
+<param name="transformation">
+<bone_link type="transformation">
+<bone>
+<bone_valuenode type="bone_object" guid="8CCE47A223D6530B60C69F61CDAB973E"/>
+</bone>
+<base_value>
+<composite type="transformation">
+<offset>
+<vector>
+<x>0.0000000</x>
+<y>0.0000000</y>
+</vector>
+</offset>
+<angle>
+<angle value="0"/>
+</angle>
+<skew_angle>
+<angle value="0"/>
+</skew_angle>
+<scale>
+<animated type="vector">
+<waypoint time="0.00000000s" before="linear" after="linear">
+<vector>
+<x>1.0000000</x>
+<y>1.0000000</y>
+</vector>
+</waypoint>
+<waypoint time="0.08333333s" before="linear" after="linear">
+<vector>
+<x>1.0000000</x>
+<y>1.0000000</y>
+</vector>
+</waypoint>
+<waypoint time="0.16666667s" before="linear" after="linear">
+<vector>
+<x>1.0000000</x>
+<y>1.0000000</y>
+</vector>
+</waypoint>
+<waypoint time="0.25000000s" before="linear" after="linear">
+<vector>
+<x>1.0000000</x>
+<y>1.0000000</y>
+</vector>
+</waypoint>
+<waypoint time="0.33333333s" before="linear" after="linear">
+<vector>
+<x>1.0000000</x>
+<y>1.0000000</y>
+</vector>
+</waypoint>
+<waypoint time="0.41666667s" before="linear" after="linear">
+<vector>
+<x>1.0000000</x>
+<y>1.0000000</y>
+</vector>
+</waypoint>
+<waypoint time="0.50000000s" before="linear" after="linear">
+<vector>
+<x>1.0000000</x>
+<y>1.0000000</y>
+</vector>
+</waypoint>
+<waypoint time="0.58333333s" before="linear" after="linear">
+<vector>
+<x>1.0000000</x>
+<y>1.0000000</y>
+</vector>
+</waypoint>
+<waypoint time="0.66666667s" before="linear" after="linear">
+<vector>
+<x>1.0000000</x>
+<y>1.0000000</y>
+</vector>
+</waypoint>
+</animated>
+</scale>
+</composite>
+</base_value>
+<translate>
+<bool value="true"/>
+</translate>
+<rotate>
+<bool value="true"/>
+</rotate>
+<skew>
+<bool value="true"/>
+</skew>
+<scale_x>
+<bool value="true"/>
+</scale_x>
+<scale_y>
+<bool value="true"/>
+</scale_y>
+</bone_link>
+</param>
+<param name="canvas">
+<canvas>
+<layer type="import" version="0.1">
+<param name="amount">
+<real value="1"/>
+</param>
+<param name="blend_method">
+<integer value="0"/>
+</param>
+<param name="tl">
+<vector>
+<x>-7.9200000</x>
+<y>34.0400000</y>
+</vector>
+</param>
+<param name="br">
+<vector>
+<x>28.0800000</x>
+<y>-2.9600000</y>
+</vector>
+</param>
+<param name="c">
+<integer value="1"/>
+</param>
+<param name="filename">
+<string>fuse.png</string>
+</param>
+</layer>
+</canvas>
+</param>
+</layer>
+<layer type="group" version="0.2" desc="flame">
+<param name="amount">
+<animated type="real">
+<waypoint time="0.00000000s" before="linear" after="linear">
+<real value="1.00000000"/>
+</waypoint>
+<waypoint time="0.08333333s" before="linear" after="linear">
+<real value="1.00000000"/>
+</waypoint>
+<waypoint time="0.16666667s" before="linear" after="linear">
+<real value="1.00000000"/>
+</waypoint>
+<waypoint time="0.25000000s" before="linear" after="linear">
+<real value="1.00000000"/>
+</waypoint>
+<waypoint time="0.33333333s" before="linear" after="linear">
+<real value="1.00000000"/>
+</waypoint>
+<waypoint time="0.41666667s" before="linear" after="linear">
+<real value="1.00000000"/>
+</waypoint>
+<waypoint time="0.50000000s" before="linear" after="linear">
+<real value="1.00000000"/>
+</waypoint>
+<waypoint time="0.58333333s" before="linear" after="linear">
+<real value="1.00000000"/>
+</waypoint>
+<waypoint time="0.66666667s" before="linear" after="linear">
+<real value="1.00000000"/>
+</waypoint>
+</animated>
+</param>
+<param name="blend_method">
+<integer value="0"/>
+</param>
+<param name="origin">
+<vector>
+<x>0.0000000</x>
+<y>0.0000000</y>
+</vector>
+</param>
+<param name="transformation">
+<bone_link type="transformation">
+<bone>
+<bone_valuenode type="bone_object" guid="5BEEDB07C43989C6CD8DBAF89132BA43"/>
+</bone>
+<base_value>
+<composite type="transformation">
+<offset>
+<vector>
+<x>0.0000000</x>
+<y>0.0000000</y>
+</vector>
+</offset>
+<angle>
+<angle value="0"/>
+</angle>
+<skew_angle>
+<angle value="0"/>
+</skew_angle>
+<scale>
+<animated type="vector">
+<waypoint time="0.00000000s" before="linear" after="linear">
+<vector>
+<x>1.0800000</x>
+<y>1.1200000</y>
+</vector>
+</waypoint>
+<waypoint time="0.08333333s" before="linear" after="linear">
+<vector>
+<x>1.2996000</x>
+<y>1.0513500</y>
+</vector>
+</waypoint>
+<waypoint time="0.16666667s" before="linear" after="linear">
+<vector>
+<x>1.0440000</x>
+<y>1.4972500</y>
+</vector>
+</waypoint>
+<waypoint time="0.25000000s" before="linear" after="linear">
+<vector>
+<x>1.3482000</x>
+<y>1.3275750</y>
+</vector>
+</waypoint>
+<waypoint time="0.33333333s" before="linear" after="linear">
+<vector>
+<x>1.0824000</x>
+<y>1.8054000</y>
+</vector>
+</waypoint>
+<waypoint time="0.41666667s" before="linear" after="linear">
+<vector>
+<x>1.5456000</x>
+<y>1.4366000</y>
+</vector>
+</waypoint>
+<waypoint time="0.50000000s" before="linear" after="linear">
+<vector>
+<x>1.3680000</x>
+<y>1.8217500</y>
+</vector>
+</waypoint>
+<waypoint time="0.58333333s" before="linear" after="linear">
+<vector>
+<x>1.7700000</x>
+<y>1.5067500</y>
+</vector>
+</waypoint>
+<waypoint time="0.66666667s" before="linear" after="linear">
+<vector>
+<x>1.3260000</x>
+<y>2.2310000</y>
+</vector>
+</waypoint>
+</animated>
+</scale>
+</composite>
+</base_value>
+<translate>
+<bool value="true"/>
+</translate>
+<rotate>
+<bool value="true"/>
+</rotate>
+<skew>
+<bool value="true"/>
+</skew>
+<scale_x>
+<bool value="true"/>
+</scale_x>
+<scale_y>
+<bool value="true"/>
+</scale_y>
+</bone_link>
+</param>
+<param name="canvas">
+<canvas>
+<layer type="import" version="0.1">
+<param name="amount">
+<real value="1"/>
+</param>
+<param name="blend_method">
+<integer value="0"/>
+</param>
+<param name="tl">
+<vector>
+<x>-4.9300000</x>
+<y>23.2200000</y>
+</vector>
+</param>
+<param name="br">
+<vector>
+<x>24.0700000</x>
+<y>-3.7800000</y>
+</vector>
+</param>
+<param name="c">
+<integer value="1"/>
+</param>
+<param name="filename">
+<string>flame.png</string>
+</param>
+</layer>
+</canvas>
+</param>
+</layer>
+<layer type="group" version="0.2" desc="spark_0">
+<param name="amount">
+<animated type="real">
+<waypoint time="0.00000000s" before="linear" after="linear">
+<real value="1.00000000"/>
+</waypoint>
+<waypoint time="0.08333333s" before="linear" after="linear">
+<real value="0.86666667"/>
+</waypoint>
+<waypoint time="0.16666667s" before="linear" after="linear">
+<real value="0.73333333"/>
+</waypoint>
+<waypoint time="0.25000000s" before="linear" after="linear">
+<real value="0.60000000"/>
+</waypoint>
+<waypoint time="0.33333333s" before="linear" after="linear">
+<real value="0.46666667"/>
+</waypoint>
+<waypoint time="0.41666667s" before="linear" after="linear">
+<real value="0.33333333"/>
+</waypoint>
+<waypoint time="0.50000000s" before="linear" after="linear">
+<real value="1.00000000"/>
+</waypoint>
+<waypoint time="0.58333333s" before="linear" after="linear">
+<real value="0.86666667"/>
+</waypoint>
+<waypoint time="0.66666667s" before="linear" after="linear">
+<real value="0.73333333"/>
+</waypoint>
+</animated>
+</param>
+<param name="blend_method">
+<integer value="0"/>
+</param>
+<param name="origin">
+<vector>
+<x>0.0000000</x>
+<y>0.0000000</y>
+</vector>
+</param>
+<param name="transformation">
+<bone_link type="transformation">
+<bone>
+<bone_valuenode type="bone_object" guid="165CD48635750CC35C33E18CCF0C276A"/>
+</bone>
+<base_value>
+<composite type="transformation">
+<offset>
+<vector>
+<x>0.0000000</x>
+<y>0.0000000</y>
+</vector>
+</offset>
+<angle>
+<angle value="0"/>
+</angle>
+<skew_angle>
+<angle value="0"/>
+</skew_angle>
+<scale>
+<animated type="vector">
+<waypoint time="0.00000000s" before="linear" after="linear">
+<vector>
+<x>1.0000000</x>
+<y>1.0000000</y>
+</vector>
+</waypoint>
+<waypoint time="0.08333333s" before="linear" after="linear">
+<vector>
+<x>1.0812500</x>
+<y>1.0812500</y>
+</vector>
+</waypoint>
+<waypoint time="0.16666667s" before="linear" after="linear">
+<vector>
+<x>1.1625000</x>
+<y>1.1625000</y>
+</vector>
+</waypoint>
+<waypoint time="0.25000000s" before="linear" after="linear">
+<vector>
+<x>1.2437500</x>
+<y>1.2437500</y>
+</vector>
+</waypoint>
+<waypoint time="0.33333333s" before="linear" after="linear">
+<vector>
+<x>1.3250000</x>
+<y>1.3250000</y>
+</vector>
+</waypoint>
+<waypoint time="0.41666667s" before="linear" after="linear">
+<vector>
+<x>1.4062500</x>
+<y>1.4062500</y>
+</vector>
+</waypoint>
+<waypoint time="0.50000000s" before="linear" after="linear">
+<vector>
+<x>1.4875000</x>
+<y>1.4875000</y>
+</vector>
+</waypoint>
+<waypoint time="0.58333333s" before="linear" after="linear">
+<vector>
+<x>1.5687500</x>
+<y>1.5687500</y>
+</vector>
+</waypoint>
+<waypoint time="0.66666667s" before="linear" after="linear">
+<vector>
+<x>1.6500000</x>
+<y>1.6500000</y>
+</vector>
+</waypoint>
+</animated>
+</scale>
+</composite>
+</base_value>
+<translate>
+<bool value="true"/>
+</translate>
+<rotate>
+<bool value="true"/>
+</rotate>
+<skew>
+<bool value="true"/>
+</skew>
+<scale_x>
+<bool value="true"/>
+</scale_x>
+<scale_y>
+<bool value="true"/>
+</scale_y>
+</bone_link>
+</param>
+<param name="canvas">
+<canvas>
+<layer type="import" version="0.1">
+<param name="amount">
+<real value="1"/>
+</param>
+<param name="blend_method">
+<integer value="0"/>
+</param>
+<param name="tl">
+<vector>
+<x>-2.5000000</x>
+<y>3.0000000</y>
+</vector>
+</param>
+<param name="br">
+<vector>
+<x>2.5000000</x>
+<y>-3.0000000</y>
+</vector>
+</param>
+<param name="c">
+<integer value="1"/>
+</param>
+<param name="filename">
+<string>spark_0.png</string>
+</param>
+</layer>
+</canvas>
+</param>
+</layer>
+<layer type="group" version="0.2" desc="spark_1">
+<param name="amount">
+<animated type="real">
+<waypoint time="0.00000000s" before="linear" after="linear">
+<real value="0.60000000"/>
+</waypoint>
+<waypoint time="0.08333333s" before="linear" after="linear">
+<real value="0.46666667"/>
+</waypoint>
+<waypoint time="0.16666667s" before="linear" after="linear">
+<real value="0.33333333"/>
+</waypoint>
+<waypoint time="0.25000000s" before="linear" after="linear">
+<real value="1.00000000"/>
+</waypoint>
+<waypoint time="0.33333333s" before="linear" after="linear">
+<real value="0.86666667"/>
+</waypoint>
+<waypoint time="0.41666667s" before="linear" after="linear">
+<real value="0.73333333"/>
+</waypoint>
+<waypoint time="0.50000000s" before="linear" after="linear">
+<real value="0.60000000"/>
+</waypoint>
+<waypoint time="0.58333333s" before="linear" after="linear">
+<real value="0.46666667"/>
+</waypoint>
+<waypoint time="0.66666667s" before="linear" after="linear">
+<real value="0.33333333"/>
+</waypoint>
+</animated>
+</param>
+<param name="blend_method">
+<integer value="0"/>
+</param>
+<param name="origin">
+<vector>
+<x>0.0000000</x>
+<y>0.0000000</y>
+</vector>
+</param>
+<param name="transformation">
+<bone_link type="transformation">
+<bone>
+<bone_valuenode type="bone_object" guid="A5143B7297DC7302F43A56580231AFEE"/>
+</bone>
+<base_value>
+<composite type="transformation">
+<offset>
+<vector>
+<x>0.0000000</x>
+<y>0.0000000</y>
+</vector>
+</offset>
+<angle>
+<angle value="0"/>
+</angle>
+<skew_angle>
+<angle value="0"/>
+</skew_angle>
+<scale>
+<animated type="vector">
+<waypoint time="0.00000000s" before="linear" after="linear">
+<vector>
+<x>1.0000000</x>
+<y>1.0000000</y>
+</vector>
+</waypoint>
+<waypoint time="0.08333333s" before="linear" after="linear">
+<vector>
+<x>1.0812500</x>
+<y>1.0812500</y>
+</vector>
+</waypoint>
+<waypoint time="0.16666667s" before="linear" after="linear">
+<vector>
+<x>1.1625000</x>
+<y>1.1625000</y>
+</vector>
+</waypoint>
+<waypoint time="0.25000000s" before="linear" after="linear">
+<vector>
+<x>1.2437500</x>
+<y>1.2437500</y>
+</vector>
+</waypoint>
+<waypoint time="0.33333333s" before="linear" after="linear">
+<vector>
+<x>1.3250000</x>
+<y>1.3250000</y>
+</vector>
+</waypoint>
+<waypoint time="0.41666667s" before="linear" after="linear">
+<vector>
+<x>1.4062500</x>
+<y>1.4062500</y>
+</vector>
+</waypoint>
+<waypoint time="0.50000000s" before="linear" after="linear">
+<vector>
+<x>1.4875000</x>
+<y>1.4875000</y>
+</vector>
+</waypoint>
+<waypoint time="0.58333333s" before="linear" after="linear">
+<vector>
+<x>1.5687500</x>
+<y>1.5687500</y>
+</vector>
+</waypoint>
+<waypoint time="0.66666667s" before="linear" after="linear">
+<vector>
+<x>1.6500000</x>
+<y>1.6500000</y>
+</vector>
+</waypoint>
+</animated>
+</scale>
+</composite>
+</base_value>
+<translate>
+<bool value="true"/>
+</translate>
+<rotate>
+<bool value="true"/>
+</rotate>
+<skew>
+<bool value="true"/>
+</skew>
+<scale_x>
+<bool value="true"/>
+</scale_x>
+<scale_y>
+<bool value="true"/>
+</scale_y>
+</bone_link>
+</param>
+<param name="canvas">
+<canvas>
+<layer type="import" version="0.1">
+<param name="amount">
+<real value="1"/>
+</param>
+<param name="blend_method">
+<integer value="0"/>
+</param>
+<param name="tl">
+<vector>
+<x>-2.5000000</x>
+<y>3.0000000</y>
+</vector>
+</param>
+<param name="br">
+<vector>
+<x>2.5000000</x>
+<y>-3.0000000</y>
+</vector>
+</param>
+<param name="c">
+<integer value="1"/>
+</param>
+<param name="filename">
+<string>spark_1.png</string>
+</param>
+</layer>
+</canvas>
+</param>
+</layer>
+<layer type="group" version="0.2" desc="spark_2">
+<param name="amount">
+<animated type="real">
+<waypoint time="0.00000000s" before="linear" after="linear">
+<real value="1.00000000"/>
+</waypoint>
+<waypoint time="0.08333333s" before="linear" after="linear">
+<real value="0.86666667"/>
+</waypoint>
+<waypoint time="0.16666667s" before="linear" after="linear">
+<real value="0.73333333"/>
+</waypoint>
+<waypoint time="0.25000000s" before="linear" after="linear">
+<real value="0.60000000"/>
+</waypoint>
+<waypoint time="0.33333333s" before="linear" after="linear">
+<real value="0.46666667"/>
+</waypoint>
+<waypoint time="0.41666667s" before="linear" after="linear">
+<real value="0.33333333"/>
+</waypoint>
+<waypoint time="0.50000000s" before="linear" after="linear">
+<real value="1.00000000"/>
+</waypoint>
+<waypoint time="0.58333333s" before="linear" after="linear">
+<real value="0.86666667"/>
+</waypoint>
+<waypoint time="0.66666667s" before="linear" after="linear">
+<real value="0.73333333"/>
+</waypoint>
+</animated>
+</param>
+<param name="blend_method">
+<integer value="0"/>
+</param>
+<param name="origin">
+<vector>
+<x>0.0000000</x>
+<y>0.0000000</y>
+</vector>
+</param>
+<param name="transformation">
+<bone_link type="transformation">
+<bone>
+<bone_valuenode type="bone_object" guid="3E57BBEA29F979E21E49D60F0F01EC1C"/>
+</bone>
+<base_value>
+<composite type="transformation">
+<offset>
+<vector>
+<x>0.0000000</x>
+<y>0.0000000</y>
+</vector>
+</offset>
+<angle>
+<angle value="0"/>
+</angle>
+<skew_angle>
+<angle value="0"/>
+</skew_angle>
+<scale>
+<animated type="vector">
+<waypoint time="0.00000000s" before="linear" after="linear">
+<vector>
+<x>1.0000000</x>
+<y>1.0000000</y>
+</vector>
+</waypoint>
+<waypoint time="0.08333333s" before="linear" after="linear">
+<vector>
+<x>1.0812500</x>
+<y>1.0812500</y>
+</vector>
+</waypoint>
+<waypoint time="0.16666667s" before="linear" after="linear">
+<vector>
+<x>1.1625000</x>
+<y>1.1625000</y>
+</vector>
+</waypoint>
+<waypoint time="0.25000000s" before="linear" after="linear">
+<vector>
+<x>1.2437500</x>
+<y>1.2437500</y>
+</vector>
+</waypoint>
+<waypoint time="0.33333333s" before="linear" after="linear">
+<vector>
+<x>1.3250000</x>
+<y>1.3250000</y>
+</vector>
+</waypoint>
+<waypoint time="0.41666667s" before="linear" after="linear">
+<vector>
+<x>1.4062500</x>
+<y>1.4062500</y>
+</vector>
+</waypoint>
+<waypoint time="0.50000000s" before="linear" after="linear">
+<vector>
+<x>1.4875000</x>
+<y>1.4875000</y>
+</vector>
+</waypoint>
+<waypoint time="0.58333333s" before="linear" after="linear">
+<vector>
+<x>1.5687500</x>
+<y>1.5687500</y>
+</vector>
+</waypoint>
+<waypoint time="0.66666667s" before="linear" after="linear">
+<vector>
+<x>1.6500000</x>
+<y>1.6500000</y>
+</vector>
+</waypoint>
+</animated>
+</scale>
+</composite>
+</base_value>
+<translate>
+<bool value="true"/>
+</translate>
+<rotate>
+<bool value="true"/>
+</rotate>
+<skew>
+<bool value="true"/>
+</skew>
+<scale_x>
+<bool value="true"/>
+</scale_x>
+<scale_y>
+<bool value="true"/>
+</scale_y>
+</bone_link>
+</param>
+<param name="canvas">
+<canvas>
+<layer type="import" version="0.1">
+<param name="amount">
+<real value="1"/>
+</param>
+<param name="blend_method">
+<integer value="0"/>
+</param>
+<param name="tl">
+<vector>
+<x>-2.5000000</x>
+<y>3.0000000</y>
+</vector>
+</param>
+<param name="br">
+<vector>
+<x>2.5000000</x>
+<y>-3.0000000</y>
+</vector>
+</param>
+<param name="c">
+<integer value="1"/>
+</param>
+<param name="filename">
+<string>spark_2.png</string>
+</param>
+</layer>
+</canvas>
+</param>
+</layer>
+</canvas>
+</param>
+</layer>
+</canvas>

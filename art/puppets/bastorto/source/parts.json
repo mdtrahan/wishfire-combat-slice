@@ -1,0 +1,309 @@
+{
+  "actor": "bastorto",
+  "atlas": "parts-left-v1.png",
+  "sourceFacing": "left",
+  "nativeCanvas": [
+    256,
+    256
+  ],
+  "nativeFootOrigin": [
+    128,
+    250
+  ],
+  "parts": {
+    "head": {
+      "file": "head.png",
+      "provenance": "approved source pixels, face and neck preserved",
+      "sourceDimensions": {
+        "width": 564,
+        "height": 528
+      },
+      "pivot": {
+        "x": 485.04,
+        "y": 475.2
+      },
+      "composition": {
+        "x": 116,
+        "y": 182,
+        "w": 114,
+        "h": 106,
+        "pivotX": 0.86,
+        "pivot": 0.9,
+        "parent": "body"
+      }
+    },
+    "shell": {
+      "file": "shell.png",
+      "provenance": "approved visible shell paint",
+      "sourceDimensions": {
+        "width": 581,
+        "height": 604
+      },
+      "pivot": {
+        "x": 278.88,
+        "y": 386.56
+      },
+      "composition": {
+        "x": 182,
+        "y": 170,
+        "w": 116,
+        "h": 120,
+        "pivotX": 0.48,
+        "pivot": 0.64,
+        "parent": "body"
+      }
+    },
+    "harness": {
+      "file": "harness.png",
+      "provenance": "generated completion paint",
+      "sourceDimensions": {
+        "width": 322,
+        "height": 272
+      },
+      "pivot": {
+        "x": 161.0,
+        "y": 136.0
+      },
+      "composition": {
+        "x": 104,
+        "y": 196,
+        "w": 90,
+        "h": 62,
+        "pivotX": 0.5,
+        "pivot": 0.5,
+        "parent": "body"
+      }
+    },
+    "plastron": {
+      "file": "plastron.png",
+      "provenance": "generated completion paint",
+      "sourceDimensions": {
+        "width": 484,
+        "height": 311
+      },
+      "pivot": {
+        "x": 242.0,
+        "y": 155.5
+      },
+      "composition": {
+        "x": 152,
+        "y": 210,
+        "w": 116,
+        "h": 42,
+        "pivotX": 0.5,
+        "pivot": 0.5,
+        "parent": "body"
+      }
+    },
+    "leg_front_near": {
+      "file": "leg_front_near.png",
+      "provenance": "generated completion paint",
+      "sourceDimensions": {
+        "width": 332,
+        "height": 203
+      },
+      "pivot": {
+        "x": 166.0,
+        "y": 44.849999999999994
+      },
+      "composition": {
+        "x": 150,
+        "y": 198,
+        "w": 58,
+        "h": 39.37792642140468,
+        "pivotX": 0.5,
+        "pivot": 0.220935960591133,
+        "parent": "body"
+      }
+    },
+    "leg_rear_near": {
+      "file": "leg_rear_near.png",
+      "provenance": "generated completion paint",
+      "sourceDimensions": {
+        "width": 285,
+        "height": 206
+      },
+      "pivot": {
+        "x": 142.5,
+        "y": 45.45
+      },
+      "composition": {
+        "x": 214,
+        "y": 206,
+        "w": 48,
+        "h": 33.993399339933994,
+        "pivotX": 0.5,
+        "pivot": 0.22063106796116505,
+        "parent": "body"
+      }
+    },
+    "leg_front_far": {
+      "file": "leg_front_far.png",
+      "provenance": "generated completion paint",
+      "sourceDimensions": {
+        "width": 367,
+        "height": 206
+      },
+      "pivot": {
+        "x": 183.5,
+        "y": 45.449999999999996
+      },
+      "composition": {
+        "x": 68,
+        "y": 208,
+        "w": 54,
+        "h": 32.633663366336634,
+        "pivotX": 0.5,
+        "pivot": 0.22063106796116502,
+        "parent": "body"
+      }
+    },
+    "leg_rear_far": {
+      "file": "leg_rear_far.png",
+      "provenance": "generated completion paint",
+      "sourceDimensions": {
+        "width": 295,
+        "height": 211
+      },
+      "pivot": {
+        "x": 147.5,
+        "y": 46.65
+      },
+      "composition": {
+        "x": 118,
+        "y": 212,
+        "w": 36,
+        "h": 28.4951768488746,
+        "pivotX": 0.5,
+        "pivot": 0.2210900473933649,
+        "parent": "body"
+      }
+    },
+    "neck": {
+      "file": "neck.png",
+      "provenance": "generated completion paint",
+      "sourceDimensions": {
+        "width": 230,
+        "height": 195
+      },
+      "pivot": {
+        "x": 115.0,
+        "y": 97.5
+      },
+      "composition": {
+        "x": 116,
+        "y": 192,
+        "w": 64,
+        "h": 64,
+        "pivotX": 0.5,
+        "pivot": 0.5,
+        "parent": "body"
+      }
+    },
+    "tail": {
+      "file": "tail.png",
+      "provenance": "generated completion paint",
+      "sourceDimensions": {
+        "width": 214,
+        "height": 149
+      },
+      "pivot": {
+        "x": 25.68,
+        "y": 74.5
+      },
+      "composition": {
+        "x": 208,
+        "y": 216,
+        "w": 24,
+        "h": 18,
+        "pivotX": 0.12,
+        "pivot": 0.5,
+        "parent": "body"
+      }
+    },
+    "foot_front_near": {
+      "file": "foot_front_near.png",
+      "derivedFrom": "leg_front_near",
+      "sourceDimensions": {
+        "width": 332,
+        "height": 141
+      },
+      "pivot": {
+        "x": 166.0,
+        "y": 141
+      },
+      "composition": {
+        "x": 150,
+        "y": 247,
+        "w": 58,
+        "h": 27.351170568561873,
+        "pivotX": 0.5,
+        "pivot": 1,
+        "parent": "body"
+      }
+    },
+    "foot_rear_near": {
+      "file": "foot_rear_near.png",
+      "derivedFrom": "leg_rear_near",
+      "sourceDimensions": {
+        "width": 285,
+        "height": 142
+      },
+      "pivot": {
+        "x": 142.5,
+        "y": 142
+      },
+      "composition": {
+        "x": 214,
+        "y": 247,
+        "w": 48,
+        "h": 23.432343234323433,
+        "pivotX": 0.5,
+        "pivot": 1,
+        "parent": "body"
+      }
+    },
+    "foot_front_far": {
+      "file": "foot_front_far.png",
+      "derivedFrom": "leg_front_far",
+      "sourceDimensions": {
+        "width": 367,
+        "height": 142
+      },
+      "pivot": {
+        "x": 183.5,
+        "y": 142
+      },
+      "composition": {
+        "x": 68,
+        "y": 247,
+        "w": 54,
+        "h": 22.495049504950494,
+        "pivotX": 0.5,
+        "pivot": 1,
+        "parent": "body"
+      }
+    },
+    "foot_rear_far": {
+      "file": "foot_rear_far.png",
+      "derivedFrom": "leg_rear_far",
+      "sourceDimensions": {
+        "width": 295,
+        "height": 146
+      },
+      "pivot": {
+        "x": 147.5,
+        "y": 146
+      },
+      "composition": {
+        "x": 118,
+        "y": 247,
+        "w": 36,
+        "h": 19.717041800643088,
+        "pivotX": 0.5,
+        "pivot": 1,
+        "parent": "body"
+      }
+    }
+  }
+}

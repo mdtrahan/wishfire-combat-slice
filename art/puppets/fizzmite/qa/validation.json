@@ -1,0 +1,179 @@
+{
+  "actor": "fizzmite",
+  "sourceParts": 14,
+  "frames": 144,
+  "clips": {
+    "idle": {
+      "framesPerFacing": 12,
+      "distinctLeftFrames": 12,
+      "alpha16Union": [
+        11,
+        6,
+        123,
+        125
+      ],
+      "leftPixelSHA256": [
+        "525b36258d25a7d48b37049c90f256d235781fc2a9457f311b475b6577da430c",
+        "2956363548948e0843032ad427fee6dfdc41a973cac0995a67b35951647515d4",
+        "2983612749077bda2a2c416c858ebc1e69d133f3ab4ba5ef8e08dc8c70f6a6ef",
+        "bdcabfe261c9c7556c310ed57d6d80ef99a3d8758b534fa153574672790e5ffe",
+        "79f79537b128377da2c50236b2db24ed53f8cbd0bd05789bf722a6a324f16d42",
+        "ab4300e7e2afe3650ec586eb79752818fd3811d68ba5c5fe6974c6979d98bc8e",
+        "ac92ea5c00db7771420df9d27196455d9b116c67837bdaae327fa77ae56ac45f",
+        "48fd074f4f93d92f95891a395f7683d4075541473973de6a5a3dde7a6db74aa8",
+        "42a6cda83cd7b11d4790b3af90439a6b7f27f3590f5403277d133468fee90bff",
+        "0faa9dd33acfa2fd36b87ab77bdcdc43838ec221d924c6b1ea0624d1fe98a5eb",
+        "0c2f1668b4061a44678e2ba6f373d18eedb86efc3c2c664f27ba0596e8d55a24",
+        "ab5567f5f80144d13db08c86b9e38db3b10c4b720fe3da401c41fb1a803b09c9"
+      ]
+    },
+    "walk": {
+      "framesPerFacing": 12,
+      "distinctLeftFrames": 12,
+      "alpha16Union": [
+        11,
+        5,
+        122,
+        126
+      ],
+      "leftPixelSHA256": [
+        "fedfcac2018c87702dde13ccb3d56acddcb4d617c604fa7851401053719506c9",
+        "fe597a9a509e4def11aa4d5591009991104ecd75d56fa596c3d8a9ec23790cc9",
+        "bfc3d95e324f9660c033370de206164f51bf2af80e901d099020804481c29fcb",
+        "f9f7e5233002732fd3315d3a1e6110ec363f9d10ffaddf923f91ec13df1835a1",
+        "99cd4411a0a2c43de471d55687b49eb9002c8ac07b9bec0e8ec1306ba3cdc139",
+        "a0e2f7c9204244f2c26bc219e8716e59d15906eea431e9b472c1f719ac4f3f73",
+        "41410522dcf767db39ab7962ced03000d63802227482437afebd7621e80dd558",
+        "cd28a7ea3eb3136c09f569ab2f388e6dcad22f99b375f89cb18b1211ff31bbf2",
+        "301458f8a3d40d25b08d6c4f3e638ba22861d6bdfeccc0f7bc315b9c069b7c11",
+        "7d4dc68483f47a70294e677d5fcd8157e831cb1d8044ce5e6de2df1acd87e6fb",
+        "dabc394177c7cb0585551eb89fc83f952495ed7ef987372a37c192dd29742ad2",
+        "e276cef05d85f5532166eb7b2f24e730a6b5c0b13f54278222e438007b441111"
+      ]
+    },
+    "attack": {
+      "framesPerFacing": 9,
+      "distinctLeftFrames": 9,
+      "alpha16Union": [
+        7,
+        5,
+        125,
+        125
+      ],
+      "leftPixelSHA256": [
+        "67f0635c77353ba5dba41fb8278f20f00c7c672ef4d8bc8f8036b41ce7e4b4f4",
+        "7a2b7c48d698e620cdcb525812b7baf823bfa0a88609cd957bc72e68ba203cb0",
+        "eada78fdc21a717cc2fde79613d1dac1cc7dc48df1c804107c7c626825b2583a",
+        "2c2fd640393ba230d72da6f2c0011350238f594c6916dc6557adee8fc48505d1",
+        "0684a875dac99ef4a20463985d68286ecf4fa4ab5b0b54cfe5362f79a5828c84",
+        "645dba8c657737888eaf40b65b9ac9d5f835217b04d42d6136553c5d283489b5",
+        "0a58ac5be9fc247dfe10a514e5e011aaaf46961332fafa60c78e059dc7675d00",
+        "70dd99851e4aeb302398b80a40775ca817bc5aca3bfd2a94dfec8ca007a79bb9",
+        "58c83725de0a40f8b6e4f8934f4b0e4d5c5803b764da94dec9cd1e1ce9e20e4a"
+      ]
+    },
+    "cast": {
+      "framesPerFacing": 12,
+      "distinctLeftFrames": 12,
+      "alpha16Union": [
+        8,
+        6,
+        127,
+        125
+      ],
+      "leftPixelSHA256": [
+        "67f0635c77353ba5dba41fb8278f20f00c7c672ef4d8bc8f8036b41ce7e4b4f4",
+        "16fd14080a641c2a46813fc625290e5355ad79621197f871538b086e1fbd4df1",
+        "507e7ffb50136160e1010d011b06bdbf9a3a6f4572f70d506fe1be7a77d15eb8",
+        "ce39e99c3489c35c1bbbe2e65250af0440cc27e86c3668a4be9e9b2af182cfd0",
+        "698076a19d9b43550e6cc317453d8baba19744f411f0131cdbe995470c7eb798",
+        "14388e9ac0de5fb5871b5f78a75fc67525b0b2ebc893d5a0510c5b63cc208d42",
+        "011a5229ca236ab8b4d6ce2128df568c39d884a60fe106597c7a4d762cba6caf",
+        "8dd69f2e86d9fb2d42e089950ab0136e5345755ecd81e0e554142be77ff74a05",
+        "741ad931916f7be33203d141ae4d0948eb200a7c0c0d4bbee4c315ec3111e1e1",
+        "4ca22788001e0cd3d376edc6777d0df52e94b7c2e7a837778baf220dbc4e2a79",
+        "8fc908496b07b9094951d6978066dd160702cf22e3e51b377b056f5a141e1613",
+        "2fbc15c97393233d7bee526abf0422c3cf4a6b7cb7f7f6a287e0a3b3280d6c16"
+      ]
+    },
+    "hit": {
+      "framesPerFacing": 6,
+      "distinctLeftFrames": 6,
+      "alpha16Union": [
+        11,
+        6,
+        124,
+        125
+      ],
+      "leftPixelSHA256": [
+        "525b36258d25a7d48b37049c90f256d235781fc2a9457f311b475b6577da430c",
+        "f92011c992c2020b4ae954a5c8848cdb5dea5851e6d9ad04bea0dd958f0f6849",
+        "e7518a349c8b03c2584c085d7df0dc407906d167880cd2114fb731c1aeb8d079",
+        "acebcfec83aaa502a090b4b5c7ebf467bdb5be82f8ebd1e2064ab649b1c22f99",
+        "7daebef77beaefcd24d27e76429e1e4282333756c8288fe0761942303fb7b9b8",
+        "f4119c8dde7fa65a6258d25346f26057b992b1072c427e122faa7e5632411d5c"
+      ]
+    },
+    "defeated": {
+      "framesPerFacing": 12,
+      "distinctLeftFrames": 9,
+      "alpha16Union": [
+        2,
+        4,
+        122,
+        125
+      ],
+      "leftPixelSHA256": [
+        "3164c29a69aa23ec8a46f13ef3be4006ade38022a4f57f133030a0ada5c91577",
+        "be256033a9b27f8221d00280178effb34c6ad2be52a401376160ce77cdc71424",
+        "0af7dc19c2286a61369a4b2acf07556789696c03e952b9385285061183ceb7ec",
+        "7b9ce034253e61f20261308dffb3e62ccdf9738545a90bb61d78eef7479db7fc",
+        "4fb5982c2cfe1bef345a81c43df31e34844109f41228afebada4b39f17e9f6ce",
+        "a1db1bd662e35cb0f64aca65a970ed34c36186d3c4cc980970bf70e938328aa0",
+        "f3b91f4eaba13c03fdd4b0821dea9ae59b098023e992b6f646fa08af19943400",
+        "c132e7bf91b112c2943daff082b331120f65e5f858a39eaee83890501863dbeb",
+        "4b683f8a6060a32ea5847e01856a164c4cc4d19d144e3ecd274a9b1edc8811de",
+        "4b683f8a6060a32ea5847e01856a164c4cc4d19d144e3ecd274a9b1edc8811de",
+        "4b683f8a6060a32ea5847e01856a164c4cc4d19d144e3ecd274a9b1edc8811de",
+        "4b683f8a6060a32ea5847e01856a164c4cc4d19d144e3ecd274a9b1edc8811de"
+      ]
+    },
+    "spawn": {
+      "framesPerFacing": 9,
+      "distinctLeftFrames": 9,
+      "alpha16Union": [
+        9,
+        2,
+        123,
+        125
+      ],
+      "leftPixelSHA256": [
+        "496cd219d6f01e88e5496d41626ccceb4ac7e8fea64712626aca326eedb9b961",
+        "2a88413283bca685864049b1458e561c2cf8780342ce4304568ea4e056858c06",
+        "a0270edac947a5c83762d1de33f758ab9487fcc9d686e6a70ec5d59073c9cd13",
+        "f0dbcf9bc261d2b00ceea0323cab87a12799b218be97e23223748ced026129ab",
+        "23696da9534efc579c1c5f15ca9c705dab58b4c68dc835c292ee8ae6f91affea",
+        "7a26fb26129e2a071124e74d3ce8ee6c8e395fb79bf58214c1228ce5b2c1fdc5",
+        "a28401019b5887bd24201e601494e79cde1b8fa469a499a16c2071c1dff8304a",
+        "7b7b8e85836c70eb2c988fd822b90108c45f8e6eed8e3c2d71a64b7543454517",
+        "7d79fae7534e5b368d4ddedbb2086093de2864dc5824520c4ba12a0c31f9e711"
+      ]
+    }
+  },
+  "repeats": [
+    {
+      "facing": "left",
+      "nativeRepeatPixelsEqual": true,
+      "packagedVsNativeMeanChannelDifference": 0.0,
+      "packagedVsNativeMaximumChannelDifference": 0,
+      "decodedRGBA_SHA256": "525b36258d25a7d48b37049c90f256d235781fc2a9457f311b475b6577da430c"
+    },
+    {
+      "facing": "right",
+      "nativeRepeatPixelsEqual": true,
+      "packagedVsNativeMeanChannelDifference": 1.0291595458984375,
+      "packagedVsNativeMaximumChannelDifference": 255,
+      "decodedRGBA_SHA256": "b7b6564e104ba608d08f8921d3005c07b53c3d862270ae4bac7066099bf1e209"
+    }
+  ]
+}

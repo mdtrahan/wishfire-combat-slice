@@ -162,3 +162,30 @@ Raw generated source sheets are retained in `art/_work/`. Projectiles were edite
 - Tool/model: built-in OpenAI image_gen edit with Fara frame reference, model identifier not exposed.
 - Post-process: Generated shadow crop/refit; content scaled to 40x16, RGB set black, source luminance drives softly blurred alpha.
 - Date: 2026-10-25.
+
+### `elevate/sword.png`
+- Prompt: Create a production painted bitmap VFX sprite: ONE single vertical spectral SWORD, blade pointing DOWN, hilt at TOP. Fully transparent background, no ground or shadow. Narrow portrait 1:3 composition, entire sword centered with generous clean transparent padding for its very tight glow. Sword silhouette: simple small pommel, short straight grip, unmistakable bold straight horizontal crossguard, broad double-edged straight blade tapering to a sharp downward point. Blade is 70 percent of total sword length, grip 15 percent. Guard width about 70 percent of canvas width, blade width about 36 percent. Entire solid sword made from luminous conjured energy, saturated Kaja violet #A11FFF body, magenta violet #CC61FF, #E08CFF and #F0ADFF highlights. White-hot sharp central ridge running down blade, saturated violet edges, tight bright rim glow just a few pixels at 128x384 final size. Keep violet opaque mass around the white core for contrast on pale sand. Crisp rich hand-painted fantasy mobile RPG summon-blade finish, dramatic luminous faceted brush shading, Final Fantasy / Kingdom Hearts quality. Instantly recognizable bold sword at 35 pixels tall. No pixel art, no vector or flat clip art; no ornamental crests, gems, wings, chains, ribbons, runes, letters, smoke, swirls, particles, broad haze or aura blob. Absolutely one sword and nothing else. Output transparent portrait canvas.
+- Source/reference: Original built-in generation; retained at art/_work/elevate/generated-sword.png. Review uses arena/oasis-corridor.png and Hondo idle frame 0 from gen/assets.json (atlas-002.png).
+- Tool/model: built-in OpenAI image_gen, model identifier not exposed.
+- Post-process: Pillow crop of transparent margins, Lanczos resize without recoloring, centered in 128x384 RGBA with clear glow padding; zero RGB under zero alpha. Review composites use existing arena and packed actor art; mock sampled directly into a 720x480 backing buffer for a 240x160 logical view (3x device scale).
+- Date: 2026-10-27.
+
+### `fonts/Bungee-Regular.ttf`
+- Source: byte-identical copy of Wishfire `web-runner/assets/fonts/Bungee-Regular.ttf` (damage-number face); Wishfire main left unchanged.
+- License: Bungee by David Jonathan Ross, SIL Open Font License 1.1.
+- Date: 2026-10-27.
+
+### `puppets/mirewing/`
+- Source: owner-approved `source/approved-source.png` and `source/approved-128.png`; built-in image_gen supplied separated paint with the approved source attached (model identifier unavailable).
+- Process: Pillow extraction and fringe cleanup; parented Synfig 1.5.5 body/wings/glands/mouth rig with root-parented shadow. Native 1024px renders reduce with Lanczos to straight-alpha 128px, foot (64,125); right frames are semantic mirrors. Seven states at 12 fps. See `puppets/mirewing/README.md`.
+- Date: 2026-10-27.
+
+### `puppets/gloamink/`
+- Source: owner-approved `art/_work/enemy-identities/new/gloamink-source.png` and `gloamink-128.png`; built-in image_gen supplied painted parts with the approved concept attached (model identifier unavailable).
+- Process: Pillow isolates 17 parented parts with shin/paw joints (revision 2); Synfig 1.5.5 renders native 1024px, Lanczos reduces to straight-alpha 128px, foot (64,125). Seven states at 12 fps; opposite-facing frames are semantic mirrors. See `puppets/gloamink/README.md`.
+- Date: 2026-10-27.
+
+### `puppets/fizzmite/`
+- Source: owner-approved `art/_work/enemy-identities/new/fizzmite-source.png` and `fizzmite-128.png`; built-in image_gen supplied isolated painted parts with the approved source attached (model identifier unavailable). Source face/sparks retain approved pixels; hashes in `puppets/fizzmite/source/provenance.json`.
+- Process: Synfig 1.5.5 rigs 14 painted parts, six independent legs and parented fuse/flame/sparks. Native 1024px renders reduce through Lanczos to straight-alpha 128px, foot (64,125); alpha <=4 cleared. Seven states at 12 fps; right frames are semantic mirrors. See `puppets/fizzmite/README.md`.
+- Date: 2026-10-27.

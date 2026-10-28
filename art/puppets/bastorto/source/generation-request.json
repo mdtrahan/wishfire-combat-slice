@@ -1,0 +1,16 @@
+{
+  "reference": "experiments/rust-combat-mvp/art/_work/enemy-identities/new/bastorto-source.png",
+  "transparent_background": true,
+  "parts": [
+    "head with neck",
+    "dusty-rose gold-edged scalloped shell",
+    "navy harness with red gold-edged clasp",
+    "plastron",
+    "near front leg",
+    "near rear leg",
+    "far front leg",
+    "far rear leg",
+    "tail stub"
+  ],
+  "constraints": "Preserve exact approved grey expressive head, pale jaw, golden eye, painted texture and brown outline. Separate paint islands with hidden rounded attachment ends. No labels, aura, glow or ground shadow. Three-column, three-row transparent parts atlas."
+}

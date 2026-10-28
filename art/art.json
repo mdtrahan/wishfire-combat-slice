@@ -1,6 +1,14 @@
 {
   "assets": [
     {
+      "path": "elevate/sword.png",
+      "size": [128, 384],
+      "pivot": [64, 192],
+      "tintable": false,
+      "tiling_axis": null,
+      "intended_use": "Elevate painted sword, hilt up and blade down"
+    },
+    {
       "path": "telegraph/rim.png",
       "size": [
         512,

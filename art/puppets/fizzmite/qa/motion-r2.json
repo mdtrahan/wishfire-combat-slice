@@ -1,0 +1,54 @@
+{
+  "idle": {
+    "byteIdenticalToR1": true,
+    "frames": 24
+  },
+  "hit": {
+    "byteIdenticalToR1": true,
+    "frames": 12
+  },
+  "spawn": {
+    "byteIdenticalToR1": true,
+    "frames": 18
+  },
+  "defeated": {
+    "byteIdenticalToR1": true,
+    "frames": 24
+  },
+  "walk": {
+    "bodyXRange128": 0.0,
+    "bodyYRange128": 5.196152422706632,
+    "endShellScale": [
+      1,
+      1
+    ],
+    "endHeadScale": [
+      1,
+      1
+    ]
+  },
+  "attack": {
+    "bodyXRange128": 5.6875,
+    "bodyYRange128": 1.7666180055122709,
+    "endShellScale": [
+      1.16,
+      1.18
+    ],
+    "endHeadScale": [
+      1.035,
+      0.86
+    ]
+  },
+  "cast": {
+    "bodyXRange128": 5.772727272727273,
+    "bodyYRange128": 1.3200929442257419,
+    "endShellScale": [
+      1.16,
+      1.18
+    ],
+    "endHeadScale": [
+      1.035,
+      0.86
+    ]
+  }
+}

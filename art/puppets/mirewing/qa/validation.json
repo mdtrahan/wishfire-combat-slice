@@ -1,0 +1,636 @@
+{
+  "frames": {
+    "idle": {
+      "countPerFacing": 12,
+      "boundsAlpha16": [
+        [
+          16,
+          10,
+          112,
+          127
+        ],
+        [
+          16,
+          7,
+          108,
+          127
+        ],
+        [
+          16,
+          7,
+          101,
+          127
+        ],
+        [
+          16,
+          9,
+          98,
+          127
+        ],
+        [
+          16,
+          11,
+          103,
+          127
+        ],
+        [
+          16,
+          12,
+          110,
+          127
+        ],
+        [
+          16,
+          10,
+          112,
+          127
+        ],
+        [
+          16,
+          8,
+          108,
+          127
+        ],
+        [
+          16,
+          9,
+          101,
+          127
+        ],
+        [
+          16,
+          11,
+          98,
+          127
+        ],
+        [
+          16,
+          14,
+          103,
+          127
+        ],
+        [
+          16,
+          14,
+          110,
+          127
+        ]
+      ],
+      "uniqueLeftFrames": 11
+    },
+    "walk": {
+      "countPerFacing": 12,
+      "boundsAlpha16": [
+        [
+          15,
+          7,
+          110,
+          127
+        ],
+        [
+          15,
+          4,
+          108,
+          127
+        ],
+        [
+          16,
+          6,
+          97,
+          127
+        ],
+        [
+          16,
+          10,
+          105,
+          127
+        ],
+        [
+          16,
+          5,
+          111,
+          127
+        ],
+        [
+          15,
+          4,
+          108,
+          127
+        ],
+        [
+          15,
+          8,
+          96,
+          127
+        ],
+        [
+          14,
+          12,
+          104,
+          127
+        ],
+        [
+          14,
+          8,
+          109,
+          127
+        ],
+        [
+          14,
+          6,
+          107,
+          127
+        ],
+        [
+          14,
+          9,
+          95,
+          127
+        ],
+        [
+          14,
+          12,
+          104,
+          127
+        ]
+      ],
+      "uniqueLeftFrames": 10
+    },
+    "attack": {
+      "countPerFacing": 9,
+      "boundsAlpha16": [
+        [
+          16,
+          10,
+          112,
+          127
+        ],
+        [
+          16,
+          7,
+          107,
+          127
+        ],
+        [
+          17,
+          8,
+          98,
+          127
+        ],
+        [
+          17,
+          11,
+          103,
+          127
+        ],
+        [
+          12,
+          13,
+          112,
+          127
+        ],
+        [
+          7,
+          10,
+          108,
+          127
+        ],
+        [
+          12,
+          10,
+          99,
+          127
+        ],
+        [
+          16,
+          12,
+          98,
+          127
+        ],
+        [
+          16,
+          14,
+          107,
+          127
+        ]
+      ],
+      "uniqueLeftFrames": 9
+    },
+    "cast": {
+      "countPerFacing": 12,
+      "boundsAlpha16": [
+        [
+          16,
+          10,
+          112,
+          127
+        ],
+        [
+          16,
+          7,
+          108,
+          127
+        ],
+        [
+          15,
+          7,
+          100,
+          127
+        ],
+        [
+          14,
+          9,
+          97,
+          127
+        ],
+        [
+          14,
+          13,
+          103,
+          127
+        ],
+        [
+          13,
+          14,
+          110,
+          127
+        ],
+        [
+          13,
+          12,
+          113,
+          127
+        ],
+        [
+          13,
+          9,
+          107,
+          127
+        ],
+        [
+          14,
+          10,
+          100,
+          127
+        ],
+        [
+          14,
+          12,
+          97,
+          127
+        ],
+        [
+          15,
+          14,
+          102,
+          127
+        ],
+        [
+          16,
+          14,
+          110,
+          127
+        ]
+      ],
+      "uniqueLeftFrames": 12
+    },
+    "hit": {
+      "countPerFacing": 6,
+      "boundsAlpha16": [
+        [
+          16,
+          10,
+          112,
+          127
+        ],
+        [
+          20,
+          11,
+          106,
+          127
+        ],
+        [
+          22,
+          19,
+          115,
+          127
+        ],
+        [
+          20,
+          15,
+          118,
+          127
+        ],
+        [
+          16,
+          9,
+          101,
+          127
+        ],
+        [
+          16,
+          14,
+          102,
+          127
+        ]
+      ],
+      "uniqueLeftFrames": 6
+    },
+    "defeated": {
+      "countPerFacing": 12,
+      "boundsAlpha16": [
+        [
+          16,
+          10,
+          112,
+          127
+        ],
+        [
+          16,
+          7,
+          108,
+          127
+        ],
+        [
+          16,
+          7,
+          101,
+          127
+        ],
+        [
+          16,
+          9,
+          95,
+          127
+        ],
+        [
+          16,
+          12,
+          96,
+          127
+        ],
+        [
+          16,
+          13,
+          97,
+          127
+        ],
+        [
+          16,
+          15,
+          97,
+          127
+        ],
+        [
+          16,
+          19,
+          93,
+          127
+        ],
+        [
+          16,
+          23,
+          90,
+          127
+        ],
+        [
+          16,
+          25,
+          89,
+          127
+        ],
+        [
+          16,
+          26,
+          89,
+          127
+        ],
+        [
+          16,
+          26,
+          89,
+          127
+        ]
+      ],
+      "uniqueLeftFrames": 11
+    },
+    "spawn": {
+      "countPerFacing": 9,
+      "boundsAlpha16": [
+        [
+          16,
+          6,
+          112,
+          127
+        ],
+        [
+          16,
+          3,
+          106,
+          127
+        ],
+        [
+          16,
+          6,
+          97,
+          127
+        ],
+        [
+          16,
+          10,
+          102,
+          127
+        ],
+        [
+          16,
+          11,
+          111,
+          127
+        ],
+        [
+          16,
+          8,
+          109,
+          127
+        ],
+        [
+          16,
+          9,
+          101,
+          127
+        ],
+        [
+          16,
+          12,
+          98,
+          127
+        ],
+        [
+          16,
+          14,
+          107,
+          127
+        ]
+      ],
+      "uniqueLeftFrames": 9
+    }
+  },
+  "shadow": {
+    "idle": {
+      "fixedFootOrigin": [
+        64,
+        125
+      ],
+      "groundRegionUniqueHashes": 1,
+      "defeatedBodyOverlapsGround": false
+    },
+    "walk": {
+      "fixedFootOrigin": [
+        64,
+        125
+      ],
+      "groundRegionUniqueHashes": 1,
+      "defeatedBodyOverlapsGround": false
+    },
+    "attack": {
+      "fixedFootOrigin": [
+        64,
+        125
+      ],
+      "groundRegionUniqueHashes": 1,
+      "defeatedBodyOverlapsGround": false
+    },
+    "cast": {
+      "fixedFootOrigin": [
+        64,
+        125
+      ],
+      "groundRegionUniqueHashes": 1,
+      "defeatedBodyOverlapsGround": false
+    },
+    "hit": {
+      "fixedFootOrigin": [
+        64,
+        125
+      ],
+      "groundRegionUniqueHashes": 1,
+      "defeatedBodyOverlapsGround": false
+    },
+    "defeated": {
+      "fixedFootOrigin": [
+        64,
+        125
+      ],
+      "groundRegionUniqueHashes": 4,
+      "defeatedBodyOverlapsGround": true
+    },
+    "spawn": {
+      "fixedFootOrigin": [
+        64,
+        125
+      ],
+      "groundRegionUniqueHashes": 1,
+      "defeatedBodyOverlapsGround": false
+    }
+  },
+  "rig": {
+    "idle": {
+      "parentedBones": 9,
+      "paintedLinks": 8,
+      "fps": 12,
+      "nativeRender": [
+        1024,
+        1024
+      ],
+      "downsample": "Pillow Lanczos RGBA"
+    },
+    "walk": {
+      "parentedBones": 9,
+      "paintedLinks": 8,
+      "fps": 12,
+      "nativeRender": [
+        1024,
+        1024
+      ],
+      "downsample": "Pillow Lanczos RGBA"
+    },
+    "attack": {
+      "parentedBones": 9,
+      "paintedLinks": 8,
+      "fps": 12,
+      "nativeRender": [
+        1024,
+        1024
+      ],
+      "downsample": "Pillow Lanczos RGBA"
+    },
+    "cast": {
+      "parentedBones": 9,
+      "paintedLinks": 8,
+      "fps": 12,
+      "nativeRender": [
+        1024,
+        1024
+      ],
+      "downsample": "Pillow Lanczos RGBA"
+    },
+    "hit": {
+      "parentedBones": 9,
+      "paintedLinks": 8,
+      "fps": 12,
+      "nativeRender": [
+        1024,
+        1024
+      ],
+      "downsample": "Pillow Lanczos RGBA"
+    },
+    "defeated": {
+      "parentedBones": 9,
+      "paintedLinks": 8,
+      "fps": 12,
+      "nativeRender": [
+        1024,
+        1024
+      ],
+      "downsample": "Pillow Lanczos RGBA"
+    },
+    "spawn": {
+      "parentedBones": 9,
+      "paintedLinks": 8,
+      "fps": 12,
+      "nativeRender": [
+        1024,
+        1024
+      ],
+      "downsample": "Pillow Lanczos RGBA"
+    }
+  },
+  "manifest": "PASS; actor schema uses basic/hurt/ko semantic keys; paths relative to art/puppets",
+  "totalFrames": 144,
+  "sourceSHA256": {
+    "approved-source.png": "c884ec108c49871b8c3fc5fd5e471db95aa445aa3325245869bd9b532665bfd0",
+    "approved-128.png": "feb317a9a79d5db2a78389f2836c9597ee74b218075cd8c204b896fd5af1a869",
+    "generated-parts-atlas.png": "75af2171613f118647178e4527f81ec4f4ce97805f7361db8890dae272b62a44"
+  },
+  "nativeRepeat": {
+    "left": {
+      "exactPixels": true,
+      "decodedSHA256": "039c4ead2fd896f6fa91230994aaaf3d6bf4ae281b8c514c4cd3779b490b7b3a"
+    },
+    "right": {
+      "exactPixels": false,
+      "decodedSHA256": "24d6fab0e98b1ff070e6218d6985022ba96ebb12db20d89d2399e144ac275b9b"
+    }
+  },
+  "rightSifSampling": {
+    "nativeGridShiftPx": 1,
+    "runtimeEquivalentPx": 0.125,
+    "meanChannelErrorAfterAlignment": [
+      0.00011730194091796875,
+      0.00012302398681640625,
+      0.0001068115234375,
+      3.910064697265625e-05
+    ],
+    "runtimeFrames": "exact semantic mirror"
+  }
+}

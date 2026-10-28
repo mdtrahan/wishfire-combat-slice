@@ -1,0 +1,822 @@
+{
+  "frames": 144,
+  "allCanvasSafe": true,
+  "bounds": [
+    {
+      "state": "idle",
+      "frame": 0,
+      "bbox": [
+        6,
+        44,
+        123,
+        125
+      ],
+      "canvasSafe": true
+    },
+    {
+      "state": "idle",
+      "frame": 1,
+      "bbox": [
+        6,
+        44,
+        123,
+        125
+      ],
+      "canvasSafe": true
+    },
+    {
+      "state": "idle",
+      "frame": 2,
+      "bbox": [
+        6,
+        44,
+        123,
+        125
+      ],
+      "canvasSafe": true
+    },
+    {
+      "state": "idle",
+      "frame": 3,
+      "bbox": [
+        5,
+        44,
+        124,
+        125
+      ],
+      "canvasSafe": true
+    },
+    {
+      "state": "idle",
+      "frame": 4,
+      "bbox": [
+        6,
+        44,
+        123,
+        125
+      ],
+      "canvasSafe": true
+    },
+    {
+      "state": "idle",
+      "frame": 5,
+      "bbox": [
+        6,
+        44,
+        123,
+        125
+      ],
+      "canvasSafe": true
+    },
+    {
+      "state": "idle",
+      "frame": 6,
+      "bbox": [
+        6,
+        44,
+        123,
+        125
+      ],
+      "canvasSafe": true
+    },
+    {
+      "state": "idle",
+      "frame": 7,
+      "bbox": [
+        6,
+        44,
+        122,
+        125
+      ],
+      "canvasSafe": true
+    },
+    {
+      "state": "idle",
+      "frame": 8,
+      "bbox": [
+        6,
+        44,
+        122,
+        125
+      ],
+      "canvasSafe": true
+    },
+    {
+      "state": "idle",
+      "frame": 9,
+      "bbox": [
+        6,
+        44,
+        122,
+        125
+      ],
+      "canvasSafe": true
+    },
+    {
+      "state": "idle",
+      "frame": 10,
+      "bbox": [
+        6,
+        44,
+        122,
+        125
+      ],
+      "canvasSafe": true
+    },
+    {
+      "state": "idle",
+      "frame": 11,
+      "bbox": [
+        6,
+        44,
+        122,
+        125
+      ],
+      "canvasSafe": true
+    },
+    {
+      "state": "walk",
+      "frame": 0,
+      "bbox": [
+        6,
+        48,
+        117,
+        125
+      ],
+      "canvasSafe": true
+    },
+    {
+      "state": "walk",
+      "frame": 1,
+      "bbox": [
+        5,
+        46,
+        119,
+        125
+      ],
+      "canvasSafe": true
+    },
+    {
+      "state": "walk",
+      "frame": 2,
+      "bbox": [
+        5,
+        46,
+        120,
+        125
+      ],
+      "canvasSafe": true
+    },
+    {
+      "state": "walk",
+      "frame": 3,
+      "bbox": [
+        5,
+        47,
+        121,
+        123
+      ],
+      "canvasSafe": true
+    },
+    {
+      "state": "walk",
+      "frame": 4,
+      "bbox": [
+        5,
+        45,
+        121,
+        119
+      ],
+      "canvasSafe": true
+    },
+    {
+      "state": "walk",
+      "frame": 5,
+      "bbox": [
+        6,
+        38,
+        121,
+        117
+      ],
+      "canvasSafe": true
+    },
+    {
+      "state": "walk",
+      "frame": 6,
+      "bbox": [
+        6,
+        38,
+        120,
+        116
+      ],
+      "canvasSafe": true
+    },
+    {
+      "state": "walk",
+      "frame": 7,
+      "bbox": [
+        5,
+        42,
+        120,
+        117
+      ],
+      "canvasSafe": true
+    },
+    {
+      "state": "walk",
+      "frame": 8,
+      "bbox": [
+        5,
+        46,
+        120,
+        120
+      ],
+      "canvasSafe": true
+    },
+    {
+      "state": "walk",
+      "frame": 9,
+      "bbox": [
+        5,
+        52,
+        119,
+        123
+      ],
+      "canvasSafe": true
+    },
+    {
+      "state": "walk",
+      "frame": 10,
+      "bbox": [
+        5,
+        50,
+        117,
+        125
+      ],
+      "canvasSafe": true
+    },
+    {
+      "state": "walk",
+      "frame": 11,
+      "bbox": [
+        6,
+        48,
+        116,
+        125
+      ],
+      "canvasSafe": true
+    },
+    {
+      "state": "attack",
+      "frame": 0,
+      "bbox": [
+        6,
+        44,
+        124,
+        125
+      ],
+      "canvasSafe": true
+    },
+    {
+      "state": "attack",
+      "frame": 1,
+      "bbox": [
+        11,
+        44,
+        127,
+        125
+      ],
+      "canvasSafe": true
+    },
+    {
+      "state": "attack",
+      "frame": 2,
+      "bbox": [
+        25,
+        47,
+        121,
+        125
+      ],
+      "canvasSafe": true
+    },
+    {
+      "state": "attack",
+      "frame": 3,
+      "bbox": [
+        2,
+        51,
+        118,
+        125
+      ],
+      "canvasSafe": true
+    },
+    {
+      "state": "attack",
+      "frame": 4,
+      "bbox": [
+        2,
+        51,
+        113,
+        125
+      ],
+      "canvasSafe": true
+    },
+    {
+      "state": "attack",
+      "frame": 5,
+      "bbox": [
+        2,
+        51,
+        114,
+        125
+      ],
+      "canvasSafe": true
+    },
+    {
+      "state": "attack",
+      "frame": 6,
+      "bbox": [
+        2,
+        53,
+        117,
+        125
+      ],
+      "canvasSafe": true
+    },
+    {
+      "state": "attack",
+      "frame": 7,
+      "bbox": [
+        3,
+        47,
+        120,
+        125
+      ],
+      "canvasSafe": true
+    },
+    {
+      "state": "attack",
+      "frame": 8,
+      "bbox": [
+        6,
+        44,
+        124,
+        125
+      ],
+      "canvasSafe": true
+    },
+    {
+      "state": "cast",
+      "frame": 0,
+      "bbox": [
+        6,
+        44,
+        124,
+        125
+      ],
+      "canvasSafe": true
+    },
+    {
+      "state": "cast",
+      "frame": 1,
+      "bbox": [
+        7,
+        44,
+        126,
+        125
+      ],
+      "canvasSafe": true
+    },
+    {
+      "state": "cast",
+      "frame": 2,
+      "bbox": [
+        12,
+        45,
+        127,
+        125
+      ],
+      "canvasSafe": true
+    },
+    {
+      "state": "cast",
+      "frame": 3,
+      "bbox": [
+        25,
+        47,
+        121,
+        125
+      ],
+      "canvasSafe": true
+    },
+    {
+      "state": "cast",
+      "frame": 4,
+      "bbox": [
+        19,
+        45,
+        126,
+        125
+      ],
+      "canvasSafe": true
+    },
+    {
+      "state": "cast",
+      "frame": 5,
+      "bbox": [
+        2,
+        50,
+        118,
+        125
+      ],
+      "canvasSafe": true
+    },
+    {
+      "state": "cast",
+      "frame": 6,
+      "bbox": [
+        2,
+        51,
+        113,
+        125
+      ],
+      "canvasSafe": true
+    },
+    {
+      "state": "cast",
+      "frame": 7,
+      "bbox": [
+        2,
+        51,
+        114,
+        125
+      ],
+      "canvasSafe": true
+    },
+    {
+      "state": "cast",
+      "frame": 8,
+      "bbox": [
+        2,
+        52,
+        115,
+        125
+      ],
+      "canvasSafe": true
+    },
+    {
+      "state": "cast",
+      "frame": 9,
+      "bbox": [
+        2,
+        51,
+        118,
+        125
+      ],
+      "canvasSafe": true
+    },
+    {
+      "state": "cast",
+      "frame": 10,
+      "bbox": [
+        4,
+        46,
+        122,
+        125
+      ],
+      "canvasSafe": true
+    },
+    {
+      "state": "cast",
+      "frame": 11,
+      "bbox": [
+        6,
+        44,
+        124,
+        125
+      ],
+      "canvasSafe": true
+    },
+    {
+      "state": "hit",
+      "frame": 0,
+      "bbox": [
+        6,
+        44,
+        124,
+        125
+      ],
+      "canvasSafe": true
+    },
+    {
+      "state": "hit",
+      "frame": 1,
+      "bbox": [
+        9,
+        44,
+        127,
+        125
+      ],
+      "canvasSafe": true
+    },
+    {
+      "state": "hit",
+      "frame": 2,
+      "bbox": [
+        7,
+        43,
+        126,
+        125
+      ],
+      "canvasSafe": true
+    },
+    {
+      "state": "hit",
+      "frame": 3,
+      "bbox": [
+        6,
+        43,
+        124,
+        125
+      ],
+      "canvasSafe": true
+    },
+    {
+      "state": "hit",
+      "frame": 4,
+      "bbox": [
+        5,
+        45,
+        124,
+        125
+      ],
+      "canvasSafe": true
+    },
+    {
+      "state": "hit",
+      "frame": 5,
+      "bbox": [
+        6,
+        44,
+        124,
+        125
+      ],
+      "canvasSafe": true
+    },
+    {
+      "state": "defeated",
+      "frame": 0,
+      "bbox": [
+        6,
+        43,
+        124,
+        124
+      ],
+      "canvasSafe": true
+    },
+    {
+      "state": "defeated",
+      "frame": 1,
+      "bbox": [
+        5,
+        44,
+        124,
+        124
+      ],
+      "canvasSafe": true
+    },
+    {
+      "state": "defeated",
+      "frame": 2,
+      "bbox": [
+        5,
+        46,
+        123,
+        124
+      ],
+      "canvasSafe": true
+    },
+    {
+      "state": "defeated",
+      "frame": 3,
+      "bbox": [
+        5,
+        49,
+        123,
+        125
+      ],
+      "canvasSafe": true
+    },
+    {
+      "state": "defeated",
+      "frame": 4,
+      "bbox": [
+        5,
+        53,
+        122,
+        125
+      ],
+      "canvasSafe": true
+    },
+    {
+      "state": "defeated",
+      "frame": 5,
+      "bbox": [
+        5,
+        56,
+        122,
+        125
+      ],
+      "canvasSafe": true
+    },
+    {
+      "state": "defeated",
+      "frame": 6,
+      "bbox": [
+        5,
+        59,
+        121,
+        125
+      ],
+      "canvasSafe": true
+    },
+    {
+      "state": "defeated",
+      "frame": 7,
+      "bbox": [
+        6,
+        61,
+        121,
+        125
+      ],
+      "canvasSafe": true
+    },
+    {
+      "state": "defeated",
+      "frame": 8,
+      "bbox": [
+        6,
+        61,
+        120,
+        125
+      ],
+      "canvasSafe": true
+    },
+    {
+      "state": "defeated",
+      "frame": 9,
+      "bbox": [
+        6,
+        61,
+        120,
+        125
+      ],
+      "canvasSafe": true
+    },
+    {
+      "state": "defeated",
+      "frame": 10,
+      "bbox": [
+        6,
+        61,
+        120,
+        125
+      ],
+      "canvasSafe": true
+    },
+    {
+      "state": "defeated",
+      "frame": 11,
+      "bbox": [
+        6,
+        61,
+        120,
+        125
+      ],
+      "canvasSafe": true
+    },
+    {
+      "state": "spawn",
+      "frame": 0,
+      "bbox": [
+        6,
+        38,
+        126,
+        117
+      ],
+      "canvasSafe": true
+    },
+    {
+      "state": "spawn",
+      "frame": 1,
+      "bbox": [
+        7,
+        41,
+        126,
+        120
+      ],
+      "canvasSafe": true
+    },
+    {
+      "state": "spawn",
+      "frame": 2,
+      "bbox": [
+        7,
+        45,
+        126,
+        125
+      ],
+      "canvasSafe": true
+    },
+    {
+      "state": "spawn",
+      "frame": 3,
+      "bbox": [
+        6,
+        44,
+        125,
+        125
+      ],
+      "canvasSafe": true
+    },
+    {
+      "state": "spawn",
+      "frame": 4,
+      "bbox": [
+        5,
+        43,
+        123,
+        125
+      ],
+      "canvasSafe": true
+    },
+    {
+      "state": "spawn",
+      "frame": 5,
+      "bbox": [
+        5,
+        43,
+        124,
+        125
+      ],
+      "canvasSafe": true
+    },
+    {
+      "state": "spawn",
+      "frame": 6,
+      "bbox": [
+        6,
+        44,
+        124,
+        125
+      ],
+      "canvasSafe": true
+    },
+    {
+      "state": "spawn",
+      "frame": 7,
+      "bbox": [
+        6,
+        44,
+        124,
+        125
+      ],
+      "canvasSafe": true
+    },
+    {
+      "state": "spawn",
+      "frame": 8,
+      "bbox": [
+        6,
+        44,
+        124,
+        125
+      ],
+      "canvasSafe": true
+    }
+  ],
+  "mirror": "pixel-exact horizontal mirror",
+  "rgba": true,
+  "sourceHashes": {
+    "rear_upper_near.png": "e75754149f5dc862146a433141017393a526b856f99205409f0ad01c722323e4",
+    "rear_paw_far.png": "1eebb152e664ac2a4bddc269bcc3692e76a77bc5444a8854ea928ae7ea1ed4f4",
+    "front_paw_near.png": "2dd2a04ae6494402d63cc9e1b73a145ceb0349210ddb04156a6b887c200c2089",
+    "front_upper_far.png": "c01509d487a56e40b7f660054ae8f96e20484e90ddfeadb9c98abf851f1725b9",
+    "rear_foot_far.png": "4d2a4de0e5f64d0fe6a9545dc89032a8c8b486606c7257d712d8f39b14a37f55",
+    "rear_foot_near.png": "2f71cf27d6ebc2b8006594f00e959784e6e12b4bafe2ad4347d03db7eeaff861",
+    "tail_tip.png": "75b03bf92d65bb735ccaf01578d98bd0a332dcbf9d2c7e07f72e572f8fe334a2",
+    "tail_base.png": "d75e11d37c3a5dd81581b14bb0b98623696fcc734d3dcb38464b3b53ad22876d",
+    "front_paw_far.png": "b934470152e40f482922ffc1272b19aff9340a02a5b1521f9c51f40b003d5372",
+    "neutral-left.png": "728459987e46a9cc063f04284b1804ffb04b4f37f9361fdda5ae295dec2efb3a",
+    "front_upper_near.png": "927bbd92b292421c7ccf94b150f5827bf5e2ecc3abd8dab61287e392d1c1857c",
+    "head.png": "cf645e746ea1943b90f7501420319fab4aeb522586054cc95bb130cd0941a384",
+    "rear_upper_far.png": "63ef6b8173ec50db796ab9d7a08e672cef9c1dd04f8e4edf08da2bdc7fbdb31f",
+    "rear_paw_near.png": "e042efc7780c777dd48efed53b4ab683087a7d23727bd6185c8816e032e046e4",
+    "front_foot_far.png": "3cfc4cd475b01c47160912ce61f00d7daa4e7a99f6658cf0202b3325053cfa1b",
+    "torso.png": "f941b5f7fd2a7d09b596b1f0e00649e1f64477ba256ee71806919779f3237045",
+    "front_foot_near.png": "6a822baf3a726db400a4c59c2f01008457e58c9ea5ca4af936f28c453260c3ee",
+    "neck.png": "927bbd92b292421c7ccf94b150f5827bf5e2ecc3abd8dab61287e392d1c1857c",
+    "parts-left-v1.png": "dbac6290bb60062f33a9163d7a71d3ec1475494d05c97da43cea5887e8acd201",
+    "neutral-right.png": "edc4e183d1c2b6ea11a2c17724471741cd9328a541e89a5255be0a6a1aaf0252"
+  }
+}

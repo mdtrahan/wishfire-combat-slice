@@ -17,7 +17,7 @@ canvas { display: block; width: 100%; height: 100%; outline: none; touch-action:
 <script>
 const gameCanvas = document.getElementById("glcanvas");
 gameCanvas.addEventListener("pointerdown", () => gameCanvas.focus());
-load("wf_client.wasm");
+load("wf_client.wasm?v=cc7358845c7ff907");
 gameCanvas.focus();
 const motionPreference = matchMedia('(prefers-reduced-motion: reduce)');
 function syncMotionPreference() {

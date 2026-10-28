@@ -1,0 +1,11 @@
+{
+  "bead": "ORKA-6jh1.8",
+  "generation": "built-in image_gen, approved full-resolution source attached",
+  "generatedAtlas": "source/parts-left-v1.png",
+  "generatedImageId": "01a18108-f6f8-7152-80a3-b90b8afeb683",
+  "approvedInputs": {
+    "fizzmite-source.png": "69ca84d87299573f82c92b0d7ec15ec4f5c6253ed852b12a06c8c06550345fb8",
+    "fizzmite-128.png": "c6610b1c181852ad4116b6c0c2926483e3e8d683207332598103635d1cef1d48"
+  },
+  "method": "Generated separated parts; Pillow alpha cleanup; original source head polygon and spark crops; native parented Synfig bones and bone_link transforms; native1024 renders -> Pillow Lanczos128; alpha<=4 ringing removed; exact semantic pixel mirror for right."
+}

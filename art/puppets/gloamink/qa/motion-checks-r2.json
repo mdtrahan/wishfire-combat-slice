@@ -1,0 +1,60 @@
+{
+  "walk": {
+    "body": {
+      "xSpan": 0,
+      "ySpan": 12.639
+    },
+    "head": {
+      "xSpan": 0.143,
+      "ySpan": 15.43
+    },
+    "front_foot_near": {
+      "xSpan": 24.926,
+      "ySpan": 17.666
+    },
+    "front_foot_far": {
+      "xSpan": 28.334,
+      "ySpan": 20.23
+    },
+    "rear_foot_near": {
+      "xSpan": 27.366,
+      "ySpan": 21.982
+    },
+    "rear_foot_far": {
+      "xSpan": 23.465,
+      "ySpan": 19.997
+    },
+    "torsoScaleX": [
+      0.88,
+      1.14
+    ]
+  },
+  "attack": {
+    "body": {
+      "xSpan": 15.912,
+      "ySpan": 6.121
+    },
+    "head": {
+      "xSpan": 26.871,
+      "ySpan": 6.759
+    },
+    "front_foot_near": {
+      "xSpan": 31.614,
+      "ySpan": 18.952
+    },
+    "front_foot_far": {
+      "xSpan": 34.154,
+      "ySpan": 21.834
+    },
+    "rear_foot_near": {
+      "xSpan": 12.882,
+      "ySpan": 12.924
+    },
+    "rear_foot_far": {
+      "xSpan": 7.834,
+      "ySpan": 8.832
+    }
+  },
+  "detachedIslandsOver12PixelsAtAlpha48": [],
+  "r1ArchiveFilesVerified": 198
+}

@@ -2,6 +2,11 @@
   "frame_scale": 1.0,
   "page_limit": 2048,
   "actors": {
+    "Bastorto": {
+      "frames": 72,
+      "decoded_bytes": 2417692,
+      "source_decoded_bytes": 4718592
+    },
     "Boss": {
       "frames": 72,
       "decoded_bytes": 2517736,
@@ -17,25 +22,25 @@
       "decoded_bytes": 2318108,
       "source_decoded_bytes": 5701632
     },
-    "Exploder": {
-      "frames": 72,
-      "decoded_bytes": 2631516,
-      "source_decoded_bytes": 4718592
-    },
     "Fara": {
       "frames": 72,
       "decoded_bytes": 2128068,
       "source_decoded_bytes": 6684672
     },
+    "Fizzmite": {
+      "frames": 72,
+      "decoded_bytes": 3591356,
+      "source_decoded_bytes": 4718592
+    },
+    "Gloamink": {
+      "frames": 72,
+      "decoded_bytes": 2817164,
+      "source_decoded_bytes": 4718592
+    },
     "Gobloc": {
       "frames": 72,
       "decoded_bytes": 2124312,
       "source_decoded_bytes": 5701632
-    },
-    "HighGobloc": {
-      "frames": 72,
-      "decoded_bytes": 2631516,
-      "source_decoded_bytes": 4718592
     },
     "HighOrc": {
       "frames": 72,
@@ -57,14 +62,14 @@
       "decoded_bytes": 2937680,
       "source_decoded_bytes": 4718592
     },
-    "Lobber": {
-      "frames": 72,
-      "decoded_bytes": 2937680,
-      "source_decoded_bytes": 4718592
-    },
     "Marid": {
       "frames": 72,
       "decoded_bytes": 2493612,
+      "source_decoded_bytes": 4718592
+    },
+    "Mirewing": {
+      "frames": 72,
+      "decoded_bytes": 3177728,
       "source_decoded_bytes": 4718592
     },
     "Orc": {
@@ -75,11 +80,6 @@
     "Runa": {
       "frames": 72,
       "decoded_bytes": 2196312,
-      "source_decoded_bytes": 4718592
-    },
-    "Skeleton": {
-      "frames": 72,
-      "decoded_bytes": 2103928,
       "source_decoded_bytes": 4718592
     },
     "Sniper": {
@@ -115,12 +115,12 @@
       "source_decoded_bytes": 9435096
     }
   },
-  "page_count": 3,
-  "pages_decoded_rgba_bytes": 50331648,
-  "atlas_png_bytes": 22393836,
+  "page_count": 4,
+  "pages_decoded_rgba_bytes": 58720256,
+  "atlas_png_bytes": 26352781,
   "arena_decoded_rgba_bytes": 6287940,
   "arena_png_bytes": 2303278,
   "vfx_decoded_rgba_bytes": 4689716,
-  "total_texture_decoded_rgba_bytes": 56619588,
-  "build_ms": 21660.538875000002
+  "total_texture_decoded_rgba_bytes": 65008196,
+  "build_ms": 592.2425
 }

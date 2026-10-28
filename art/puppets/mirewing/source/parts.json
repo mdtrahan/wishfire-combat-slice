@@ -1,0 +1,220 @@
+{
+  "actor": "mirewing",
+  "atlas": "approved-source.png",
+  "facing": "left",
+  "sourceFacing": "left",
+  "oppositeFacing": "semantic horizontal mirror; asymmetry reverses",
+  "nativeCanvas": {
+    "width": 256,
+    "height": 256
+  },
+  "footOrigin": {
+    "x": 128,
+    "y": 250
+  },
+  "parts": {
+    "body_paint": {
+      "file": "body_paint.png",
+      "crop": {
+        "x": 128,
+        "y": 212,
+        "width": 648,
+        "height": 951
+      },
+      "sourceDimensions": {
+        "width": 648,
+        "height": 951
+      },
+      "pivot": {
+        "x": 468.59090909090924,
+        "y": 520.9545454545455
+      },
+      "composition": {
+        "x": 115,
+        "y": 145,
+        "w": 114.04799999999999,
+        "h": 167.37599999999998,
+        "pivotX": 0.7231341189674525,
+        "pivot": 0.5477965777650321,
+        "parent": "body"
+      },
+      "paint": "approved source pixels; generated atlas retained for hidden attachment underpaint"
+    },
+    "wing_far": {
+      "file": "wing_far.png",
+      "crop": {
+        "x": 462,
+        "y": 169,
+        "width": 326,
+        "height": 366
+      },
+      "sourceDimensions": {
+        "width": 326,
+        "height": 366
+      },
+      "pivot": {
+        "x": 185.72727272727275,
+        "y": 331.0
+      },
+      "composition": {
+        "x": 124,
+        "y": 104,
+        "w": 57.376,
+        "h": 64.416,
+        "pivotX": 0.5697155605131066,
+        "pivot": 0.9043715846994536,
+        "parent": "body"
+      },
+      "paint": "approved source pixels; generated atlas retained for hidden attachment underpaint"
+    },
+    "wing_near": {
+      "file": "wing_near.png",
+      "crop": {
+        "x": 669,
+        "y": 26,
+        "width": 541,
+        "height": 1091
+      },
+      "sourceDimensions": {
+        "width": 541,
+        "height": 1091
+      },
+      "pivot": {
+        "x": 35.545454545454554,
+        "y": 701.2727272727274
+      },
+      "composition": {
+        "x": 134,
+        "y": 144,
+        "w": 95.216,
+        "h": 192.016,
+        "pivotX": 0.06570324315241137,
+        "pivot": 0.6427797683526374,
+        "parent": "body"
+      },
+      "paint": "approved source pixels; generated atlas retained for hidden attachment underpaint"
+    },
+    "gland_far": {
+      "file": "gland_far.png",
+      "crop": {
+        "x": 214,
+        "y": 726,
+        "width": 123,
+        "height": 118
+      },
+      "sourceDimensions": {
+        "width": 123,
+        "height": 118
+      },
+      "pivot": {
+        "x": 64.40909090909093,
+        "y": 58.09090909090904
+      },
+      "composition": {
+        "x": 59,
+        "y": 154,
+        "w": 21.648,
+        "h": 20.767999999999997,
+        "pivotX": 0.5236511456023654,
+        "pivot": 0.4922958397534664,
+        "parent": "body"
+      },
+      "paint": "approved source pixels; generated atlas retained for hidden attachment underpaint"
+    },
+    "gland_near": {
+      "file": "gland_near.png",
+      "crop": {
+        "x": 318,
+        "y": 648,
+        "width": 259,
+        "height": 217
+      },
+      "sourceDimensions": {
+        "width": 259,
+        "height": 217
+      },
+      "pivot": {
+        "x": 130.86363636363643,
+        "y": 107.68181818181817
+      },
+      "composition": {
+        "x": 89,
+        "y": 149,
+        "w": 45.583999999999996,
+        "h": 38.192,
+        "pivotX": 0.5052650052650055,
+        "pivot": 0.4962295768747381,
+        "parent": "body"
+      },
+      "paint": "approved source pixels; generated atlas retained for hidden attachment underpaint"
+    },
+    "mouth": {
+      "file": "mouth.png",
+      "crop": {
+        "x": 126,
+        "y": 677,
+        "width": 155,
+        "height": 117
+      },
+      "sourceDimensions": {
+        "width": 155,
+        "height": 117
+      },
+      "pivot": {
+        "x": 129.6818181818182,
+        "y": 33.227272727272805
+      },
+      "composition": {
+        "x": 55,
+        "y": 141,
+        "w": 27.279999999999998,
+        "h": 20.592,
+        "pivotX": 0.8366568914956012,
+        "pivot": 0.28399378399378467,
+        "parent": "body"
+      },
+      "paint": "approved source pixels; generated atlas retained for hidden attachment underpaint"
+    },
+    "attachment_underpaint": {
+      "file": "attachment_underpaint.png",
+      "sourceDimensions": {
+        "width": 180,
+        "height": 130
+      },
+      "pivot": {
+        "x": 90,
+        "y": 65
+      },
+      "composition": {
+        "x": 79,
+        "y": 150,
+        "w": 33,
+        "h": 24,
+        "pivotX": 0.5,
+        "pivot": 0.5,
+        "parent": "body"
+      },
+      "paint": "generated matching teal hidden tissue; Pillow alpha cleanup"
+    },
+    "shadow": {
+      "file": "shadow.png",
+      "sourceDimensions": {
+        "width": 335,
+        "height": 53
+      },
+      "pivot": {
+        "x": 167.5,
+        "y": 26.5
+      },
+      "composition": {
+        "x": 128,
+        "y": 250,
+        "w": 62,
+        "h": 8,
+        "pivotX": 0.5,
+        "pivot": 0.5,
+        "parent": "root"
+      }
+    }
+  }
+}

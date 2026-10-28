@@ -1,0 +1,532 @@
+{
+  "sourceFacing": "left",
+  "oppositeFacing": "semantic horizontal mirror; asymmetric markings reverse sides",
+  "clips": {
+    "idle": {
+      "left": {
+        "source": "mirewing/source/idle-left.sif",
+        "frames": [
+          "mirewing/frames/idle-left-000.png",
+          "mirewing/frames/idle-left-001.png",
+          "mirewing/frames/idle-left-002.png",
+          "mirewing/frames/idle-left-003.png",
+          "mirewing/frames/idle-left-004.png",
+          "mirewing/frames/idle-left-005.png",
+          "mirewing/frames/idle-left-006.png",
+          "mirewing/frames/idle-left-007.png",
+          "mirewing/frames/idle-left-008.png",
+          "mirewing/frames/idle-left-009.png",
+          "mirewing/frames/idle-left-010.png",
+          "mirewing/frames/idle-left-011.png"
+        ],
+        "frameHoldMs": [
+          83.33333333333333,
+          83.33333333333333,
+          83.33333333333333,
+          83.33333333333333,
+          83.33333333333333,
+          83.33333333333333,
+          83.33333333333333,
+          83.33333333333333,
+          83.33333333333333,
+          83.33333333333333,
+          83.33333333333333,
+          83.33333333333333
+        ],
+        "loop": true,
+        "canvas": {
+          "width": 128,
+          "height": 128
+        },
+        "footOrigin": {
+          "x": 64,
+          "y": 125
+        }
+      },
+      "right": {
+        "source": "mirewing/source/idle-right.sif",
+        "frames": [
+          "mirewing/frames/idle-right-000.png",
+          "mirewing/frames/idle-right-001.png",
+          "mirewing/frames/idle-right-002.png",
+          "mirewing/frames/idle-right-003.png",
+          "mirewing/frames/idle-right-004.png",
+          "mirewing/frames/idle-right-005.png",
+          "mirewing/frames/idle-right-006.png",
+          "mirewing/frames/idle-right-007.png",
+          "mirewing/frames/idle-right-008.png",
+          "mirewing/frames/idle-right-009.png",
+          "mirewing/frames/idle-right-010.png",
+          "mirewing/frames/idle-right-011.png"
+        ],
+        "frameHoldMs": [
+          83.33333333333333,
+          83.33333333333333,
+          83.33333333333333,
+          83.33333333333333,
+          83.33333333333333,
+          83.33333333333333,
+          83.33333333333333,
+          83.33333333333333,
+          83.33333333333333,
+          83.33333333333333,
+          83.33333333333333,
+          83.33333333333333
+        ],
+        "loop": true,
+        "canvas": {
+          "width": 128,
+          "height": 128
+        },
+        "footOrigin": {
+          "x": 64,
+          "y": 125
+        }
+      }
+    },
+    "walk": {
+      "left": {
+        "source": "mirewing/source/walk-left.sif",
+        "frames": [
+          "mirewing/frames/walk-left-000.png",
+          "mirewing/frames/walk-left-001.png",
+          "mirewing/frames/walk-left-002.png",
+          "mirewing/frames/walk-left-003.png",
+          "mirewing/frames/walk-left-004.png",
+          "mirewing/frames/walk-left-005.png",
+          "mirewing/frames/walk-left-006.png",
+          "mirewing/frames/walk-left-007.png",
+          "mirewing/frames/walk-left-008.png",
+          "mirewing/frames/walk-left-009.png",
+          "mirewing/frames/walk-left-010.png",
+          "mirewing/frames/walk-left-011.png"
+        ],
+        "frameHoldMs": [
+          83.33333333333333,
+          83.33333333333333,
+          83.33333333333333,
+          83.33333333333333,
+          83.33333333333333,
+          83.33333333333333,
+          83.33333333333333,
+          83.33333333333333,
+          83.33333333333333,
+          83.33333333333333,
+          83.33333333333333,
+          83.33333333333333
+        ],
+        "loop": true,
+        "canvas": {
+          "width": 128,
+          "height": 128
+        },
+        "footOrigin": {
+          "x": 64,
+          "y": 125
+        }
+      },
+      "right": {
+        "source": "mirewing/source/walk-right.sif",
+        "frames": [
+          "mirewing/frames/walk-right-000.png",
+          "mirewing/frames/walk-right-001.png",
+          "mirewing/frames/walk-right-002.png",
+          "mirewing/frames/walk-right-003.png",
+          "mirewing/frames/walk-right-004.png",
+          "mirewing/frames/walk-right-005.png",
+          "mirewing/frames/walk-right-006.png",
+          "mirewing/frames/walk-right-007.png",
+          "mirewing/frames/walk-right-008.png",
+          "mirewing/frames/walk-right-009.png",
+          "mirewing/frames/walk-right-010.png",
+          "mirewing/frames/walk-right-011.png"
+        ],
+        "frameHoldMs": [
+          83.33333333333333,
+          83.33333333333333,
+          83.33333333333333,
+          83.33333333333333,
+          83.33333333333333,
+          83.33333333333333,
+          83.33333333333333,
+          83.33333333333333,
+          83.33333333333333,
+          83.33333333333333,
+          83.33333333333333,
+          83.33333333333333
+        ],
+        "loop": true,
+        "canvas": {
+          "width": 128,
+          "height": 128
+        },
+        "footOrigin": {
+          "x": 64,
+          "y": 125
+        }
+      }
+    },
+    "basic": {
+      "left": {
+        "source": "mirewing/source/attack-left.sif",
+        "frames": [
+          "mirewing/frames/attack-left-000.png",
+          "mirewing/frames/attack-left-001.png",
+          "mirewing/frames/attack-left-002.png",
+          "mirewing/frames/attack-left-003.png",
+          "mirewing/frames/attack-left-004.png",
+          "mirewing/frames/attack-left-005.png",
+          "mirewing/frames/attack-left-006.png",
+          "mirewing/frames/attack-left-007.png",
+          "mirewing/frames/attack-left-008.png"
+        ],
+        "frameHoldMs": [
+          83.33333333333333,
+          83.33333333333333,
+          83.33333333333333,
+          83.33333333333333,
+          83.33333333333333,
+          83.33333333333333,
+          83.33333333333333,
+          83.33333333333333,
+          83.33333333333333
+        ],
+        "loop": false,
+        "canvas": {
+          "width": 128,
+          "height": 128
+        },
+        "footOrigin": {
+          "x": 64,
+          "y": 125
+        }
+      },
+      "right": {
+        "source": "mirewing/source/attack-right.sif",
+        "frames": [
+          "mirewing/frames/attack-right-000.png",
+          "mirewing/frames/attack-right-001.png",
+          "mirewing/frames/attack-right-002.png",
+          "mirewing/frames/attack-right-003.png",
+          "mirewing/frames/attack-right-004.png",
+          "mirewing/frames/attack-right-005.png",
+          "mirewing/frames/attack-right-006.png",
+          "mirewing/frames/attack-right-007.png",
+          "mirewing/frames/attack-right-008.png"
+        ],
+        "frameHoldMs": [
+          83.33333333333333,
+          83.33333333333333,
+          83.33333333333333,
+          83.33333333333333,
+          83.33333333333333,
+          83.33333333333333,
+          83.33333333333333,
+          83.33333333333333,
+          83.33333333333333
+        ],
+        "loop": false,
+        "canvas": {
+          "width": 128,
+          "height": 128
+        },
+        "footOrigin": {
+          "x": 64,
+          "y": 125
+        }
+      }
+    },
+    "cast": {
+      "left": {
+        "source": "mirewing/source/cast-left.sif",
+        "frames": [
+          "mirewing/frames/cast-left-000.png",
+          "mirewing/frames/cast-left-001.png",
+          "mirewing/frames/cast-left-002.png",
+          "mirewing/frames/cast-left-003.png",
+          "mirewing/frames/cast-left-004.png",
+          "mirewing/frames/cast-left-005.png",
+          "mirewing/frames/cast-left-006.png",
+          "mirewing/frames/cast-left-007.png",
+          "mirewing/frames/cast-left-008.png",
+          "mirewing/frames/cast-left-009.png",
+          "mirewing/frames/cast-left-010.png",
+          "mirewing/frames/cast-left-011.png"
+        ],
+        "frameHoldMs": [
+          83.33333333333333,
+          83.33333333333333,
+          83.33333333333333,
+          83.33333333333333,
+          83.33333333333333,
+          83.33333333333333,
+          83.33333333333333,
+          83.33333333333333,
+          83.33333333333333,
+          83.33333333333333,
+          83.33333333333333,
+          83.33333333333333
+        ],
+        "loop": false,
+        "canvas": {
+          "width": 128,
+          "height": 128
+        },
+        "footOrigin": {
+          "x": 64,
+          "y": 125
+        }
+      },
+      "right": {
+        "source": "mirewing/source/cast-right.sif",
+        "frames": [
+          "mirewing/frames/cast-right-000.png",
+          "mirewing/frames/cast-right-001.png",
+          "mirewing/frames/cast-right-002.png",
+          "mirewing/frames/cast-right-003.png",
+          "mirewing/frames/cast-right-004.png",
+          "mirewing/frames/cast-right-005.png",
+          "mirewing/frames/cast-right-006.png",
+          "mirewing/frames/cast-right-007.png",
+          "mirewing/frames/cast-right-008.png",
+          "mirewing/frames/cast-right-009.png",
+          "mirewing/frames/cast-right-010.png",
+          "mirewing/frames/cast-right-011.png"
+        ],
+        "frameHoldMs": [
+          83.33333333333333,
+          83.33333333333333,
+          83.33333333333333,
+          83.33333333333333,
+          83.33333333333333,
+          83.33333333333333,
+          83.33333333333333,
+          83.33333333333333,
+          83.33333333333333,
+          83.33333333333333,
+          83.33333333333333,
+          83.33333333333333
+        ],
+        "loop": false,
+        "canvas": {
+          "width": 128,
+          "height": 128
+        },
+        "footOrigin": {
+          "x": 64,
+          "y": 125
+        }
+      }
+    },
+    "hurt": {
+      "left": {
+        "source": "mirewing/source/hit-left.sif",
+        "frames": [
+          "mirewing/frames/hit-left-000.png",
+          "mirewing/frames/hit-left-001.png",
+          "mirewing/frames/hit-left-002.png",
+          "mirewing/frames/hit-left-003.png",
+          "mirewing/frames/hit-left-004.png",
+          "mirewing/frames/hit-left-005.png"
+        ],
+        "frameHoldMs": [
+          83.33333333333333,
+          83.33333333333333,
+          83.33333333333333,
+          83.33333333333333,
+          83.33333333333333,
+          83.33333333333333
+        ],
+        "loop": false,
+        "canvas": {
+          "width": 128,
+          "height": 128
+        },
+        "footOrigin": {
+          "x": 64,
+          "y": 125
+        }
+      },
+      "right": {
+        "source": "mirewing/source/hit-right.sif",
+        "frames": [
+          "mirewing/frames/hit-right-000.png",
+          "mirewing/frames/hit-right-001.png",
+          "mirewing/frames/hit-right-002.png",
+          "mirewing/frames/hit-right-003.png",
+          "mirewing/frames/hit-right-004.png",
+          "mirewing/frames/hit-right-005.png"
+        ],
+        "frameHoldMs": [
+          83.33333333333333,
+          83.33333333333333,
+          83.33333333333333,
+          83.33333333333333,
+          83.33333333333333,
+          83.33333333333333
+        ],
+        "loop": false,
+        "canvas": {
+          "width": 128,
+          "height": 128
+        },
+        "footOrigin": {
+          "x": 64,
+          "y": 125
+        }
+      }
+    },
+    "ko": {
+      "left": {
+        "source": "mirewing/source/defeated-left.sif",
+        "frames": [
+          "mirewing/frames/defeated-left-000.png",
+          "mirewing/frames/defeated-left-001.png",
+          "mirewing/frames/defeated-left-002.png",
+          "mirewing/frames/defeated-left-003.png",
+          "mirewing/frames/defeated-left-004.png",
+          "mirewing/frames/defeated-left-005.png",
+          "mirewing/frames/defeated-left-006.png",
+          "mirewing/frames/defeated-left-007.png",
+          "mirewing/frames/defeated-left-008.png",
+          "mirewing/frames/defeated-left-009.png",
+          "mirewing/frames/defeated-left-010.png",
+          "mirewing/frames/defeated-left-011.png"
+        ],
+        "frameHoldMs": [
+          83.33333333333333,
+          83.33333333333333,
+          83.33333333333333,
+          83.33333333333333,
+          83.33333333333333,
+          83.33333333333333,
+          83.33333333333333,
+          83.33333333333333,
+          83.33333333333333,
+          83.33333333333333,
+          83.33333333333333,
+          83.33333333333333
+        ],
+        "loop": false,
+        "canvas": {
+          "width": 128,
+          "height": 128
+        },
+        "footOrigin": {
+          "x": 64,
+          "y": 125
+        }
+      },
+      "right": {
+        "source": "mirewing/source/defeated-right.sif",
+        "frames": [
+          "mirewing/frames/defeated-right-000.png",
+          "mirewing/frames/defeated-right-001.png",
+          "mirewing/frames/defeated-right-002.png",
+          "mirewing/frames/defeated-right-003.png",
+          "mirewing/frames/defeated-right-004.png",
+          "mirewing/frames/defeated-right-005.png",
+          "mirewing/frames/defeated-right-006.png",
+          "mirewing/frames/defeated-right-007.png",
+          "mirewing/frames/defeated-right-008.png",
+          "mirewing/frames/defeated-right-009.png",
+          "mirewing/frames/defeated-right-010.png",
+          "mirewing/frames/defeated-right-011.png"
+        ],
+        "frameHoldMs": [
+          83.33333333333333,
+          83.33333333333333,
+          83.33333333333333,
+          83.33333333333333,
+          83.33333333333333,
+          83.33333333333333,
+          83.33333333333333,
+          83.33333333333333,
+          83.33333333333333,
+          83.33333333333333,
+          83.33333333333333,
+          83.33333333333333
+        ],
+        "loop": false,
+        "canvas": {
+          "width": 128,
+          "height": 128
+        },
+        "footOrigin": {
+          "x": 64,
+          "y": 125
+        }
+      }
+    },
+    "spawn": {
+      "left": {
+        "source": "mirewing/source/spawn-left.sif",
+        "frames": [
+          "mirewing/frames/spawn-left-000.png",
+          "mirewing/frames/spawn-left-001.png",
+          "mirewing/frames/spawn-left-002.png",
+          "mirewing/frames/spawn-left-003.png",
+          "mirewing/frames/spawn-left-004.png",
+          "mirewing/frames/spawn-left-005.png",
+          "mirewing/frames/spawn-left-006.png",
+          "mirewing/frames/spawn-left-007.png",
+          "mirewing/frames/spawn-left-008.png"
+        ],
+        "frameHoldMs": [
+          83.33333333333333,
+          83.33333333333333,
+          83.33333333333333,
+          83.33333333333333,
+          83.33333333333333,
+          83.33333333333333,
+          83.33333333333333,
+          83.33333333333333,
+          83.33333333333333
+        ],
+        "loop": false,
+        "canvas": {
+          "width": 128,
+          "height": 128
+        },
+        "footOrigin": {
+          "x": 64,
+          "y": 125
+        }
+      },
+      "right": {
+        "source": "mirewing/source/spawn-right.sif",
+        "frames": [
+          "mirewing/frames/spawn-right-000.png",
+          "mirewing/frames/spawn-right-001.png",
+          "mirewing/frames/spawn-right-002.png",
+          "mirewing/frames/spawn-right-003.png",
+          "mirewing/frames/spawn-right-004.png",
+          "mirewing/frames/spawn-right-005.png",
+          "mirewing/frames/spawn-right-006.png",
+          "mirewing/frames/spawn-right-007.png",
+          "mirewing/frames/spawn-right-008.png"
+        ],
+        "frameHoldMs": [
+          83.33333333333333,
+          83.33333333333333,
+          83.33333333333333,
+          83.33333333333333,
+          83.33333333333333,
+          83.33333333333333,
+          83.33333333333333,
+          83.33333333333333,
+          83.33333333333333
+        ],
+        "loop": false,
+        "canvas": {
+          "width": 128,
+          "height": 128
+        },
+        "footOrigin": {
+          "x": 64,
+          "y": 125
+        }
+      }
+    }
+  }
+}
